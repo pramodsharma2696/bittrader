@@ -38,6 +38,7 @@
 
   <!-- main css for template -->
   <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/megamenu.css">
 </head>
 
 <body>

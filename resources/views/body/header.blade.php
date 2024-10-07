@@ -8,17 +8,18 @@
             </a>
           </div>
           <div class="menu-area">
-            <ul class="menu menu--style1">
+            <ul class="menu menu--style1 custome-menu--style1">
             <li>
                 <a href="contact.html">Home</a>
               </li>
              
-              <li>
+              <li class="menu-item-has-children">
                 <a href="#">Markets</a>
+                <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                      <a href="services.html">Trade Markets</a>
-                      <ul class="submenu submenu-style">
+                      <a class="child-title" href="services.html">Trade Markets</a>
+                      <ul>
                       <li><a href="services.html">Forex</a></li>
                       <li><a href="service-details.html">Indices</a></li>
                       <li><a href="service-details.html">Stocks</a></li>
@@ -28,8 +29,8 @@
                      </ul>
                  </li>
                   <li>
-                    <a href="service-details.html">Popular FX Markets</a>
-                    <ul class="submenu submenu-style">
+                    <a class="child-title" href="service-details.html">Popular FX Markets</a>
+                    <ul>
                       <li><a href="services.html">EUR/USD</a></li>
                       <li><a href="service-details.html">GBP/USD</a></li>
                       <li><a href="service-details.html">USD/JPY</a></li>
@@ -38,8 +39,8 @@
                      </ul>
                   </li>
                   <li>
-                    <a href="service-details.html">Popular Indices</a>
-                    <ul class="submenu submenu-style">
+                    <a class="child-title" href="service-details.html">Popular Indices</a>
+                    <ul>
                       <li><a href="services.html">Wall Street</a></li>
                       <li><a href="service-details.html">US SP 500</a></li>
                       <li><a href="service-details.html">US Tech 100</a></li>
@@ -47,8 +48,8 @@
                      </ul>
                   </li>
                   <li>
-                    <a href="service-details.html">Popular Stocks</a>
-                    <ul class="submenu submenu-style">
+                    <a class="child-title" href="service-details.html">Popular Stocks</a>
+                    <ul>
                       <li><a href="services.html">Tesla</a></li>
                       <li><a href="service-details.html">Amazon</a></li>
                       <li><a href="service-details.html">Apple</a></li>
@@ -56,54 +57,55 @@
                      </ul>
                   </li>
                   <li>
-                    <a href="service-details.html">Popular Commodities</a>
-                    <ul class="submenu submenu-style">
+                    <a class="child-title" href="service-details.html">Popular Commodities</a>
+                    <ul>
                       <li><a href="services.html">US Crude Oil</a></li>
                       <li><a href="service-details.html">UK Crude Oil</a></li>
                      </ul>
                   </li>
                 </ul>
+                </div>
               </li>
-              <li>
+              <li class="menu-item-has-children">
                 <a href="#">Accounts</a>
-                <ul class="submenu ">
+                <div class="mega-menu"> <!-- Mega Menu Wrapper -->
+                <ul class="submenu">
                   <li>
-                    <a href="services.html">Account Types</a>
-                    <ul class="submenu submenu-style">
+                      <a class="child-title" href="services.html">Account Types</a>
+                      <ul>
                       <li><a href="services.html">Standard Account</a></li>
                       <li><a href="service-details.html">MetaTrader Account</a></li>
                       <li><a href="service-details.html">RAW Spread Account</a></li>
                       <li><a href="service-details.html">Compare Accounts</a></li>
-                     </ul>
-                </li>
+                    </ul>
+                 </li>
                   <li>
-                    <a href="service-details.html">Financial Transparency</a>
-                    <ul class="submenu submenu-style">
+                    <a class="child-title" href="service-details.html">Financial Transparency</a>
+                    <ul>
                       <li><a href="services.html">Execution</a></li>
                       <li><a href="service-details.html">Margin Requirements</a></li>
                       <li><a href="service-details.html">Rollover Rates</a></li>
-                      <li><a href="service-details.html">Trade Prices</a></li>
-                      <li><a href="service-details.html">Trading Costs</a></li>
                      </ul>
                   </li>
                 </ul>
+                </div>
               </li>
-              <li>
+              <li class="menu-item-has-children">
                 <a href="#">Platforms and Tools</a>
+                <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                    <a href="services.html">Trading Tools</a>
-                    <ul class="submenu submenu-style">
+                      <a class="child-title" href="services.html">Trading Tools</a>
+                      <ul>
                       <li><a href="services.html">Currency Converter</a></li>
                       <li><a href="service-details.html">Margin and Pip Calculator</a></li>
                       <li><a href="service-details.html">Pivot Points</a></li>
                      </ul>
-                  </li>
-                  
-
-
+                 </li>
                 </ul>
+                </div>
               </li>
+             
               <!-- <li>
                 <a href="#">About</a>
                 <ul class="submenu">
