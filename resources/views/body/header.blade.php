@@ -12,21 +12,96 @@
             <li>
                 <a href="contact.html">Home</a>
               </li>
+             
               <li>
-                <a href="contact.html">Web Trader</a>
-              </li>
-              <li>
-                <a href="#">Legal Documents</a>
+                <a href="#">Markets</a>
                 <ul class="submenu">
-                  <li><a href="services.html">AML/KYC</a></li>
-                  <li><a href="service-details.html">Privacy Policy</a></li>
+                  <li>
+                      <a href="services.html">Trade Markets</a>
+                      <ul class="submenu submenu-style">
+                      <li><a href="services.html">Forex</a></li>
+                      <li><a href="service-details.html">Indices</a></li>
+                      <li><a href="service-details.html">Stocks</a></li>
+                      <li><a href="service-details.html">Cryptocurrency</a></li>
+                      <li><a href="service-details.html">Commodities</a></li>
+                      <li><a href="service-details.html">Gold and Silver</a></li>
+                     </ul>
+                 </li>
+                  <li>
+                    <a href="service-details.html">Popular FX Markets</a>
+                    <ul class="submenu submenu-style">
+                      <li><a href="services.html">EUR/USD</a></li>
+                      <li><a href="service-details.html">GBP/USD</a></li>
+                      <li><a href="service-details.html">USD/JPY</a></li>
+                      <li><a href="service-details.html">USD/CHF</a></li>
+                      <li><a href="service-details.html">Gold (XAU/USD)</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                    <a href="service-details.html">Popular Indices</a>
+                    <ul class="submenu submenu-style">
+                      <li><a href="services.html">Wall Street</a></li>
+                      <li><a href="service-details.html">US SP 500</a></li>
+                      <li><a href="service-details.html">US Tech 100</a></li>
+                      <li><a href="service-details.html">Germany 40</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                    <a href="service-details.html">Popular Stocks</a>
+                    <ul class="submenu submenu-style">
+                      <li><a href="services.html">Tesla</a></li>
+                      <li><a href="service-details.html">Amazon</a></li>
+                      <li><a href="service-details.html">Apple</a></li>
+                      <li><a href="service-details.html">Nvidia</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                    <a href="service-details.html">Popular Commodities</a>
+                    <ul class="submenu submenu-style">
+                      <li><a href="services.html">US Crude Oil</a></li>
+                      <li><a href="service-details.html">UK Crude Oil</a></li>
+                     </ul>
+                  </li>
                 </ul>
               </li>
               <li>
-                <a href="#">Educations</a>
+                <a href="#">Accounts</a>
+                <ul class="submenu ">
+                  <li>
+                    <a href="services.html">Account Types</a>
+                    <ul class="submenu submenu-style">
+                      <li><a href="services.html">Standard Account</a></li>
+                      <li><a href="service-details.html">MetaTrader Account</a></li>
+                      <li><a href="service-details.html">RAW Spread Account</a></li>
+                      <li><a href="service-details.html">Compare Accounts</a></li>
+                     </ul>
+                </li>
+                  <li>
+                    <a href="service-details.html">Financial Transparency</a>
+                    <ul class="submenu submenu-style">
+                      <li><a href="services.html">Execution</a></li>
+                      <li><a href="service-details.html">Margin Requirements</a></li>
+                      <li><a href="service-details.html">Rollover Rates</a></li>
+                      <li><a href="service-details.html">Trade Prices</a></li>
+                      <li><a href="service-details.html">Trading Costs</a></li>
+                     </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Platforms and Tools</a>
                 <ul class="submenu">
-                  <li><a href="services.html">AML/KYC</a></li>
-                  <li><a href="service-details.html">Privacy Policy</a></li>
+                  <li>
+                    <a href="services.html">Trading Tools</a>
+                    <ul class="submenu submenu-style">
+                      <li><a href="services.html">Currency Converter</a></li>
+                      <li><a href="service-details.html">Margin and Pip Calculator</a></li>
+                      <li><a href="service-details.html">Pivot Points</a></li>
+                     </ul>
+                  </li>
+                  
+
+
                 </ul>
               </li>
               <!-- <li>

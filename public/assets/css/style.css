@@ -3805,7 +3805,7 @@ h6 a {
   .menu-item-has-children > a::after {
     position: absolute;
     content: "\f107";
-    right: 2px !important;
+    right: 7px !important;
     top: 14px;
   }
 }
@@ -11203,4 +11203,7 @@ html[data-bs-theme=dark] .partner--gradient::after {
 .name-box{
   text-transform: uppercase;
  
+}
+ul.submenu.submenu-style {
+  margin-left: 3px;
 }

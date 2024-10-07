@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
 <head>
-  <title>Bitrader</title>
+  <title>Home - Qorva Markets</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,7 @@
 
 
 
-  <link rel="shortcut icon" href="{{ asset('') }}assets/images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ asset('') }}assets/images/logo/favicon.png" type="image/x-icon">
 
   <link rel="stylesheet" href="{{ asset('') }}assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/aos.css">
