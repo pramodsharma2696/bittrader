@@ -1,6 +1,11 @@
 @extends('master')
 @section('contents')
-    
+    <style>
+      img.dark {
+  width: 150px;
+  height: 150px;
+}
+    </style>
 
   <!-- ================> Page header start here <================== -->
   <section class="page-header bg--cover">
