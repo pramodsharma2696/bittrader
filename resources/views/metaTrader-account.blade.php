@@ -7,12 +7,12 @@
     <div class="background bg--cover" style="background-image:url(assets/images/header/1.png);padding: 100px">
         <div class="container">
             <div class="page-header__content" data-aos="fade-right" data-aos-duration="1000">
-                <h2>Standard Account</h2>
+                <h2>Metatrader Account</h2>
                 <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item "><a href="{{ url('/') }}">Home</a></li>
                         <li class="breadcrumb-item" aria-current="page"><a href="{{ url('/account-Types') }}">Account Type</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Standard Account</li>
+                        <li class="breadcrumb-item active" aria-current="page">Metatrader Account</li>
                     </ol>
                 </nav>
             </div>
@@ -35,9 +35,9 @@
                         <div class="service-details__item-inner ">
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Standard trading account</a>
+                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">MT5 trading account</a>
                                 </h3>
-                                <p class="mb-0">Ideal for traders looking for the traditional trading experience, our standard account offers competitive spreads, advanced trading platforms, and all our markets.</p>
+                                <p class="mb-0">Qorva Markets with MetaTrader 5 combines an extensive range of tools with user-friendly market search, tight spreads, and superior execution.</p>
                             </div>
 
 
@@ -53,9 +53,13 @@
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">The standard account: simple, flexible control of your trading</a>
+                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Qorva Markets elevates your MT5 experience</a>
                                 </h3>
-                                <p class="mb-5">Our most popular account comes with clear, transparent pricing and superior trade execution speeds on a powerful, fully capable platform with a highly customizable layout. With no hidden fees, your only trading cost is the spread.</p>
+                                <p class="mb-5">Trade on a new, improved MetaTrader while maintaining your access to the unique advantages of Qorva Markets.</p>
+                                <p class="mb-2"> <i class="fa-solid fa-chevron-right"></i>  Explore 500+ markets including stocks via CFDs, FX, commodities, & indices</p>
+                                <p class="mb-2"><i class="fa-solid fa-chevron-right"></i>  Utilize enhanced charting with more timeframes, indicators, and tools</p>
+                                <p class="mb-3"><i class="fa-solid fa-chevron-right"></i>  Expand your portfolio with intuitive market search and groupings</p>
+                                <p class="mb-5">When you trade on your MT5 account with FOREX.com, you're getting the most out of your trading potential.</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +70,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/the-standard-account.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others/serioustrader.webp" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -81,7 +85,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/trade-the-global-markets.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others/mt5-desktop-mobile-group.webp" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -91,22 +95,15 @@
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Trade the global markets, your way</a>
+                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Manage your MetaTrader account your way</a>
                                 </h3>
-                                <p class="mb-3">Open a Standard account and manage your trading across all your devices.
-
-                                    <b> Mobile app (iPhone and Android),</b>
-                                    <b> Our web trading platform,</b>
-                                    <b>MetaTrader for technical users,</b>
-                                    <b>FIX API for institutions</b>
-                                    Our delivery mechanisms push prices out rapidly and automatically adapt to the connection speed of each client. This enables us to provide the highest possible frequency of updates without jamming the communication line. For our mobile and web offering, we use LightStreamer technology.
-                                </p>
-                                <h5>Web Trading</h5>
-                                <p class="mb-2">Simplicity, speed, and reliability deliver a superior trading experience accessible from all modern browsers and operating systems.</p>
-                                <h5>Mobile apps</h5>
-                                <p class="mb-2">You’re on the move and so are the markets. Manage your account and trade on the go with ease, using one-swipe trading and quality execution.</p>
-                                <h5>TradingView</h5>
-                                <p class="mb-2">Connect to TradingView to access their suite of renowned charts, exclusive trader tools, and ideas.</p>
+                                <p class="mb-3">Access your upgraded MT5 experience from your desktop or mobile</p>
+                                <h5>MT5 on desktop</h5>
+                                <p class="mb-2">Download MetaTrader directly or trade on the fully featured, browser-based application of the platform with no additional downloads or plugins.</p>
+                                <h5>MT5 on mobile</h5>
+                                <p class="mb-2">Trade on the go with a full range of MT5 mobile trading apps, available across iPhone, iPad and Android.</p>
+                                <h5>MT5 web</h5>
+                                <p class="mb-2">Trade on the fully featured, browser-based application of the platform with no additional downloads or plugins.</p>
                             </div>
                         </div>
                     </div>

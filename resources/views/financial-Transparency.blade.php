@@ -16,7 +16,7 @@
                 </nav>
             </div>
             <div class="page-header__shape">
-                <span class="page-header__shape-item page-header__shape-item--1"><img src="assets/images/header/2.png"
+                <span class="page-header__shape-item page-header__shape-item--1"><img src="{{ asset('') }}assets/images/header/2.png"
                         alt="shape-icon"></span>
             </div>
         </div>
@@ -51,7 +51,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="assets/images/service/bg.png" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/service/bg.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="assets/images/others/where-we-source-our-prices.jpg" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others/where-we-source-our-prices.jpg" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="assets/images/others/how-we-deliver-our-prices.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others/how-we-deliver-our-prices.webp" alt="service-icon">
                                 </div>
                             </div>
                         </div>

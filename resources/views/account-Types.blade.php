@@ -16,7 +16,7 @@
         </nav>
       </div>
       <div class="page-header__shape">
-        <span class="page-header__shape-item page-header__shape-item--1"><img src="assets/images/header/2.png"
+        <span class="page-header__shape-item page-header__shape-item--1"><img src="{{ asset('') }}assets/images/header/2.png"
             alt="shape-icon"></span>
       </div>
     </div>
@@ -83,7 +83,7 @@
     </div>
 
     <div class="service__shape">
-      <span class="service__shape-item service__shape-item--1"><img src="assets/images/icon/1.png"
+      <span class="service__shape-item service__shape-item--1"><img src="{{ asset('') }}assets/images/icon/1.png"
           alt="shape-icon"></span>
     </div>
   </section>
@@ -155,7 +155,7 @@
     </div>
 
     <div class="service__shape">
-      <span class="service__shape-item service__shape-item--1"><img src="assets/images/icon/1.png"
+      <span class="service__shape-item service__shape-item--1"><img src="{{ asset('') }}assets/images/icon/1.png"
           alt="shape-icon"></span>
     </div>
   </section>
