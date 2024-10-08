@@ -68,3 +68,9 @@
         height: 300px;
     }
 }
+
+.market-prices__content {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 14%);
+    border-radius: 10px;
+    padding: 0 30px 10px 30px;
+}
