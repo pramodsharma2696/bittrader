@@ -10978,4 +10978,5 @@ ul.submenu.submenu-style {
 .nav-tabs .nav-link.active {
   border-bottom: 2px solid #007bff; /* Underline for active tab */
   color: var(--title-color);
+  background: none!important;
 }
