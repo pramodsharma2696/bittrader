@@ -10969,3 +10969,13 @@ html[data-bs-theme=dark] .partner--gradient::after {
 ul.submenu.submenu-style {
   margin-left: 3px;
 }
+
+.nav-tabs .nav-link {
+  border: none; /* Remove borders */
+  border-bottom: 2px solid transparent; /* Set default border */
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid #007bff; /* Underline for active tab */
+  color: var(--title-color);
+}

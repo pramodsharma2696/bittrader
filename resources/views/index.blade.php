@@ -3,15 +3,7 @@
 
 
 <style>
-    .nav-tabs .nav-link {
-        border: none; /* Remove borders */
-        border-bottom: 2px solid transparent; /* Set default border */
-    }
-    
-    .nav-tabs .nav-link.active {
-        border-bottom: 2px solid #007bff; /* Underline for active tab */
-        color: #007bff; /* Change active tab color */
-    }
+
 </style>
 
 
