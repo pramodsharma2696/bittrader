@@ -710,7 +710,7 @@
 
 
 <!-- ===============>> Team section start here <<================= -->
-<section class="team padding-top padding-bottom bg-color">
+<section class="team padding-top padding-bottom bg-color d-none">
   <div class="section-header section-header--max50">
     <h2 class="mb-10 mt-minus-5">Meet our <span>advisers</span></h2>
     <p>Hey everyone, meet our amazing advisers! They're here to help and guide us through anything.</p>
@@ -875,7 +875,7 @@
 
 
 <!-- ===============>> Blog section start here <<================= -->
-<section class="blog padding-top padding-bottom">
+<section class="blog padding-top padding-bottom d-none">
   <div class="container">
     <div class="section-header d-md-flex align-items-center justify-content-between">
       <div class="section-header__content">
