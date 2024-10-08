@@ -1,42 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
 <head>
-  <title>Home - Qorva Markets</title>
+  <title>Qorva Markets - Leading Forex, Crypto, Stocks & Commodities Trading Platform</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Sites meta Data -->
-  <meta name="application-name"
-    content="Bitrader - Professional Multipurpose HTML Template for Your Crypto, Forex, Stocks & Day Trading Business">
-  <meta name="author" content="thetork">
-  <meta name="keywords" content="Bitrader, Crypto, Forex, and Stocks Trading Business">
+  <!-- SEO Meta Data -->
+  <meta name="application-name" content="Qorva Markets - Forex, Crypto, Stocks, and Commodities Trading Platform">
+  <meta name="author" content="Qorva Markets">
+  <meta name="keywords" content="Qorva Markets, forex trading, cryptocurrency trading, stocks trading, commodities, online trading platform, CFDs, day trading, investment solutions, trading tools">
   <meta name="description"
-    content="Experience the power of Bitrader, the ultimate HTML template designed to transform your trading business. With its sleek design and advanced features, Bitrader empowers you to showcase your expertise, engage clients, and dominate the markets. Elevate your online presence and unlock new trading possibilities with Bitrader.">
+    content="Join Qorva Markets, the ultimate trading platform offering Forex, Crypto, Stocks, and Commodities. Empower your trading with advanced tools, low spreads, and a user-friendly interface. Start trading with Qorva Markets today and unlock new market opportunities.">
 
-  <!-- OG meta data -->
-  <meta property="og:title"
-    content="Bitrader - Professional Multipurpose HTML Template for Your Crypto, Forex, Stocks & Day Trading Business">
-  <meta property="og:site_name" content=Bitrader>
-  <meta property="og:url" content="index.html">
+  <!-- OG Meta Data -->
+  <meta property="og:title" content="Qorva Markets - Forex, Crypto, Stocks & Commodities Trading Platform">
+  <meta property="og:site_name" content="Qorva Markets">
+  <meta property="og:url" content="{{ url('/') }}">
   <meta property="og:description"
-    content="Welcome to Bitrader, the game-changing HTML template meticulously crafted to revolutionize your trading business. With its sleek and modern design, Bitrader provides a cutting-edge platform to showcase your expertise, attract clients, and stay ahead in the competitive trading markets.">
+    content="Qorva Markets offers a powerful, secure, and intuitive platform for trading Forex, Crypto, Stocks, and Commodities. Benefit from tight spreads, high liquidity, and a comprehensive trading experience.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/og.png">
+  <meta property="og:image" content="{{ url('/') }}assets/images/og-image.png">
 
-
-
+  <!-- Favicon -->
   <link rel="shortcut icon" href="{{ asset('') }}assets/images/logo/favicon.png" type="image/x-icon">
 
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ asset('') }}assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/aos.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/all.min.css">
-
   <link rel="stylesheet" href="{{ asset('') }}assets/css/swiper-bundle.min.css">
 
-
-
-  <!-- main css for template -->
+  <!-- Main Stylesheets -->
   <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/megamenu.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/tradeview.css">
