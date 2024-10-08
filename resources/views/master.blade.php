@@ -39,6 +39,7 @@
   <!-- main css for template -->
   <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/megamenu.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/tradeview.css">
 </head>
 
 <body>
@@ -92,10 +93,103 @@
 
 
   <script src="{{ asset('') }}assets/js/custom.js"></script>
+  <script type="text/javascript">
+    
+ 
 
+    $(function () {
+        $('#pills-home-tab').click(function () {
+          $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".forex").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+    
+      });
+    }); 
+    
+    
+    $(function () {
+        $('#pills-profile-tab').click(function () {
+         $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".forex").removeClass("active");
+          $(".metals").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+         
+      });
+    }); 
+    
+    
+    $(function () {
+        $('#pills-contact-tab').click(function () {
+          $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".forex").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".indices").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+      });
+    });
+    
+    
+    $(function () {
+        $('#pills-crypto-tab').click(function () {
+         $(".stocks").removeClass("active");
+          $(".forex").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".crypto").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+         
+      });
+    });
+    
+    
+    $(function () {
+        $('#pills-commodities-tab').click(function () {
+          $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".forex").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".commodities").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+      });
+    });
+    
+    
+    $(function () {
+        $('#pills-stocks-tab').click(function () {
+         $(".forex").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".stocks").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+         
+      });
+    });
+    
+    
+    $(function () {
+        $('.click_act li').click(function () {
+          $(this).addClass('active').siblings().removeClass('active');
+         
+      });
+    });
+    
+    
+    
+    </script>
 
 </body>
 
-
-<!-- Mirrored from thetork.com/demos/html/bitrader/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Oct 2024 18:35:48 GMT -->
 </html>
