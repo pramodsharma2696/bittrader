@@ -4,7 +4,7 @@
         <div class="header-wrapper">
           <div class="logo">
             <a href="index-2.html">
-              <img class="dark" src="{{ asset('') }}assets/images/logo/logo.png" alt="logo" style="width: 180px;height: 51px;">
+              <img class="dark" src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="logo" style="width: 180px;height: 51px;">
             </a>
           </div>
           <div class="menu-area">
@@ -21,39 +21,39 @@
                       <a class="child-title" href="services.html">Trade Markets</a>
                       <ul>
                       <li><a href="services.html">Forex</a></li>
-                      <li><a href="service-details.html">Indices</a></li>
-                      <li><a href="service-details.html">Stocks</a></li>
-                      <li><a href="service-details.html">Cryptocurrency</a></li>
-                      <li><a href="service-details.html">Commodities</a></li>
-                      <li><a href="service-details.html">Gold and Silver</a></li>
+                      <li><a href="#">Indices</a></li>
+                      <li><a href="#">Stocks</a></li>
+                      <li><a href="#">Cryptocurrency</a></li>
+                      <li><a href="#">Commodities</a></li>
+                      <li><a href="#">Gold and Silver</a></li>
                      </ul>
                  </li>
                   <li>
-                    <a class="child-title" href="service-details.html">Popular FX Markets</a>
+                    <a class="child-title" href="#">Popular FX Markets</a>
                     <ul>
                       <li><a href="services.html">EUR/USD</a></li>
-                      <li><a href="service-details.html">GBP/USD</a></li>
-                      <li><a href="service-details.html">USD/JPY</a></li>
-                      <li><a href="service-details.html">USD/CHF</a></li>
-                      <li><a href="service-details.html">Gold (XAU/USD)</a></li>
+                      <li><a href="#">GBP/USD</a></li>
+                      <li><a href="#">USD/JPY</a></li>
+                      <li><a href="#">USD/CHF</a></li>
+                      <li><a href="#">Gold (XAU/USD)</a></li>
                      </ul>
                   </li>
                   <li>
-                    <a class="child-title" href="service-details.html">Popular Indices</a>
+                    <a class="child-title" href="#">Popular Indices</a>
                     <ul>
                       <li><a href="services.html">Wall Street</a></li>
-                      <li><a href="service-details.html">US SP 500</a></li>
-                      <li><a href="service-details.html">US Tech 100</a></li>
-                      <li><a href="service-details.html">Germany 40</a></li>
+                      <li><a href="#">US SP 500</a></li>
+                      <li><a href="#">US Tech 100</a></li>
+                      <li><a href="#">Germany 40</a></li>
                      </ul>
                   </li>
                   <li>
-                    <a class="child-title" href="service-details.html">Popular Stocks</a>
+                    <a class="child-title" href="#">Popular Stocks</a>
                     <ul>
                       <li><a href="services.html">Tesla</a></li>
-                      <li><a href="service-details.html">Amazon</a></li>
-                      <li><a href="service-details.html">Apple</a></li>
-                      <li><a href="service-details.html">Nvidia</a></li>
+                      <li><a href="#">Amazon</a></li>
+                      <li><a href="#">Apple</a></li>
+                      <li><a href="#">Nvidia</a></li>
                      </ul>
                   </li>
                   <li>
@@ -71,20 +71,20 @@
                 <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                      <a class="child-title" href="services.html">Account Types</a>
+                      <a class="child-title" href="{{ url('/account-Types') }}">Account Types</a>
                       <ul>
-                      <li><a href="services.html">Standard Account</a></li>
-                      <li><a href="service-details.html">MetaTrader Account</a></li>
-                      <li><a href="service-details.html">RAW Spread Account</a></li>
-                      <li><a href="service-details.html">Compare Accounts</a></li>
+                      <li><a href="{{ url('/standard-account') }}">Standard Account</a></li>
+                      <li><a href="{{ url('/metaTrader-account') }}">MetaTrader Account</a></li>
+                      <li><a href="{{ url('/raw-spread-account') }}">RAW Spread Account</a></li>
+                      <!-- <li><a href="{{ url('/compare-account') }}">Compare Accounts</a></li> -->
                     </ul>
                  </li>
                   <li>
-                    <a class="child-title" href="service-details.html">Financial Transparency</a>
+                    <a class="child-title" href="{{ url('/financial-Transparency') }}">Financial Transparency</a>
                     <ul>
-                      <li><a href="services.html">Execution</a></li>
-                      <li><a href="service-details.html">Margin Requirements</a></li>
-                      <li><a href="service-details.html">Rollover Rates</a></li>
+                      <li><a href="{{ url('/execution') }}">Execution</a></li>
+                      <li><a href="{{ url('/margin-requirements') }}">Margin Requirements</a></li>
+                      <li><a href="{{ url('/rollover-rates') }}">Rollover Rates</a></li>
                      </ul>
                   </li>
                 </ul>
@@ -98,8 +98,8 @@
                       <a class="child-title" href="services.html">Trading Tools</a>
                       <ul>
                       <li><a href="services.html">Currency Converter</a></li>
-                      <li><a href="service-details.html">Margin and Pip Calculator</a></li>
-                      <li><a href="service-details.html">Pivot Points</a></li>
+                      <li><a href="{{ url('/standard-account') }}">Margin and Pip Calculator</a></li>
+                      <li><a href="{{ url('/standard-account') }}">Pivot Points</a></li>
                      </ul>
                  </li>
                 </ul>

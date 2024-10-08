@@ -16,3 +16,46 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+// Accounts
+
+Route::get('/account-Types', function () {
+    return view('account-Types');
+});
+Route::get('/financial-Transparency', function () {
+    return view('financial-Transparency');
+});
+Route::get('/standard-account', function () {
+    return view('standard-account');
+});
+Route::get('/metaTrader-account', function () {
+    return view('metaTrader-account');
+});
+Route::get('/raw-spread-account', function () {
+    return view('raw-spread-account');
+});
+Route::get('/compare-account', function () {
+    return view('compare-account');
+});
+Route::get('/execution', function () {
+    return view('execution');
+});
+Route::get('/margin-requirements', function () {
+    return view('margin-requirements');
+});
+Route::get('/rollover-rates', function () {
+    return view('rollover-rates');
+});
+
+// Platforms and Tools
+
+Route::get('/currency-converter', function () {
+    return view('currency-converter');
+});
+
+Route::get('/margin-and-pip-calculator', function () {
+    return view('margin-and-pip-calculator');
+});
+Route::get('/pivot-points', function () {
+    return view('pivot-points');
+});

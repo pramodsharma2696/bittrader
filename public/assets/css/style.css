@@ -2198,7 +2198,7 @@ ol {
 }
 
 .section-bg-color {
-  background-color: var(--section-bg-color);
+  /* background-color: var(--section-bg-color); */
 }
 
 .sec-bg-color2 {
@@ -7722,11 +7722,11 @@ textarea:focus-within {
 @media (min-width: 768px) {
   .service__item-inner {
     padding-block: 52px;
-    padding-inline: 32px;
+    padding-inline: 2px;
   }
 }
 .service__item-thumb {
-  border-radius: 99px;
+  /* border-radius: 99px; */
   background-color: var(--wh-color);
   box-shadow: 0px 8px 24px rgba(12, 52, 91, 0.04);
 }
@@ -10979,4 +10979,8 @@ ul.submenu.submenu-style {
   border-bottom: 2px solid #007bff; /* Underline for active tab */
   color: var(--title-color);
   background: none!important;
+}
+img.dark {
+  width: 150px;
+  height: 150px;
 }
