@@ -38,19 +38,17 @@
               <p>Follow Us</p>
               <ul class="social">
                 <li class="social__item">
-                  <a href="#" class="social__link social__link--style1 active"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=61560663703190" class="social__link social__link--style1 active"><i class="fab fa-facebook-f"></i></a>
+                </li>
+              
+                <li class="social__item">
+                  <a href="https://www.instagram.com/qorvamarkets/" class="social__link social__link--style1"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li class="social__item">
-                  <a href="#" class="social__link social__link--style1"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.youtube.com/@Qorvamarkets" class="social__link social__link--style1"><i class="fab fa-youtube"></i></a>
                 </li>
                 <li class="social__item">
-                  <a href="#" class="social__link social__link--style1"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link social__link--style1"><i class="fab fa-youtube"></i></a>
-                </li>
-                <li class="social__item">
-                  <a href="signin.html" class="social__link social__link--style1"><i class="fab fa-twitter"></i></a>
+                  <a href="https://x.com/QorvaMarkets" class="social__link social__link--style1"><i class="fab fa-twitter"></i></a>
                 </li>
               </ul>
             </div>
