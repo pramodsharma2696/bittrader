@@ -3,7 +3,7 @@
       <div class="container">
         <div class="header-wrapper">
           <div class="logo">
-            <a href="index-2.html">
+            <a href="{{ url('/') }}">
               <img class="dark" src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="logo" style="width: 180px;height: 51px;">
             </a>
           </div>
