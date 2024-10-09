@@ -74,8 +74,8 @@
                       <a class="child-title" href="{{ url('/account-Types') }}">Account Types</a>
                       <ul>
                       <li><a href="{{ url('/standard-account') }}">Standard Account</a></li>
-                      <li><a href="{{ url('/metaTrader-account') }}">MetaTrader Account</a></li>
                       <li><a href="{{ url('/raw-spread-account') }}">RAW Spread Account</a></li>
+                      <li><a href="{{ url('/STP-Pro-Account') }}">STP Pro Account</a></li>
                       <!-- <li><a href="{{ url('/compare-account') }}">Compare Accounts</a></li> -->
                     </ul>
                  </li>

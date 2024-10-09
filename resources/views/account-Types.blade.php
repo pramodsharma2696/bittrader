@@ -9,7 +9,7 @@
 
   <!-- ================> Page header start here <================== -->
   <section class="page-header bg--cover">
-    <div class="background bg--cover" style="background-image:url(assets/images/header/1.png);padding: 100px">
+    <div class="background bg--cover" style="background-image:url(assets/images/header/1.png);padding: 100px 20px;">
     <div class="container">
       <div class="page-header__content" data-aos="fade-right" data-aos-duration="1000">
         <h2>Account</h2>

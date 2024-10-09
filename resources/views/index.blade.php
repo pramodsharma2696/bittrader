@@ -29,7 +29,7 @@
             </p>
             <div class="banner__btn-group btn-group">
 
-              <a href="https://www.youtube.com/watch?v=MHhIzIgFgJo&amp;ab_channel=NoCopyrightFootages"
+              <a href="https://portal.qorvamarkets.com/en/register"
                 class="trk-btn trk-btn--outline22" data-fslightbox>
                 Open An Account <span><i class="fa-solid fa-arrow-right"></i></span>
               </a>
@@ -389,7 +389,7 @@
                   <span>A1</span>
                 </div>
                 <p class="mb-5">The Standard Account at Qorva Markets offers a balanced trading experience, ideal for both novice ...</p>
-                <a href="#"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
+                <a href="{{ url('/standard-account') }}"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
               </div>
             </div>
 
@@ -406,7 +406,7 @@
                   <span>A2</span>
                 </div>
                 <p class="mb-5">The Raw Account at Qorva Markets caters to traders who prioritize cost-efficiency and direct market ...</p>
-                <a href="#"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
+                <a href="{{ url('/raw-spread-account') }}"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
               </div>
             </div>
 
@@ -422,7 +422,7 @@
                   <span>A3</span>
                 </div>
                 <p class="mb-5">The STP Pro Account at Qorva Markets is tailored for traders seeking enhanced trading conditions ...</p>
-                <a href="#"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
+                <a href="{{ url('/STP-Pro-Account') }}"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
               </div>
             </div>
           </div>
@@ -487,7 +487,7 @@
                       <div class="testimonial__footer">
                         <div class="testimonial__author">
                           <div class="testimonial__author-designation">
-                            <a href="#">
+                            <a href="{{ url('/margin-and-pip-calculator') }}">
                               <h6>Use Our Tool <span><i class="fa-solid fa-arrow-right"></i></span></h6>
                             </a>
                           </div>
@@ -514,7 +514,7 @@
                       <div class="testimonial__footer">
                         <div class="testimonial__author">
                           <div class="testimonial__author-designation">
-                            <a href="#">
+                            <a href="{{ url('/margin-and-pip-calculator') }}">
                               <h6>Use Our Tool <span><i class="fa-solid fa-arrow-right"></i></span></h6>
                             </a>
                           </div>
@@ -541,7 +541,7 @@
                       <div class="testimonial__footer">
                         <div class="testimonial__author">
                           <div class="testimonial__author-designation">
-                            <a href="#">
+                            <a href="{{ url('/currency-converter') }}">
                               <h6>Use Our Tool <span><i class="fa-solid fa-arrow-right"></i></span></h6>
                             </a>
                           </div>

@@ -42,8 +42,8 @@ Route::get('/financial-Transparency', function () {
 Route::get('/standard-account', function () {
     return view('standard-account');
 });
-Route::get('/metaTrader-account', function () {
-    return view('metaTrader-account');
+Route::get('/STP-Pro-Account', function () {
+    return view('STP-Pro-Account');
 });
 Route::get('/raw-spread-account', function () {
     return view('raw-spread-account');
