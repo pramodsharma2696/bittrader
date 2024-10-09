@@ -10,7 +10,7 @@
           <div class="menu-area">
             <ul class="menu menu--style1 custome-menu--style1">
             <li>
-                <a href="contact.html">Home</a>
+                <a href="{{ url('/') }}">Home</a>
               </li>
              
               <li class="menu-item-has-children">
@@ -134,7 +134,7 @@
 
               </li> -->
               <li>
-                <a href="contact.html">Contact Us</a>
+                <a href="{{ url('/contact') }}">Contact Us</a>
               </li>
             </ul>
 
