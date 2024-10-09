@@ -49,6 +49,11 @@ Route::get('/rollover-rates', function () {
 
 // Platforms and Tools
 
+
+Route::get('/trading-tools', function () {
+    return view('trading-tools');
+});
+
 Route::get('/currency-converter', function () {
     return view('currency-converter');
 });
@@ -58,4 +63,12 @@ Route::get('/margin-and-pip-calculator', function () {
 });
 Route::get('/pivot-points', function () {
     return view('pivot-points');
+});
+
+
+// Markets
+
+
+Route::get('/trading-tools', function () {
+    return view('trading-tools');
 });

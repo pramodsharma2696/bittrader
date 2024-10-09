@@ -95,11 +95,11 @@
                 <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                      <a class="child-title" href="services.html">Trading Tools</a>
+                      <a class="child-title" href="{{ url('/trading-tools') }}">Trading Tools</a>
                       <ul>
-                      <li><a href="services.html">Currency Converter</a></li>
-                      <li><a href="{{ url('/standard-account') }}">Margin and Pip Calculator</a></li>
-                      <li><a href="{{ url('/standard-account') }}">Pivot Points</a></li>
+                      <li><a href="{{ url('/currency-converter') }}">Currency Converter</a></li>
+                      <li><a href="{{ url('/margin-and-pip-calculator') }}">Margin and Pip Calculator</a></li>
+                      <li><a href="{{ url('/pivot-points') }}">Pivot Points</a></li>
                      </ul>
                  </li>
                 </ul>

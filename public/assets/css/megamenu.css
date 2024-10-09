@@ -93,7 +93,7 @@
     .menu li .submenu li a:hover, 
     .menu li .submenu li a.active {
         background: var(--wh-color);
-        padding-left: 22px;
+        padding-left:15px;
         color: var(--brand-color);
     }
     .menu li .submenu li a:hover:after, 
