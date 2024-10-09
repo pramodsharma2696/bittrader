@@ -77,7 +77,7 @@
 
 
   <!-- vendor plugins -->
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"></script>
   <script src="{{ asset('') }}assets/js/all.min.js"></script>
   <script src="{{ asset('') }}assets/js/swiper-bundle.min.js"></script>
