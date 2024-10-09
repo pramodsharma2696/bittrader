@@ -148,12 +148,12 @@
                      <a href="#" class="trk-btn trk-btn--border">Client Portal </a>
                  </div> -->
               <div class="header-btn icon-box-text">
-                <a href="signup.html" class="trk-btn trk-btn--border">
+                <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn--border">
                   <span><i class="fa-solid fa-user-lock"></i> Client Portal </span>
                 </a>
               </div>
               <div class="header-btn">
-                <a href="signup.html" class="trk-btn trk-btn--border trk-btn--primary">
+                <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn--border trk-btn--primary">
                   <span>Open an Account <i class="fa-solid fa-arrow-right"></i> </span>
                 </a>
               </div>
