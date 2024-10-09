@@ -321,7 +321,7 @@
               </div>
               <div class="service__item-content">
                 <h5>
-                  <a class="stretched-link" href="service-details.html">What is forex trading?</a>
+                  <a class="stretched-link" href="{{ url('/forex-trading') }}">What is forex trading?</a>
                 </h5>
                 <p class="mb-5">Forex trading, also known as foreign exchange trading or FX trading, is the process of ...</p>
               </div>
@@ -336,7 +336,7 @@
                 <img class="dark" src="{{ asset('') }}assets/images/others/icon-10.png" alt="service-icon">
               </div>
               <div class="service__item-content">
-                <h5> <a class="stretched-link" href="service-details.html">Why trade in Qorva Markets?</a> </h5>
+                <h5> <a class="stretched-link" href="{{ url('/qorva-markets') }}">Why trade in Qorva Markets?</a> </h5>
                 <p class="mb-5">Choosing Qorva Markets as your preferred trading platform offers several advantages that cater to the ...
                 </p>
               </div>
@@ -351,7 +351,7 @@
                 <img class="dark" src="{{ asset('') }}assets/images/others/icon-12.png" alt="service-icon">
               </div>
               <div class="service__item-content">
-                <h5> <a class="stretched-link" href="service-details.html">How to trade Forex </a>
+                <h5> <a class="stretched-link" href="{{ url('/trade-forex') }}">How to trade Forex </a>
                 </h5>
                 <p class="mb-5">Trading forex involves a combination of knowledge, strategy, and discipline. Here’s a step-by-step guide on ...</p>
               </div>

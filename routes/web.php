@@ -20,6 +20,17 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/forex-trading', function () {
+    return view('forex-trading');
+});
+Route::get('/qorva-markets', function () {
+    return view('qorva-markets');
+});
+Route::get('/trade-forex', function () {
+    return view('trade-forex');
+});
+
+
 // Accounts
 
 Route::get('/account-Types', function () {

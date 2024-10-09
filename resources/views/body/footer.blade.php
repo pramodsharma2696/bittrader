@@ -104,12 +104,17 @@
               <br><br>
               You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency or spot metals trade. Nothing in this site should be read or construed as constituting advice on the part of Qorva Markets LTD or any of its affiliates, directors, officers or employees.
               <br><br>
-              <b>Restricted Regions: </b><br>Qorva Markets LTD does not provide services for citizens/residents of the United States, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of Qorva Markets LTD are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
-             
+              <b>Restricted Regions: </b><br>Qorva Markets LTD does not provide services for citizens/residents of the United States, Cuba, Iraq, Myanmar, North Korea, Sudan. <br>The services of Qorva Markets LTD are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
+              <br><br>
+              <b>Physical Address : </b> Office 210 Al-Nasar Sports Club Dubai, UAE.
+              <br><br>
+              <b>Registered Address :</b> Qorva Markets LTD, Bonovo Road – Fomboni, Island of Mohéli – Comoros Union.
+              <br><br>
+              <b>Registration Number : </b> HT00324027.
             </p>
           </div>
           <ul class="footer-card clearfix">
-          </ul> 
+          </ul>
         </div>
         <div class="footer__end">
           <div class="footer__end-copyright">
@@ -117,21 +122,20 @@
                 target="_blank">Qorva Markets</a> </p>
           </div>
           <div>
+           
             <ul class="social">
               <li class="social__item">
-                <a href="#" class="social__link social__link--style22"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61560663703190" class="social__link social__link--style22"><i class="fab fa-facebook-f"></i></a>
+              </li>
+
+              <li class="social__item">
+                <a href="https://www.instagram.com/qorvamarkets/" class="social__link social__link--style22"><i class="fab fa-instagram"></i></a>
               </li>
               <li class="social__item">
-                <a href="#" class="social__link social__link--style22 "><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@Qorvamarkets" class="social__link social__link--style22"><i class="fab fa-youtube"></i></a>
               </li>
               <li class="social__item">
-                <a href="#" class="social__link social__link--style22"><i class="fa-brands fa-linkedin-in"></i></a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link social__link--style22"><i class="fab fa-youtube"></i></a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link social__link--style22 "><i class="fab fa-twitter"></i></a>
+                <a href="https://x.com/QorvaMarkets" class="social__link social__link--style22"><i class="fab fa-twitter"></i></a>
               </li>
             </ul>
           </div>

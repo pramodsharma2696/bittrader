@@ -99,40 +99,14 @@
                       <ul>
                       <li><a href="{{ url('/currency-converter') }}">Currency Converter</a></li>
                       <li><a href="{{ url('/margin-and-pip-calculator') }}">Margin and Pip Calculator</a></li>
-                      <li><a href="{{ url('/pivot-points') }}">Pivot Points</a></li>
+                      <!-- <li><a href="{{ url('/pivot-points') }}">Pivot Points</a></li> -->
                      </ul>
                  </li>
                 </ul>
                 </div>
               </li>
              
-              <!-- <li>
-                <a href="#">About</a>
-                <ul class="submenu">
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="price.html">Price</a></li>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="team-2.html">Team 2</a></li>
-                  <li><a href="team-details.html">Team Details</a></li>
-                </ul>
-              </li>
-
-              <li>
-                <a href="#">Pages</a>
-                <ul class="submenu">
-                  <li><a href="blogs.html">Blogs</a></li>
-                  <li><a href="blog-sidebar.html">Blog - Side Bar</a></li>
-                  <li><a href="blog-details.html">Blog Details</a></li>
-                  <li><a href="signup.html">Sign Up</a></li>
-                  <li><a href="signup-2.html">Sign Up 2</a></li>
-                  <li><a href="signin.html">Sign In</a></li>
-                  <li><a href="signin-2.html">Sign In 2</a></li>
-                  <li><a href="forgot-pass.html">Reset Password</a></li>
-                  <li><a href="forgot-pass-2.html">Reset Password 2</a></li>
-                  <li><a href="404.html">404 Error</a></li>
-                </ul>
-
-              </li> -->
+            
               <li>
                 <a href="{{ url('/contact') }}">Contact Us</a>
               </li>
@@ -141,12 +115,7 @@
           </div>
           <div class="header-action">
             <div class="menu-area">
-            <!-- <div class="clients-box">
-                <div class="icon-box">
-                            <img src="{{ asset('') }}assets/images/icon/icon-6.png" alt="Awesome Image">
-                     </div>
-                     <a href="#" class="trk-btn trk-btn--border">Client Portal </a>
-                 </div> -->
+          
               <div class="header-btn icon-box-text">
                 <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn--border">
                   <span><i class="fa-solid fa-user-lock"></i> Client Portal </span>
