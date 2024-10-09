@@ -18,49 +18,49 @@
                 <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                      <a class="child-title" href="services.html">Trade Markets</a>
+                      <a class="child-title" href="{{ url('/trade-markets') }}">Trade Markets</a>
                       <ul>
-                      <li><a href="services.html">Forex</a></li>
-                      <li><a href="#">Indices</a></li>
-                      <li><a href="#">Stocks</a></li>
-                      <li><a href="#">Cryptocurrency</a></li>
-                      <li><a href="#">Commodities</a></li>
-                      <li><a href="#">Gold and Silver</a></li>
+                      <li><a href="{{ url('/Forex') }}">Forex</a></li>
+                      <li><a href="{{ url('/Indices') }}">Indices</a></li>
+                      <li><a href="{{ url('/Stocks') }}">Stocks</a></li>
+                      <li><a href="{{ url('/Cryptocurrency') }}">Cryptocurrency</a></li>
+                      <li><a href="{{ url('/Commodities') }}">Commodities</a></li>
+                      <li><a href="{{ url('/Gold-and-Silver') }}">Gold and Silver</a></li>
                      </ul>
                  </li>
                   <li>
-                    <a class="child-title" href="#">Popular FX Markets</a>
+                    <a class="child-title" href="{{ url('/Popular-FX-Markets') }}">Popular FX Markets</a>
                     <ul>
-                      <li><a href="services.html">EUR/USD</a></li>
-                      <li><a href="#">GBP/USD</a></li>
-                      <li><a href="#">USD/JPY</a></li>
-                      <li><a href="#">USD/CHF</a></li>
-                      <li><a href="#">Gold (XAU/USD)</a></li>
+                      <li><a href="{{ url('/EUR-USD') }}">EUR/USD</a></li>
+                      <li><a href="{{ url('/GBP-USD') }}">GBP/USD</a></li>
+                      <li><a href="{{ url('/USD-JPY') }}">USD/JPY</a></li>
+                      <li><a href="{{ url('/USD-CHF') }}">USD/CHF</a></li>
+                      <li><a href="{{ url('/Gold') }}">Gold (XAU/USD)</a></li>
                      </ul>
                   </li>
                   <li>
-                    <a class="child-title" href="#">Popular Indices</a>
+                    <a class="child-title" href="{{ url('/Popular-Indices') }}">Popular Indices</a>
                     <ul>
-                      <li><a href="services.html">Wall Street</a></li>
-                      <li><a href="#">US SP 500</a></li>
-                      <li><a href="#">US Tech 100</a></li>
-                      <li><a href="#">Germany 40</a></li>
+                      <li><a href="{{ url('/Wall-Street') }}">Wall Street</a></li>
+                      <li><a href="{{ url('/US-SP-500') }}">US SP 500</a></li>
+                      <li><a href="{{ url('/US-Tech-100') }}">US Tech 100</a></li>
+                      <li><a href="{{ url('/Germany-40') }}">Germany 40</a></li>
                      </ul>
                   </li>
                   <li>
-                    <a class="child-title" href="#">Popular Stocks</a>
+                    <a class="child-title" href="{{ url('/Popular-Stocks') }}">Popular Stocks</a>
                     <ul>
-                      <li><a href="services.html">Tesla</a></li>
-                      <li><a href="#">Amazon</a></li>
-                      <li><a href="#">Apple</a></li>
-                      <li><a href="#">Nvidia</a></li>
+                      <li><a href="{{ url('/Tesla') }}">Tesla</a></li>
+                      <li><a href="{{ url('/Amazon') }}">Amazon</a></li>
+                      <li><a href="{{ url('/Apple') }}">Apple</a></li>
+                      <li><a href="{{ url('/Nvidia') }}">Nvidia</a></li>
                      </ul>
                   </li>
                   <li>
-                    <a class="child-title" href="service-details.html">Popular Commodities</a>
+                    <a class="child-title" href="{{ url('/Popular-Commodities') }}">Popular Commodities</a>
                     <ul>
-                      <li><a href="services.html">US Crude Oil</a></li>
-                      <li><a href="service-details.html">UK Crude Oil</a></li>
+                      <li><a href="{{ url('/US-Crude-Oil') }}">US Crude Oil</a></li>
+                      <li><a href="{{ url('/UK-Crude-Oil') }}">UK Crude Oil</a></li>
                      </ul>
                   </li>
                 </ul>

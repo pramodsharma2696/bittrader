@@ -69,6 +69,98 @@ Route::get('/pivot-points', function () {
 // Markets
 
 
-Route::get('/trading-tools', function () {
-    return view('trading-tools');
+Route::get('/trade-markets', function () {
+    return view('trade-markets');
 });
+
+Route::get('/Forex', function () {
+    return view('Forex');
+});
+Route::get('/Indices', function () {
+    return view('Indices');
+});
+Route::get('/Stocks', function () {
+    return view('Stocks');
+});
+Route::get('/Cryptocurrency', function () {
+    return view('Cryptocurrency');
+});
+Route::get('/Commodities', function () {
+    return view('Commodities');
+});
+Route::get('/Gold-and-Silver', function () {
+    return view('Gold-and-Silver');
+});
+
+
+
+Route::get('/Popular-FX-Markets', function () {
+    return view('Popular-FX-Markets');
+});
+
+
+Route::get('/EUR-USD', function () {
+    return view('EUR-USD');
+});
+Route::get('/GBP-USD', function () {
+    return view('GBP-USD');
+});
+Route::get('/USD-JPY', function () {
+    return view('USD-JPY');
+});
+Route::get('/USD-CHF', function () {
+    return view('USD-CHF');
+});
+Route::get('/Gold', function () {
+    return view('Gold');
+});
+
+
+
+Route::get('/Popular-Indices', function () {
+    return view('Popular-Indices');
+});
+Route::get('/Wall-Street', function () {
+    return view('Wall-Street');
+});
+Route::get('/US-SP-500', function () {
+    return view('US-SP-500');
+});
+Route::get('/US-Tech-100', function () {
+    return view('US-Tech-100');
+});
+Route::get('/Germany-40', function () {
+    return view('Germany-40');
+});
+
+
+
+
+Route::get('/Popular-Stocks', function () {
+    return view('Popular-Stocks');
+});
+Route::get('/Tesla', function () {
+    return view('Tesla');
+});
+Route::get('/Amazon', function () {
+    return view('Amazon');
+});
+Route::get('/Apple', function () {
+    return view('Apple');
+});
+Route::get('/Nvidia', function () {
+    return view('Nvidia');
+});
+
+
+
+Route::get('/Popular-Commodities', function () {
+    return view('Popular-Commodities');
+});
+Route::get('/US-Crude-Oil', function () {
+    return view('US-Crude-Oil');
+});
+Route::get('/UK-Crude-Oil', function () {
+    return view('UK-Crude-Oil');
+});
+
