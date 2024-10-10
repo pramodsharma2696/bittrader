@@ -108,7 +108,7 @@
                   <img class="dark" src="{{ asset('') }}assets/images/others/forex.webp" alt="service-icon">
                 </div>
                 <div class="service__item-content">
-                  <h5 > <a class="stretched-link" href="{{ url('/standard-account') }}">Forex</a> </h5>
+                  <h5 > <a class="stretched-link" href="{{ url('/Forex') }}">Forex</a> </h5>
                   <p class="mb-0">Learn all about the world's most traded market.</p>
                     
                 </div>
@@ -122,7 +122,7 @@
                   <img class="dark" src="{{ asset('') }}assets/images/others/stock.webp" alt="service-icon">
                 </div>
                 <div class="service__item-content">
-                  <h5 > <a class="stretched-link" href="{{ url('/raw-spread-account') }}">Stock</a> </h5>
+                  <h5 > <a class="stretched-link" href="{{ url('/Stocks') }}">Stock</a> </h5>
                   <p class="mb-0">Access nearly 2,500 stock CFDs of household-name companies.</p>
                 </div>
               </div>
@@ -135,7 +135,7 @@
                   <img class="dark" src="{{ asset('') }}assets/images/others/cryptocurrency.webp" alt="service-icon">
                 </div>
                 <div class="service__item-content">
-                  <h5 > <a class="stretched-link" href="{{ url('/metaTrader-account') }}">Cryptocurrency</a> </h5>
+                  <h5 > <a class="stretched-link" href="{{ url('/Cryptocurrency') }}">Cryptocurrency</a> </h5>
                   <p class="mb-0">Explore the crypto market and trade Bitcoin, Ethereum, and more with a reliable, trusted broker.</p>
                 </div>
               </div>
@@ -148,7 +148,7 @@
                   <img class="dark" src="{{ asset('') }}assets/images/others/Indices.webp" alt="service-icon">
                 </div>
                 <div class="service__item-content">
-                  <h5 > <a class="stretched-link" href="{{ url('/metaTrader-account') }}">Indices</a> </h5>
+                  <h5 > <a class="stretched-link" href="{{ url('/Indices') }}">Indices</a> </h5>
                   <p class="mb-0">Over 15 indices worldwide with extended trading hours.</p>
                 </div>
               </div>
