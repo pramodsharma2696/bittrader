@@ -76,7 +76,7 @@
                   <img class="dark" src="{{ asset('') }}assets/images/others/mt5.webp" alt="service-icon">
                 </div>
                 <div class="service__item-content">
-                  <h5 > <a class="stretched-link" href="{{ url('/metaTrader-account') }}">STP Pro Account</a> </h5>
+                  <h5 > <a class="stretched-link" href="{{ url('/STP-Pro-Account') }}">STP Pro Account</a> </h5>
                   <p class="mb-0">The STP Pro Account at Qorva Markets is tailored for traders seeking enhanced trading conditions and direct market access.</p>
                 </div>
               </div>
