@@ -76,8 +76,8 @@
                   <img class="dark" src="{{ asset('') }}assets/images/others/mt5.webp" alt="service-icon">
                 </div>
                 <div class="service__item-content">
-                  <h5 > <a class="stretched-link" href="{{ url('/metaTrader-account') }}">MetaTrader account</a> </h5>
-                  <p class="mb-0">Qvora Markets elevates your MT5 experience. Trade on the popular platforms but with access to dedicated trading tools exclusive to FOREX.com. When you trade on your MT5 account with FOREX.com, you're getting the most out of your trading potential.</p>
+                  <h5 > <a class="stretched-link" href="{{ url('/metaTrader-account') }}">STP Pro Account</a> </h5>
+                  <p class="mb-0">The STP Pro Account at Qorva Markets is tailored for traders seeking enhanced trading conditions and direct market access.</p>
                 </div>
               </div>
             </div>
