@@ -56,7 +56,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/raw-pricing-platform-image.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others/raw-pricing-platform-image.jpeg" alt="service-icon">
                                 </div>
                             </div>
                         </div>

@@ -10,7 +10,7 @@
                 <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item "><a href="{{ url('/') }}">Home</a></li>
-                        <li class="breadcrumb-item" aria-current="page"><a href="{{ url('/trading-tools') }}">Platforms and Tools</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="{{ url('/trading-tools') }}">System and Features</a></li>
                         <li class="breadcrumb-item" aria-current="page"><a href="{{ url('/trading-tools') }}">Trading tools</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Currency converter</li>
                     </ol>

@@ -64,7 +64,7 @@ Route::get('/rollover-rates', function () {
     return view('rollover-rates');
 });
 
-// Platforms and Tools
+// System and Features
 
 
 Route::get('/trading-tools', function () {

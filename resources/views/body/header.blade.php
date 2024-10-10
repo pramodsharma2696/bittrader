@@ -80,7 +80,7 @@
                     </ul>
                  </li>
                   <li>
-                    <a class="child-title" href="{{ url('/financial-Transparency') }}">Financial Transparency</a>
+                    <a class="child-title" href="{{ url('/financial-Transparency') }}">Transparent accounting</a>
                     <ul>
                       <li><a href="{{ url('/execution') }}">Execution</a></li>
                       <li><a href="{{ url('/margin-requirements') }}">Margin Requirements</a></li>
@@ -91,7 +91,7 @@
                 </div>
               </li>
               <li class="menu-item-has-children">
-                <a href="#">Platforms and Tools</a>
+                <a href="#">System and Features</a>
                 <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>

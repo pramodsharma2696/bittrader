@@ -11,7 +11,7 @@
                 <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item "><a href="{{ url('/') }}">Home</a></li>
-                        <li class="breadcrumb-item "><a href="{{ url('/financial-Transparency') }}">Financial transparency</a></li>
+                        <li class="breadcrumb-item "><a href="{{ url('/financial-Transparency') }}">Transparent accounting</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Margin Requirements</li>
                     </ol>
                 </nav>

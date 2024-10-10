@@ -75,50 +75,44 @@
 
 
 <!-- ===============>> partner section start here <<================= -->
-<div class="partner partner--gradient">
-  <div class="container">
-    <div class="partner__wrapper">
-      <div class="partner__slider swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="partner__item">
-              <div class="partner__item-inner">
-                <img src="{{ asset('') }}assets/images/partner/light/1.png" alt="partner logo" class="dark">
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="partner__item">
-              <div class="partner__item-inner">
-                <img src="{{ asset('') }}assets/images/partner/light/2.png" alt="partner logo" class="dark">
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="partner__item">
-              <div class="partner__item-inner">
-                <img src="{{ asset('') }}assets/images/partner/light/3.png" alt="partner logo" class="dark">
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="partner__item">
-              <div class="partner__item-inner">
-                <img src="{{ asset('') }}assets/images/partner/light/4.png" alt="partner logo" class="dark">
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="partner__item">
-              <div class="partner__item-inner">
-                <img src="{{ asset('') }}assets/images/partner/light/5.png" alt="partner logo" class="dark">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="tradingview-widget-container" style="width: 100%; height: 100px;">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">
+    <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+      <span class="blue-text">Track all markets on TradingView</span>
+    </a>
   </div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+    "symbols": [
+      {
+        "proName": "FX_IDC:GBPUSD",
+        "title": "GBP to USD"
+      },
+      {
+        "proName": "FX_IDC:USDJPY",
+        "title": "USD to JPY"
+      },
+      {
+        "proName": "FX_IDC:AUDUSD",
+        "title": "AUD to USD"
+      },
+      {
+        "proName": "OANDA:XAUUSD",
+        "title": "Gold Spot"
+      },
+      {
+        "proName": "BITSTAMP:LTCUSD",
+        "title": "Litecoin"
+      }
+    ],
+    "showSymbolLogo": true,
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "colorTheme": "light",
+    "locale": "en"
+  }
+  </script>
 </div>
 <!-- ===============>> partner section end here <<================= -->
 
