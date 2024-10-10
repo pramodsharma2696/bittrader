@@ -972,9 +972,8 @@
 <!-- ===============>> FAQ section start here <<================= -->
 <section class="faq padding-top padding-bottom of-hidden">
   <div class="section-header section-header--max65">
-    <h2 class="mb-10 mt-minus-5"><span>Frequently</span> Asked questions</h2>
-    <p>Hey there! Got questions? We've got answers. Check out our FAQ page for all the deets. Still not satisfied? Hit
-      us up.</p>
+    <h2 class="mb-10 mt-minus-5"><span>Frequently</span> Asked Questions</h2>
+    <p>Hey there! Got questions? We've got answers. Check out our FAQ page for all the deets. Still not satisfied? Hit us up.</p>
   </div>
   <div class="container">
     <div class="faq__wrapper">
@@ -983,116 +982,153 @@
           <div class="accordion accordion--style1" id="faqAccordion1" data-aos="fade-right" data-aos-duration="1000">
             <div class="row">
               <div class="col-12">
+                <!-- FAQ 1 -->
                 <div class="accordion__item accordion-item">
                   <div class="accordion__header accordion-header" id="faq1">
                     <button class="accordion__button accordion-button" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody1" aria-expanded="false" aria-controls="faqBody1">
-                      <span class="accordion__button-content">What does this tool do?</span>
+                      <span class="accordion__button-content">What is Forex trading?</span>
                     </button>
                   </div>
                   <div id="faqBody1" class="accordion-collapse collapse show" aria-labelledby="faq1"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">
-                        Online trading’s primary advantages are that it allows you to manage your trades at your
-                        convenience.
-                      </p>
+                      <p class="mb-15">Forex (foreign exchange) trading involves buying and selling currency pairs to profit from changes in their exchange rates. It is the largest financial market globally, with daily trading volume exceeding $6 trillion.</p>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="col-12">
+                <!-- FAQ 2 -->
                 <div class="accordion__item accordion-item">
                   <div class="accordion__header accordion-header" id="faq2">
-                    <button class="accordion-button accordion__button collapsed" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#faqBody2" aria-expanded="true"
-                      aria-controls="faqBody2">
-                      <span class=" accordion__button-content">What are the disadvantages of online trading?</span>
+                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faqBody2" aria-expanded="true" aria-controls="faqBody2">
+                      <span class="accordion__button-content">How does Forex trading work?</span>
                     </button>
                   </div>
                   <div id="faqBody2" class="accordion-collapse collapse" aria-labelledby="faq2"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">
-                        You don’t need to worry, the interface is user-friendly. Anyone can use
-                        it smoothly. Our user manual will help you to solve your problem.
-                      </p>
+                      <p class="mb-15">Forex trading is done in currency pairs, where one currency is bought and another is sold. The value of the pair fluctuates based on market conditions, and traders aim to profit by buying low and selling high.</p>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="col-12">
+                <!-- FAQ 3 -->
                 <div class="accordion__item accordion-item">
                   <div class="accordion__header accordion-header" id="faq3">
-                    <button class="accordion-button accordion__button collapsed" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#faqBody3" aria-expanded="false"
-                      aria-controls="faqBody3">
-                      <span class="accordion__button-content">Is online trading safe?</span>
+                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faqBody3" aria-expanded="false" aria-controls="faqBody3">
+                      <span class="accordion__button-content">What are the main currency pairs?</span>
                     </button>
                   </div>
                   <div id="faqBody3" class="accordion-collapse collapse" aria-labelledby="faq3"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15"> Online trading’s primary advantages are that it allows you to manage your
-                        trades at your convenience.</p>
+                      <p class="mb-15">Major pairs: EUR/USD, USD/JPY, GBP/USD, USD/CHF<br>Minor pairs: EUR/GBP, AUD/JPY, GBP/CAD<br>Exotic pairs: USD/TRY, USD/ZAR, EUR/SGD</p>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="col-12">
+                <!-- FAQ 4 -->
                 <div class="accordion__item accordion-item">
                   <div class="accordion__header accordion-header" id="faq4">
-                    <button class="accordion-button accordion__button collapsed" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#faqBody4" aria-expanded="false"
-                      aria-controls="faqBody4">
-                      <span class="accordion__button-content">What is online trading, and how does it work?</span>
+                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faqBody4" aria-expanded="false" aria-controls="faqBody4">
+                      <span class="accordion__button-content">What is a spread in Forex?</span>
                     </button>
                   </div>
                   <div id="faqBody4" class="accordion-collapse collapse" aria-labelledby="faq4"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15"> Online trading’s primary advantages are that it allows you to manage your
-                        trades at your convenience.</p>
+                      <p class="mb-15">The spread is the difference between the buy price (bid) and the sell price (ask) of a currency pair. It represents the cost of trading.</p>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="col-12">
+                <!-- FAQ 5 -->
                 <div class="accordion__item accordion-item">
                   <div class="accordion__header accordion-header" id="faq5">
-                    <button class="accordion-button accordion__button collapsed" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#faqBody5" aria-expanded="false"
-                      aria-controls="faqBody5">
-                      <span class="accordion__button-content">Which app is best for online trading?</span>
+                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faqBody5" aria-expanded="false" aria-controls="faqBody5">
+                      <span class="accordion__button-content">How can I start trading on your platform?</span>
                     </button>
                   </div>
                   <div id="faqBody5" class="accordion-collapse collapse" aria-labelledby="faq5"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15"> Online trading’s primary advantages are that it allows you to manage your
-                        trades at your convenience.</p>
+                      <p class="mb-15">1. Register<br>2. Verify your account<br>3. Fund your account<br>4. Start trading</p>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="col-12">
-                <div class="accordion__item accordion-item border-0">
+                <!-- FAQ 6 -->
+                <div class="accordion__item accordion-item">
                   <div class="accordion__header accordion-header" id="faq6">
-                    <button class="accordion-button accordion__button collapsed" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#faqBody6" aria-expanded="false"
-                      aria-controls="faqBody6">
-                      <span class="accordion__button-content"> How to create a trading account?</span>
+                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faqBody6" aria-expanded="false" aria-controls="faqBody6">
+                      <span class="accordion__button-content">What trading platforms do you offer?</span>
                     </button>
                   </div>
                   <div id="faqBody6" class="accordion-collapse collapse" aria-labelledby="faq6"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15"> Online trading’s primary advantages are that it allows you to manage your
-                        trades at your convenience.</p>
+                      <p class="mb-15">1. MetaTrader 5 (MT5)<br>2. WebTrader<br>3. Mobile App</p>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div class="col-12">
+                <!-- FAQ 7 -->
+                <div class="accordion__item accordion-item">
+                  <div class="accordion__header accordion-header" id="faq7">
+                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faqBody7" aria-expanded="false" aria-controls="faqBody7">
+                      <span class="accordion__button-content">What is leverage in Forex trading?</span>
+                    </button>
+                  </div>
+                  <div id="faqBody7" class="accordion-collapse collapse" aria-labelledby="faq7"
+                    data-bs-parent="#faqAccordion1">
+                    <div class="accordion__body accordion-body">
+                      <p class="mb-15">Leverage allows traders to control a larger position with a smaller amount of capital. For example, with 1:100 leverage, you can control $100,000 with just $1,000 in your account.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <!-- FAQ 8 -->
+                <div class="accordion__item accordion-item">
+                  <div class="accordion__header accordion-header" id="faq8">
+                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faqBody8" aria-expanded="false" aria-controls="faqBody8">
+                      <span class="accordion__button-content">What are the risks involved in Forex trading?</span>
+                    </button>
+                  </div>
+                  <div id="faqBody8" class="accordion-collapse collapse" aria-labelledby="faq8"
+                    data-bs-parent="#faqAccordion1">
+                    <div class="accordion__body accordion-body">
+                      <p class="mb-15">1. Market volatility<br>2. Leverage risk<br>3. Liquidity risk</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 text-center mt-4">
+                <a href="{{ url('/faq') }}" class="btn btn-outline-primary">Show More</a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -1104,10 +1140,10 @@
       </div>
     </div>
   </div>
-  <div class="faq__shape faq__shape--style1">
-    <span class="faq__shape-item faq__shape-item--1"><img src="{{ asset('') }}assets/images/others/2.png" alt="shpae-icon"></span>
-  </div>
+  <div class="faq__shape faq__shape1"></div>
+  <div class="faq__shape faq__shape2"></div>
 </section>
+
 <!-- ===============>> FAQ section start here <<================= -->
 
 
