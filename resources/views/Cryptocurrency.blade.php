@@ -44,7 +44,7 @@
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Cryptocurrency Trading</a></h3>
-                                <p class="mb-3">Trade crypto CFDs with FOREX.com without needing to own the cryptocurrency itself. With competitive spreads on Ripple, Ether and Bitcoin CFDs.</p>
+                                <p class="mb-3">Trade crypto CFDs with Qorva Markets without needing to own the cryptocurrency itself. With competitive spreads on Ripple, Ether and Bitcoin CFDs.</p>
                                 <p class="mb-5">Go long or short on CFDs - Get competitive spreads - Trade without the need for a digital wallet.</p>
                                
                             </div>
