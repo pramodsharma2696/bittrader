@@ -10980,3 +10980,6 @@ ul.submenu.submenu-style {
   color: var(--title-color);
   background: none!important;
 }
+a.trk-btn.rk-btn-sm.trk-btn--border.trk-btn--primary {
+  padding: 12px;
+}

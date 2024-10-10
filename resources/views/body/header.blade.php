@@ -110,6 +110,9 @@
               <li>
                 <a href="{{ url('/contact') }}">Contact Us</a>
               </li>
+              <li>
+                <a href="{{ url('/faq') }}">FAQ</a>
+              </li>
             </ul>
 
           </div>
@@ -122,8 +125,8 @@
                 </a>
               </div>
               <div class="header-btn">
-                <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn--border trk-btn--primary">
-                  <span>Open an Account <i class="fa-solid fa-arrow-right"></i> </span>
+                <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn rk-btn-sm trk-btn--border trk-btn--primary">
+                  <span>Open an a/c <i class="fa-solid fa-arrow-right"></i> </span>
                 </a>
               </div>
 
