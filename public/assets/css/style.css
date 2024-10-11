@@ -10929,10 +10929,96 @@ html[data-bs-theme=dark] .partner--gradient::after {
 .header-btn.icon-box-text{
   margin-right: 10px;
 }
-.header-btn.icon-box-text:hover {
+/* .header-btn.icon-box-text:hover {
   border: 1px solid var(--brand-color);
+  background: var(--brand-color);
+  border-radius: 5px;
   transform: translateY(-3px);
+  transition: 0.5s ease;
 }
+.icon-box-text a:hover {
+  color: #0C263A !important;
+} */
+
+/* .header-btn.icon-box-text {
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 5px;
+  transition: background 0.5s ease, border-color 0.5s ease, transform 0.3s ease;
+}
+
+.header-btn.icon-box-text:hover {
+  border: 1px solid var(--brand-color); 
+  background: var(--brand-color); 
+  transform: translateY(-3px);  
+  transition: background 0.5s ease, border-color 0.5s ease, transform 0.3s ease; 
+}
+
+.icon-box-text a {
+  color: #fff;  
+  transition: color 0.5s ease; 
+}
+
+.icon-box-text a:hover {
+  color: #0C263A !important;  
+} */
+/* Button Styles */
+.header-btn.icon-box-text {
+  position: relative;  /* To position the shine effect */
+  display: inline-block;
+  /* padding: 10px 20px; */
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: background 0.5s ease, border-color 0.5s ease, transform 0.3s ease;
+  overflow: hidden;  /* To contain the shine effect */
+}
+
+/* Hover effect with background, border, and lift */
+.header-btn.icon-box-text:hover {
+  border: 1px solid var(--brand-color);  
+  background: var(--brand-color);  
+  transform: translateY(-3px);  
+  transition: background 0.5s ease, border-color 0.5s ease, transform 0.3s ease;
+}
+
+/* Shine effect */
+.header-btn.icon-box-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start the shine effect off-screen */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4); /* White shine with transparency */
+  transform: skewX(-30deg); /* Angle of the shine */
+  transition: opacity 0.5s ease;
+}
+
+/* Trigger shine animation on hover */
+.header-btn.icon-box-text:hover::before {
+  left: 100%;  /* Move the shine across the button */
+  transition: left 0.8s ease;  /* Control the speed of the shine */
+}
+
+/* Text color transition inside the button */
+.icon-box-text a {
+  color: #fff;  
+  transition: color 0.5s ease;  
+}
+
+.icon-box-text a:hover {
+  color: #0C263A !important;  
+}
+
+.menu li:hover {
+  transform: translateY(-3px);
+  transition: background 1s ease, border-color 0.5s ease, transform 0.3s ease;
+}
+.menu li > a:hover {
+  color: #00d094;
+}
+
 .icon-box {
   position: absolute;
   display: inline-block;
@@ -10982,5 +11068,5 @@ ul.submenu.submenu-style {
   background: none!important;
 }
 a.trk-btn.rk-btn-sm.trk-btn--border.trk-btn--primary {
-  padding: 12px;
+  padding: 16px;
 }

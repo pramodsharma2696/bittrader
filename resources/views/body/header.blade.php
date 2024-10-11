@@ -121,12 +121,12 @@
           
               <div class="header-btn icon-box-text">
                 <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn--border">
-                  <span><i class="fa-solid fa-user-lock"></i> Client Portal </span>
+                  <span><i class="fa-solid fa-user-lock" style="font-size:14px;"></i> Client Portal </span>
                 </a>
               </div>
               <div class="header-btn">
-                <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn rk-btn-sm trk-btn--border trk-btn--primary">
-                  <span>Open an a/c <i class="fa-solid fa-arrow-right"></i> </span>
+                <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn rk-btn-sm trk-btn--border trk-btn--primary btn--outline">
+                  <span>Open an a/c <i class="fa-solid fa-arrow-right" style="font-size:14px;"></i> </span>
                 </a>
               </div>
 
