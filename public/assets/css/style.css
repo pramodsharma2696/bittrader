@@ -11013,7 +11013,7 @@ html[data-bs-theme=dark] .partner--gradient::after {
 }
 .menu .setBackground {
   display: block; 
-  padding: 12px 4px;
+  padding: 12px 7px 8px 0px;
 }
 .menu .setBackground:hover::before {
   left: 100%;  /* Move the shine across the button */
