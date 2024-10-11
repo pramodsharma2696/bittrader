@@ -3,13 +3,8 @@
 /* Menu Styling */
 .menu {
     column-gap: 10px;
-    height: 40px;
-    align-items: center;
 }
-li.setBackground {
-    align-items: center;
-    justify-content: center;
-}
+
 .menu > li > a {
     font-size: 1rem;
     padding: 15px 22px;
