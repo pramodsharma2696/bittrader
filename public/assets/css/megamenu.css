@@ -3,12 +3,18 @@
 /* Menu Styling */
 .menu {
     column-gap: 10px;
+    height: 40px;
+    align-items: center;
+}
+li.setBackground {
+    align-items: center;
+    justify-content: center;
 }
 .menu > li > a {
     font-size: 1rem;
     padding: 15px 22px;
     text-transform: capitalize;
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
     color: var(--title-color);
     font-weight: 500;
 }
@@ -69,7 +75,7 @@
         font-size: 1rem;
         padding: 6px 16px;
         text-transform: capitalize;
-        font-family: "Open Sans", sans-serif;
+        /* font-family: "Open Sans", sans-serif; */
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -195,6 +201,7 @@
 
 /* Mega Menu Wrapper Styling */
 .menu--style1 > li > .mega-menu {
+        /* margin-top: 9px; */
     position: absolute;
     top: 100%;
     left: 0;

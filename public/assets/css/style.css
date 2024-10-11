@@ -6370,6 +6370,7 @@ textarea:focus-within {
 .trk-btn span {
   position: inherit;
   z-index: 1;
+  font-family: initial;
 }
 .trk-btn.active.trk-btn--primary, .trk-btn:hover.trk-btn--primary {
   color: #0C263A;
@@ -10923,7 +10924,7 @@ html[data-bs-theme=dark] .partner--gradient::after {
 /*# sourceMappingURL=style.css.map */
  .icon-box-text a{
   color: var(--text-color) !important;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
     font-weight: 500;
 }
 .header-btn.icon-box-text{
@@ -11010,13 +11011,46 @@ html[data-bs-theme=dark] .partner--gradient::after {
 .icon-box-text a:hover {
   color: #0C263A !important;  
 }
-
-.menu li:hover {
+.menu .setBackground:hover::before {
+  left: 100%;  /* Move the shine across the button */
+  transition: left 0.8s ease;  /* Control the speed of the shine */
+}
+.menu .setBackground::before {
+  content: '';
+  /* position: absolute; */
+  top: 0;
+  left: -100%; /* Start the shine effect off-screen */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4); /* White shine with transparency */
+  transform: skewX(-30deg); /* Angle of the shine */
+  transition: opacity 0.5s ease;
+}
+.menu .setBackground::after {
+  background: var(--bg-white);
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+.menu .setBackground:hover {
+  /* border: 1px solid var(--brand-color); */
+  background: var(--brand-color);
+  padding: 10px 0px 10px 0px;
+  border-radius: 6px;
   transform: translateY(-3px);
   transition: background 1s ease, border-color 0.5s ease, transform 0.3s ease;
 }
-.menu li > a:hover {
-  color: #00d094;
+.menu .setBackground > a {
+  transition: color 0.5s ease; 
+}
+.menu .setBackground > a:hover {
+  color: var(--text-color);
 }
 
 .icon-box {

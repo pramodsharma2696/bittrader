@@ -9,11 +9,11 @@
           </div>
           <div class="menu-area">
             <ul class="menu menu--style1 custome-menu--style1">
-            <li>
-                <a href="{{ url('/') }}">Home</a>
+            <li class="setBackground">
+                <a  href="{{ url('/') }}">Home</a>
               </li>
              
-              <li class="menu-item-has-children">
+              <li class="menu-item-has-children setBackground">
                 <a href="#">Markets</a>
                 <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
@@ -66,7 +66,7 @@
                 </ul>
                 </div>
               </li>
-              <li class="menu-item-has-children">
+              <li class="menu-item-has-children setBackground">
                 <a href="#">Accounts</a>
                 <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
@@ -90,7 +90,7 @@
                 </ul>
                 </div>
               </li>
-              <li class="menu-item-has-children">
+              <li class="menu-item-has-children setBackground">
                 <a href="#">System and Features</a>
                 <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
@@ -107,10 +107,10 @@
               </li>
              
             
-              <li>
+              <li class="setBackground">
                 <a href="{{ url('/contact') }}">Contact Us</a>
               </li>
-              <li>
+              <li class="setBackground">
                 <a href="{{ url('/faq') }}">FAQ</a>
               </li>
             </ul>
