@@ -8982,8 +8982,8 @@ textarea:focus-within {
   gap: 15px;
 }
 .testimonial__author-thumb img {
-  border-radius: 99px;
-  max-width: 60px;
+  /* border-radius: 99px; */
+  max-width: 80px;
 }
 .testimonial__author-designation h6 {
   line-height: 1.1;

@@ -34,6 +34,7 @@
   <!-- Main Stylesheets -->
   <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/megamenu.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/mobile.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/tradeview.css">
 </head>
 

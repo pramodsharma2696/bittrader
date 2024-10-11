@@ -44,6 +44,7 @@
 @media (min-width: 992px) {
     .menu li {
         position: relative;
+        font-family: "Anek Telugu", sans-serif;
     }
     .menu li .submenu {
         transition: all 0.3s ease-out;
@@ -62,6 +63,7 @@
     }
     .menu li .submenu li {
         padding: 0;
+        font-family: "Anek Telugu", sans-serif;
     }
     .menu li .submenu li a {
         font-size: 1rem;

@@ -298,7 +298,7 @@
 
 
 <!-- ===============>> Service section start here <<================= -->
-<section class="service padding-top padding-bottom">
+<section class="service padding-top padding-bottom d-none">
   <div class="section-header section-header--max50">
     <p>Forex Trading</p>
     <h2 class="mb-10 mt-minus-5">The Ultimate Gateway to <span>Trading</span> Success</h2>
@@ -359,78 +359,157 @@
     </div>
   </div>
 </section>
+<section class="feature feature--style2 padding-bottom padding-top feature-bg-color bg--cover"
+    style="background-image:url(assets/images/feature/home3/bg.png)">
+    <div class="section-header section-header--style3 section-header--max57">
+      <h2 class="mb-10 mt-minus-5">The Ultimate Gateway to <span>Trading</span> Success</h2>
+      </p>
+    </div>
+    <div class="container">
+      <div class="feature__wrapper">
+        <div class="row g-4 align-items-center">
+          <div class="col-sm-6 col-lg-4">
+            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+              <div class="feature__item-inner text-center">
+                <div class="feature__item-thumb">
+                  <img class="dark" src="assets/images/feature/home3/2.png" alt="feature-item-icon">
+                </div>
+                <div class="feature__item-content">
+                  <h5><a class="stretched-link" href="{{ url('/forex-trading') }}">What is forex trading?</a></h5>
+                  
+                  <p>Forex trading, also known as foreign exchange trading or FX trading, is the process of ...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+              <div class="feature__item-inner text-center">
+                <div class="feature__item-thumb">
+                  <img class="dark" src="assets/images/feature/home3/2.png" alt="feature-item-icon">
+                </div>
+                <div class="feature__item-content">
+                  <h5><a class="stretched-link" href="{{ url('/qorva-markets') }}">Why trade in Qorva Markets ?</a></h5>
+                  
+                  <p>Choosing Qorva Markets as your preferred trading platform offers several advantages that cater to the ...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+              <div class="feature__item-inner text-center">
+                <div class="feature__item-thumb">
+                  <img class="dark" src="assets/images/feature/home3/2.png" alt="feature-item-icon">
+                </div>
+                <div class="feature__item-content">
+                <h5> <a class="stretched-link" href="{{ url('/trade-forex') }}">How to trade Forex </a></h5>
+                  <p>Trading forex involves a combination of knowledge, strategy, and discipline. Here’s a step-by-step guide..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <div class="feature__shape">
+      <span class="feature__shape-item feature__shape-item--1"><img src="assets/images/feature/home3/5.png"
+          alt="shape-icon"></span>
+    </div>
+  </section>
 <!-- ===============>> Service section start here <<================= -->
 
 
 
 
-<!-- ========== Roadmap Section start Here========== -->
-<section class="roadmap roadmap--style1 padding-top  padding-bottom bg-color" id="roadmap">
+<!-- ========== Forex trading account Here========== -->
+
+<section class="blog padding-top padding-bottom">
   <div class="container">
-    <div class="section-header section-header--max50">
-      <p>Account Types</p>
-      <h2 class="mb-10 mt-minus-5">Forex Trading <span>Accounts</span></h2>
-    </div>
-    <div class="roadmap__wrapper">
-      <div class="row gy-4 gy-md-0 gx-5">
-        <div class="col-md-6 offset-md-6">
-          <div class="roadmap__item ms-md-4 aos-init aos-animate" data-aos="fade-left" data-aos-duration="800">
-            <div class="roadmap__item-inner">
-              <div class="roadmap__item-content">
-                <img src="{{ asset('') }}assets/images/others/account-1.jpg" alt="Team Image" class="dark mb-2">
-                <div class="roadmap__item-header">
-                  <h3>Standard a/c</h3>
-                  <span>A1</span>
-                </div>
-                <p class="mb-5">The Standard Account at Qorva Markets offers a balanced trading experience, ideal for both novice ...</p>
-                <a href="{{ url('/standard-account') }}"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
-              </div>
-            </div>
-
-          </div>
+    <div class="section-header d-md-flex align-items-center justify-content-between">
+      <div class="section-header__content">
+        <h2 class="mb-10">Forex Trading <span>Accounts</span></h2>
+        <!-- <p class="mb-0">Hey there pro traders, check out these articles with tips to take your trading game to the next level!</p> -->
+      </div>
+      <div class="section-header__action">
+        <div class="swiper-nav swiper-nav--style1">
+          <button class="swiper-nav__btn blog__slider-prev"><i class="fa-solid fa-angle-left"></i></button>
+          <button class="swiper-nav__btn blog__slider-next active"><i class="fa-solid fa-angle-right"></i></button>
         </div>
-        <div class="col-md-6">
-          <div class="roadmap__item roadmap__item--style2 ms-auto me-md-4 aos-init aos-animate" data-aos="fade-right"
-            data-aos-duration="800">
-            <div class="roadmap__item-inner">
-              <div class="roadmap__item-content">
-                <img src="{{ asset('') }}assets/images/others/account-2.jpg" alt="Team Image" class="dark mb-2">
-                <div class="roadmap__item-header">
-                  <h3>Raw a/c</h3>
-                  <span>A2</span>
-                </div>
-                <p class="mb-5">The Raw Account at Qorva Markets caters to traders who prioritize cost-efficiency and direct market ...</p>
-                <a href="{{ url('/raw-spread-account') }}"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="col-md-6 offset-md-6">
-          <div class="roadmap__item ms-md-4 aos-init" data-aos="fade-left" data-aos-duration="800">
-            <div class="roadmap__item-inner">
-              <div class="roadmap__item-content">
-                <img src="{{ asset('') }}assets/images/others/account-3.jpg" alt="Team Image" class="dark mb-2">
-                <div class="roadmap__item-header">
-                  <h3>STP Pro a/c</h3>
-                  <span>A3</span>
-                </div>
-                <p class="mb-5">The STP Pro Account at Qorva Markets is tailored for traders seeking enhanced trading conditions ...</p>
-                <a href="{{ url('/STP-Pro-Account') }}"><span>Open your account</span><span><i class="fa-solid fa-arrow-right"></i></span> </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
       </div>
     </div>
+    <div class="blog__wrapper" data-aos="fade-up" data-aos-duration="1000">
+      <div class="blog__slider swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="blog__item blog__item--style2">
+              <div class="blog__item-inner">
+                <div class="blog__thumb">
+                  <img src="{{ asset('') }}assets/images/others/account-1.jpg" alt="blog Images">
+                </div>
+
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <!-- <span class="blog__meta-tag blog__meta-tag--style1"></span> -->
+                  </div>
+                  <h5 class="10"> <a href="{{ url('/standard-account') }}">Standard a/c</a> </h5>
+
+                  <p class="mb-15">The Standard Account at Qorva Markets offers a balanced trading experience, ideal for both novice ...</p>
+
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog__item blog__item--style2">
+              <div class="blog__item-inner">
+                <div class="blog__thumb">
+                  <img src="{{ asset('') }}assets/images/others/account-2.jpg" alt="blog Images">
+                </div>
+
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <!-- <span class="blog__meta-tag blog__meta-tag--style1">Trading market</span> -->
+                  </div>
+                  <h5 class="10"> <a href="{{ url('/raw-spread-account') }}">Raw a/c</a> </h5>
+
+                  <p class="mb-15">The Raw Account at Qorva Markets caters to traders who prioritize cost-efficiency and direct market ...</p>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog__item blog__item--style2">
+              <div class="blog__item-inner">
+                <div class="blog__thumb">
+                  <img src="{{ asset('') }}assets/images/others/account-3.jpg" alt="STP Pro a/c">
+                </div>
+
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <!-- <span class="blog__meta-tag blog__meta-tag--style1">Investment</span> -->
+                  </div>
+                  <h5 class="10"> <a href="{{ url('/STP-Pro-Account') }}">STP Pro a/c</a> </h5>
+
+                  <p class="mb-15">The STP Pro Account at Qorva Markets is tailored for traders seeking enhanced trading conditions ...</p>
+
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
   </div>
-  <div class="roadmap__shape">
-    <span class="roadmap__shape-item roadmap__shape-item--1"> <span></span> </span>
-    <span class="roadmap__shape-item roadmap__shape-item--2"> <img src="{{ asset('') }}assets/images/icon/1.png" alt="shape-icon">
-    </span>
+  <div class="blog__shape">
+    <span class="blog__shape-item blog__shape-item--1"> <span></span> </span>
   </div>
 </section>
 <!-- ========== Roadmap Section Ends Here========== -->
@@ -443,7 +522,7 @@
       <!-- Static Image on the Left Side -->
       <div class="col-md-6">
         <div class="testimonial__static-image">
-          <img src="https://qorvamarkets.com/wp-content/uploads/2023/05/tools-1.jpg" alt="Tools Image" class="img-fluid">
+          <img src="{{ asset('') }}assets/images/others/tradingview-hp-module-hero.webp" alt="Tools Image" class="img-fluid" style="width: 566px;">
         </div>
       </div>
 
@@ -470,7 +549,7 @@
                 <div class="testimonial__item testimonial__item--style1">
                   <div class="testimonial__item-inner">
                     <div class="testimonial__author-thumb mb-5">
-                      <img src="{{ asset('') }}assets/images/others/icon-16.png" alt="author" style="width:80px !important">
+                      <img src="{{ asset('') }}assets/images/others/budget.png" alt="author" style="width:80px !important">
                     </div>
                     <hr>
                     <div class="testimonial__item-content">
@@ -497,7 +576,7 @@
                 <div class="testimonial__item testimonial__item--style1">
                   <div class="testimonial__item-inner">
                     <div class="testimonial__author-thumb mb-5">
-                      <img src="{{ asset('') }}assets/images/others/icon-16.png" alt="author" style="width:80px !important"> <!-- Update with your icon path -->
+                      <img src="{{ asset('') }}assets/images/others/budget.png" alt="author" style="width:80px !important"> <!-- Update with your icon path -->
                     </div>
                     <hr>
                     <div class="testimonial__item-content">
@@ -524,7 +603,7 @@
                 <div class="testimonial__item testimonial__item--style1">
                   <div class="testimonial__item-inner">
                     <div class="testimonial__author-thumb mb-5">
-                      <img src="{{ asset('') }}assets/images/others/icon-16.png" alt="author" style="width:80px !important"> <!-- Update with your icon path -->
+                      <img src="{{ asset('') }}assets/images/others/budget.png" alt="author" style="width:80px !important"> <!-- Update with your icon path -->
                     </div>
                     <hr>
                     <div class="testimonial__item-content">
@@ -839,123 +918,7 @@
 
 
 <!-- ===============>> Blog section start here <<================= -->
-<section class="blog padding-top padding-bottom d-none">
-  <div class="container">
-    <div class="section-header d-md-flex align-items-center justify-content-between">
-      <div class="section-header__content">
-        <h2 class="mb-10"><span>articles</span> for pro traders</h2>
-        <p class="mb-0">Hey there pro traders, check out these articles with tips to take your trading game to the
-          next level!</p>
-      </div>
-      <div class="section-header__action">
-        <div class="swiper-nav swiper-nav--style1">
-          <button class="swiper-nav__btn blog__slider-prev"><i class="fa-solid fa-angle-left"></i></button>
-          <button class="swiper-nav__btn blog__slider-next active"><i class="fa-solid fa-angle-right"></i></button>
-        </div>
-      </div>
-    </div>
-    <div class="blog__wrapper" data-aos="fade-up" data-aos-duration="1000">
-      <div class="blog__slider swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="blog__item blog__item--style2">
-              <div class="blog__item-inner">
-                <div class="blog__thumb">
-                  <img src="{{ asset('') }}assets/images/blog/1.png" alt="blog Images">
-                </div>
 
-                <div class="blog__content">
-                  <div class="blog__meta">
-                    <span class="blog__meta-tag blog__meta-tag--style1">Forex trading</span>
-                  </div>
-                  <h5 class="10"> <a href="blog-details.html">Swing Trading Definition</a> </h5>
-
-                  <p class="mb-15">Our platform is not only about trading—it's also a hub for knowledge and learning.
-                    We provide resources. Our platform is not only about trading—it's also a hub for knowledge and learning.
-                    We provide resources.</p>
-
-                  <div class="blog__writer">
-                    <div class="blog__writer-thumb">
-                      <img src="{{ asset('') }}assets/images/blog/author/1.png" alt="writer">
-                    </div>
-                    <div class="blog__writer-designation">
-                      <h6 class="mb-0">Vasha Gueye</h6>
-                      <span>20/6/2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="blog__item blog__item--style2">
-              <div class="blog__item-inner">
-                <div class="blog__thumb">
-                  <img src="{{ asset('') }}assets/images/blog/2.png" alt="blog Images">
-                </div>
-
-                <div class="blog__content">
-                  <div class="blog__meta">
-                    <span class="blog__meta-tag blog__meta-tag--style1">Trading market</span>
-                  </div>
-                  <h5 class="10"> <a href="blog-details.html">hedge funds work?</a> </h5>
-
-                  <p class="mb-15">To cater to your individual trading preferences, we offer a variety of order types,
-                    including market.</p>
-
-                  <div class="blog__writer">
-                    <div class="blog__writer-thumb">
-                      <img src="{{ asset('') }}assets/images/blog/author/2.png" alt="writer">
-                    </div>
-                    <div class="blog__writer-designation">
-                      <h6 class="mb-0">Abhivibha Kanmani</h6>
-                      <span>30/5/2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="blog__item blog__item--style2">
-              <div class="blog__item-inner">
-                <div class="blog__thumb">
-                  <img src="{{ asset('') }}assets/images/blog/3.png" alt="blog Images">
-                </div>
-
-                <div class="blog__content">
-                  <div class="blog__meta">
-                    <span class="blog__meta-tag blog__meta-tag--style1">Investment</span>
-                  </div>
-                  <h5 class="10"> <a href="blog-details.html">Options Trading business?</a> </h5>
-
-                  <p class="mb-15">Security is our top priority, and we employ robust measures to ensure the safety of
-                    your funds.</p>
-
-                  <div class="blog__writer">
-                    <div class="blog__writer-thumb">
-                      <img src="{{ asset('') }}assets/images/blog/author/3.png" alt="writer">
-                    </div>
-                    <div class="blog__writer-designation">
-                      <h6 class="mb-0">Hulya Aydin</h6>
-                      <span>12/07/2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="text-center">
-      <a href="blogs.html" class="trk-btn trk-btn--border trk-btn--primary mt-15">View more </a>
-    </div>
-  </div>
-  <div class="blog__shape">
-    <span class="blog__shape-item blog__shape-item--1"> <span></span> </span>
-  </div>
-</section>
 <!-- ===============>> Blog section start here <<================= -->
 
 
