@@ -3,6 +3,10 @@
 /* Menu Styling */
 .menu {
     column-gap: 10px;
+    margin: 0;
+  padding: 0;
+  display: flex;
+    /* align-items: center; */
 }
 
 .menu > li > a {
@@ -44,7 +48,7 @@
 /* Dropdown Submenu Styling */
 @media (min-width: 992px) {
     .menu li {
-        position: relative;
+        /* position: relative; */
         font-family: "Anek Telugu", sans-serif;
     }
     .menu li .submenu {
@@ -190,10 +194,12 @@
 /* === Mega Menu Enhancements === */
 
 /* Ensure parent <li> is relative for absolute positioning of mega menu */
-.menu--style1 > li {
-    position: relative;
-}
 
+@media (max-width: 768px) {
+    .menu--style1 > li {
+        position: relative;
+    }
+  }
 /* Mega Menu Wrapper Styling */
 .menu--style1 > li > .mega-menu {
         /* margin-top: 9px; */

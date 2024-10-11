@@ -11011,13 +11011,17 @@ html[data-bs-theme=dark] .partner--gradient::after {
 .icon-box-text a:hover {
   color: #0C263A !important;  
 }
+.menu .setBackground {
+  display: block; 
+  padding: 12px 4px;
+}
 .menu .setBackground:hover::before {
   left: 100%;  /* Move the shine across the button */
   transition: left 0.8s ease;  /* Control the speed of the shine */
 }
 .menu .setBackground::before {
   content: '';
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: -100%; /* Start the shine effect off-screen */
   width: 100%;
@@ -11041,11 +11045,12 @@ html[data-bs-theme=dark] .partner--gradient::after {
 .menu .setBackground:hover {
   /* border: 1px solid var(--brand-color); */
   background: var(--brand-color);
-  padding: 10px 0px 10px 0px;
+  /* padding: 10px 0px 10px 0px; */
   border-radius: 6px;
   transform: translateY(-3px);
   transition: background 1s ease, border-color 0.5s ease, transform 0.3s ease;
 }
+
 .menu .setBackground > a {
   transition: color 0.5s ease; 
 }
