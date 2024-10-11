@@ -10983,24 +10983,6 @@ html[data-bs-theme=dark] .partner--gradient::after {
   transition: background 0.5s ease, border-color 0.5s ease, transform 0.3s ease;
 }
 
-/* Shine effect */
-.header-btn.icon-box-text::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%; /* Start the shine effect off-screen */
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.4); /* White shine with transparency */
-  transform: skewX(-30deg); /* Angle of the shine */
-  transition: opacity 0.5s ease;
-}
-
-/* Trigger shine animation on hover */
-.header-btn.icon-box-text:hover::before {
-  left: 100%;  /* Move the shine across the button */
-  transition: left 0.8s ease;  /* Control the speed of the shine */
-}
 
 /* Text color transition inside the button */
 .icon-box-text a {
@@ -11019,29 +11001,7 @@ html[data-bs-theme=dark] .partner--gradient::after {
   left: 100%;  /* Move the shine across the button */
   transition: left 0.8s ease;  /* Control the speed of the shine */
 }
-.menu .setBackground::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%; /* Start the shine effect off-screen */
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.4); /* White shine with transparency */
-  transform: skewX(-30deg); /* Angle of the shine */
-  transition: opacity 0.5s ease;
-}
-.menu .setBackground::after {
-  background: var(--bg-white);
-  content: "";
-  height: 155px;
-  left: -75px;
-  opacity: 0.2;
-  top: -50px;
-  transform: rotate(35deg);
-  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
-  width: 50px;
-  z-index: -10;
-}
+
 .menu .setBackground:hover {
   /* border: 1px solid var(--brand-color); */
   background: var(--brand-color);
