@@ -9,6 +9,13 @@
         </div>
         <div class="menu-area">
           <ul class="menu menu--style1 custome-menu--style1">
+             <!-- Mobile Login and Register Buttons -->
+             <li class="mobile-actions d-lg-none">
+              <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn-custom trk-btn--login">Login</a>
+            </li>
+            <li class="mobile-actions d-lg-none">
+              <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn-custom trk-btn--register">Register</a>
+            </li>
             <li class="setBackground">
               <a href="{{ url('/') }}">Home</a>
             </li>
@@ -113,13 +120,7 @@
             <li class="setBackground">
               <a href="{{ url('/faq') }}">FAQ</a>
             </li>
-            <!-- Mobile Login and Register Buttons -->
-            <li class="mobile-actions d-lg-none">
-              <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn-custom trk-btn--login">Login</a>
-            </li>
-            <li class="mobile-actions d-lg-none">
-              <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn-custom trk-btn--register">Register</a>
-            </li>
+           
           </ul>
 
         </div>

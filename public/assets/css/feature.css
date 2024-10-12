@@ -66,22 +66,31 @@
     }
   }
 
+
+
+
   /* Mobile Menu Styling */
 @media (max-width: 991px) {
+    /* Container for the login/register buttons */
     .mobile-actions {
-      display: block;
-      /* margin-top: 10px; */
-    }
-    
-    .mobile-actions .trk-btn {
-      display: block;
+      display: contents;
+      justify-content: space-between;
       width: 100%;
-      margin: 5px 0;
-      text-align: center;
+      margin-top: 10px;
     }
-    
+  
+    /* Both buttons should be side by side with equal width */
+    .mobile-actions .trk-btn {
+        padding: 12px 59px 13px 47px;
+      margin: 10px 1%;  /* Small margin between buttons */
+      font-size: 14px;  /* Optional, adjust font size */
+      box-sizing: border-box;  /* Ensures padding is included in width */
+      color: var(--text-color);
+    }
+  
+    /* Hide desktop view buttons on mobile */
     .d-none.d-lg-block {
-      display: none;  /* Hide on mobile */
+      display: none;
     }
   }
   
