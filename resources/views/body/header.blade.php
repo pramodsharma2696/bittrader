@@ -1,33 +1,33 @@
 <header class="header-section header-section--style2">
-    <div class="header-bottom">
-      <div class="container">
-        <div class="header-wrapper">
-          <div class="logo">
-            <a href="{{ url('/') }}">
-              <img class="dark" src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="logo" style="width: 180px;height: 51px;">
-            </a>
-          </div>
-          <div class="menu-area">
-            <ul class="menu menu--style1 custome-menu--style1">
+  <div class="header-bottom">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <a href="{{ url('/') }}">
+            <img class="dark" src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="logo" style="width: 180px;height: 51px;">
+          </a>
+        </div>
+        <div class="menu-area">
+          <ul class="menu menu--style1 custome-menu--style1">
             <li class="setBackground">
-                <a  href="{{ url('/') }}">Home</a>
-              </li>
-             
-              <li class="menu-item-has-children setBackground">
-                <a href="#">Markets</a>
-                <div class="mega-menu"> <!-- Mega Menu Wrapper -->
+              <a href="{{ url('/') }}">Home</a>
+            </li>
+
+            <li class="menu-item-has-children setBackground">
+              <a href="#">Markets</a>
+              <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                      <a class="child-title" href="{{ url('/trade-markets') }}">Trade Markets</a>
-                      <ul>
+                    <a class="child-title" href="{{ url('/trade-markets') }}">Trade Markets</a>
+                    <ul>
                       <li><a href="{{ url('/Forex') }}">Forex</a></li>
                       <li><a href="{{ url('/Indices') }}">Indices</a></li>
                       <li><a href="{{ url('/Stocks') }}">Stocks</a></li>
                       <li><a href="{{ url('/Cryptocurrency') }}">Cryptocurrency</a></li>
                       <li><a href="{{ url('/Commodities') }}">Commodities</a></li>
                       <li><a href="{{ url('/Gold-and-Silver') }}">Gold and Silver</a></li>
-                     </ul>
-                 </li>
+                    </ul>
+                  </li>
                   <li>
                     <a class="child-title" href="{{ url('/Popular-FX-Markets') }}">Popular FX Markets</a>
                     <ul>
@@ -36,7 +36,7 @@
                       <li><a href="{{ url('/USD-JPY') }}">USD/JPY</a></li>
                       <li><a href="{{ url('/USD-CHF') }}">USD/CHF</a></li>
                       <li><a href="{{ url('/Gold') }}">Gold (XAU/USD)</a></li>
-                     </ul>
+                    </ul>
                   </li>
                   <!-- <li>
                     <a class="child-title" href="{{ url('/Popular-Indices') }}">Popular Indices</a>
@@ -64,83 +64,97 @@
                      </ul>
                   </li> -->
                 </ul>
-                </div>
-              </li>
-              <li class="menu-item-has-children setBackground">
-                <a href="#">Accounts</a>
-                <div class="mega-menu"> <!-- Mega Menu Wrapper -->
+              </div>
+            </li>
+            <li class="menu-item-has-children setBackground">
+              <a href="#">Accounts</a>
+              <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                      <a class="child-title" href="{{ url('/account-Types') }}">Account Types</a>
-                      <ul>
+                    <a class="child-title" href="{{ url('/account-Types') }}">Account Types</a>
+                    <ul>
                       <li><a href="{{ url('/standard-account') }}">Standard Account</a></li>
                       <li><a href="{{ url('/raw-spread-account') }}">RAW Spread Account</a></li>
                       <li><a href="{{ url('/STP-Pro-Account') }}">STP Pro Account</a></li>
                       <!-- <li><a href="{{ url('/compare-account') }}">Compare Accounts</a></li> -->
                     </ul>
-                 </li>
+                  </li>
                   <li>
                     <a class="child-title" href="{{ url('/financial-Transparency') }}">Transparent accounting</a>
                     <ul>
                       <li><a href="{{ url('/execution') }}">Execution</a></li>
                       <li><a href="{{ url('/margin-requirements') }}">Margin Requirements</a></li>
                       <li><a href="{{ url('/rollover-rates') }}">Rollover Rates</a></li>
-                     </ul>
+                    </ul>
                   </li>
                 </ul>
-                </div>
-              </li>
-              <li class="menu-item-has-children setBackground">
-                <a href="#">System and Features</a>
-                <div class="mega-menu"> <!-- Mega Menu Wrapper -->
+              </div>
+            </li>
+            <li class="menu-item-has-children setBackground">
+              <a href="#">System and Features</a>
+              <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
                   <li>
-                      <a class="child-title" href="{{ url('/trading-tools') }}">Trading Tools</a>
-                      <ul>
+                    <a class="child-title" href="{{ url('/trading-tools') }}">Trading Tools</a>
+                    <ul>
                       <li><a href="{{ url('/currency-converter') }}">Currency Converter</a></li>
                       <li><a href="{{ url('/margin-and-pip-calculator') }}">Margin and Pip Calculator</a></li>
                       <!-- <li><a href="{{ url('/pivot-points') }}">Pivot Points</a></li> -->
-                     </ul>
-                 </li>
+                    </ul>
+                  </li>
                 </ul>
-                </div>
-              </li>
-             
-            
-              <li class="setBackground">
-                <a href="{{ url('/contact') }}">Contact Us</a>
-              </li>
-              <li class="setBackground">
-                <a href="{{ url('/faq') }}">FAQ</a>
-              </li>
-            </ul>
+              </div>
+            </li>
 
+
+            <li class="setBackground">
+              <a href="{{ url('/contact') }}">Contact Us</a>
+            </li>
+            <li class="setBackground">
+              <a href="{{ url('/faq') }}">FAQ</a>
+            </li>
+            <!-- Mobile Login and Register Buttons -->
+            <li class="mobile-actions d-lg-none">
+              <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn-custom trk-btn--login">Login</a>
+            </li>
+            <li class="mobile-actions d-lg-none">
+              <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn-custom trk-btn--register">Register</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- <div class="header-action">
+          <div class="menu-area">
+
+            <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn-custom trk-btn--login">Login</a>
+            <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn-custom trk-btn--register">Register</a>
+
+            
+            <div class="header-bar d-lg-none header-bar--style1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
-          <div class="header-action">
-            <div class="menu-area">
-          
-              <!-- <div class="header-btn icon-box-text">
-                <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn--border">
-                  <span><i class="fa-solid fa-user-lock" style="font-size:14px;"></i> Client Portal </span>
-                </a>
-              </div> -->
-              <!-- <div class="header-btn">
-                <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn rk-btn-sm trk-btn--border trk-btn--primary btn--outline">
-                  <span>Open an a/c <i class="fa-solid fa-arrow-right" style="font-size:14px;"></i> </span>
-                </a>
-              </div> -->
+        </div> -->
+        <div class="header-action">
+          <div class="menu-area">
+           
+            <!-- Desktop View Actions -->
+            <div class="d-none d-lg-block">
               <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn-custom trk-btn--login">Login</a>
               <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn-custom trk-btn--register">Register</a>
+            </div>
 
-              <!-- toggle icons -->
-              <div class="header-bar d-lg-none header-bar--style1">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+            <!-- Mobile Menu Toggle Icon -->
+            <div class="header-bar d-lg-none header-bar--style1">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>

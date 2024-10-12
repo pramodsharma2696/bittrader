@@ -65,3 +65,23 @@
       display: none;
     }
   }
+
+  /* Mobile Menu Styling */
+@media (max-width: 991px) {
+    .mobile-actions {
+      display: block;
+      /* margin-top: 10px; */
+    }
+    
+    .mobile-actions .trk-btn {
+      display: block;
+      width: 100%;
+      margin: 5px 0;
+      text-align: center;
+    }
+    
+    .d-none.d-lg-block {
+      display: none;  /* Hide on mobile */
+    }
+  }
+  
