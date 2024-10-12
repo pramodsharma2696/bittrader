@@ -297,7 +297,6 @@ const testimonial = new Swiper('.testimonial__slider', {
 });
 
 
-// testimonial slider 2
 const testimonial2 = new Swiper('.testimonial__slider2', {
     spaceBetween: 24,
     grabCursor: true,
@@ -321,12 +320,8 @@ const testimonial2 = new Swiper('.testimonial__slider2', {
 
     autoplay: true,
     speed: 500,
-
-    navigation: {
-        nextEl: ".testimonial__slider-next",
-        prevEl: ".testimonial__slider-prev",
-    },
 });
+
 
 
 

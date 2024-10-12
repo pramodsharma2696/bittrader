@@ -41,6 +41,7 @@
 
 <body>
 
+
   <!-- ===============>> Preloader start here <<================= -->
   <div class="preloader">
     <img src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="preloader icon">

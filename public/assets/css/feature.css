@@ -10,29 +10,31 @@
 
 /* ------------------------------ */
 
-
 /* Base styles for the feature item */
 .feature-custom {
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-    position: relative;
+    width: 441px;
+    height: 451px;
+    background-color: #f9f9f9;
     overflow: hidden;
-    color: var(--text-color);
+    position: relative;
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto; /* Center the items horizontally */
+    transition: transform 0.3s ease-in-out;
 }
 
+/* Clip-path for the hexagon shape */
 .step-hexagon-custom {
-    clip-path: polygon(
-        25% 6.7%,  /* Top left corner */
-        75% 6.7%,  /* Top right corner */
-        100% 50%,  /* Right middle */
-        75% 93.3%, /* Bottom right corner */
-        25% 93.3%, /* Bottom left corner */
-        0% 50%     /* Left middle */
-    );
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     background-color: #f9f9f9;
-    padding: 70px !important;
+    padding: 72px !important;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-custom:hover {
@@ -42,22 +44,102 @@
 /* Style the feature content */
 .feature-item-content-custom {
     margin-top: 20px;
+    text-align: center;
+    padding: 10px; /* Padding inside the content area */
+    position: relative;
+    z-index: 1;
 }
 
+/* Style for images */
 .feature-item-thumb-custom img {
     max-width: 130px;
     height: 100px;
-}
-
-/* Adjust content inside the triangle */
-.feature-item-content-custom {
-    padding-top: 20px;
 }
 
 /* Feature shape icon */
 .feature__shape-item {
     position: absolute;
 }
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+    .feature__item {
+        width: 100%; /* Make feature items take full width on medium screens */
+    }
+}
+
+@media (max-width: 991px) {
+    .feature-custom {
+        width: 300px; /* Reduce size for tablets */
+        height: 320px;
+    }
+
+    .step-hexagon-custom {
+        padding: 50px !important;
+    }
+
+    .feature-item-thumb-custom img {
+        max-width: 100px; /* Reduce the size of images */
+        height: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .feature-custom {
+        width: 100%; /* Full width on mobile */
+        height: 300px; /* Reduce height */
+    }
+
+    .step-hexagon-custom {
+        padding: 30px !important; /* Smaller padding for mobile */
+    }
+
+    .feature-item-thumb-custom img {
+        max-width: 90px; /* Even smaller images on mobile */
+        height: 70px;
+    }
+
+    .feature__item {
+        margin-bottom: 20px; /* Add some space between items */
+    }
+}
+
+@media (max-width: 575px) {
+    .feature__wrapper {
+        display: flex;
+        flex-direction: column; /* Stack items vertically on extra small screens */
+        align-items: center;
+    }
+
+    .feature__item {
+        margin: 10px 0; /* Add vertical spacing between stacked items */
+    }
+
+    .feature-custom {
+        width: 320px;
+        height: 340px;
+    }
+
+    .step-hexagon-custom {
+        padding: 25px !important; /* Smaller padding for very small screens */
+    }
+    .feature-item-content-custom {
+        margin-top: -38px;
+        text-align: center;
+        padding: 27px;
+        position: relative;
+        z-index: 1;
+    }
+    .menu .setBackground:hover {
+        
+        background: none !important;
+    }
+    .mega-menu .submenu{
+        border: 1px solid var(--border-color-9);
+        border-radius: 5px !important;
+    }
+}
+
 
 
 @media (max-width: 767px) {
@@ -81,7 +163,7 @@
   
     /* Both buttons should be side by side with equal width */
     .mobile-actions .trk-btn {
-        padding: 12px 59px 13px 47px;
+      padding:12px 65px 12px 65px;
       margin: 10px 1%;  /* Small margin between buttons */
       font-size: 14px;  /* Optional, adjust font size */
       box-sizing: border-box;  /* Ensures padding is included in width */

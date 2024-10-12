@@ -477,7 +477,7 @@ ol {
 }
 
 .blog__content h5, .feature--style2 .feature__item-content h5 {
-  display: -webkit-box;
+  /* display: -webkit-box; */
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
