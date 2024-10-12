@@ -163,6 +163,7 @@
   
     /* Both buttons should be side by side with equal width */
     .mobile-actions .trk-btn {
+        width: 46%;
       padding:12px 65px 12px 65px;
       margin: 10px 1%;  /* Small margin between buttons */
       font-size: 14px;  /* Optional, adjust font size */
