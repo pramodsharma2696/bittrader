@@ -644,22 +644,22 @@
         <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-bottom: -29px;">
             
             <li class="nav-item">
-                <a class="nav-link active" id="pills-forex-tab" data-bs-toggle="pill" href="#pills-forex" role="tab" aria-controls="pills-forex" aria-selected="false">Forex</a>
+                <a class="nav-link c-link active" id="pills-forex-tab" data-bs-toggle="pill" href="#pills-forex" role="tab" aria-controls="pills-forex" aria-selected="false">Forex</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="pills-metals-tab" data-bs-toggle="pill" href="#pills-metals" role="tab" aria-controls="pills-metals" aria-selected="false">Metals</a>
+                <a class="nav-link c-link" id="pills-metals-tab" data-bs-toggle="pill" href="#pills-metals" role="tab" aria-controls="pills-metals" aria-selected="false">Metals</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="pills-indices-tab" data-bs-toggle="pill" href="#pills-indices" role="tab" aria-controls="pills-indices" aria-selected="false">Indices</a>
+                <a class="nav-link c-link" id="pills-indices-tab" data-bs-toggle="pill" href="#pills-indices" role="tab" aria-controls="pills-indices" aria-selected="false">Indices</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="pills-commodities-tab" data-bs-toggle="pill" href="#pills-commodities" role="tab" aria-controls="pills-commodities" aria-selected="false">Commodities</a>
+                <a class="nav-link c-link" id="pills-commodities-tab" data-bs-toggle="pill" href="#pills-commodities" role="tab" aria-controls="pills-commodities" aria-selected="false">Commodities</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="pills-stocks-tab" data-bs-toggle="pill" href="#pills-stocks" role="tab" aria-controls="pills-stocks" aria-selected="false">Stocks</a>
+                <a class="nav-link c-link" id="pills-stocks-tab" data-bs-toggle="pill" href="#pills-stocks" role="tab" aria-controls="pills-stocks" aria-selected="false">Stocks</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="pills-cryptos-tab" data-bs-toggle="pill" href="#pills-cryptos" role="tab" aria-controls="pills-cryptos" aria-selected="false">Cryptos</a>
+                <a class="nav-link c-link" id="pills-cryptos-tab" data-bs-toggle="pill" href="#pills-cryptos" role="tab" aria-controls="pills-cryptos" aria-selected="false">Cryptos</a>
             </li>
         </ul>
 

@@ -28,7 +28,7 @@
 }
 
 /* === Bootstrap Tabs Customization === */
-.nav-pills .nav-link {
+.nav-pills .c-link {
     padding: 10px 20px;
     background-color: #fff;
     border: 1px solid #ccc;
