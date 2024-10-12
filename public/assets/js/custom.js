@@ -311,10 +311,10 @@ const testimonial2 = new Swiper('.testimonial__slider2', {
             slidesPerView: 2,
         },
         992: {
-            slidesPerView: 3,
+            slidesPerView: 2,
         },
         1200: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 25,
         },
     },

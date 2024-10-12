@@ -1,0 +1,67 @@
+
+
+:root {
+    --brand-color: #00D094;
+    --text-color:#6B777F;
+}
+
+
+
+
+/* ------------------------------ */
+
+
+/* Base styles for the feature item */
+.feature-custom {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+.step-hexagon-custom {
+    clip-path: polygon(
+        25% 6.7%,  /* Top left corner */
+        75% 6.7%,  /* Top right corner */
+        100% 50%,  /* Right middle */
+        75% 93.3%, /* Bottom right corner */
+        25% 93.3%, /* Bottom left corner */
+        0% 50%     /* Left middle */
+    );
+    background-color: #f9f9f9;
+    padding: 70px !important;
+}
+
+.feature-custom:hover {
+    transform: translateY(-10px);
+}
+
+/* Style the feature content */
+.feature-item-content-custom {
+    margin-top: 20px;
+}
+
+.feature-item-thumb-custom img {
+    max-width: 130px;
+    height: 100px;
+}
+
+/* Adjust content inside the triangle */
+.feature-item-content-custom {
+    padding-top: 20px;
+}
+
+/* Feature shape icon */
+.feature__shape-item {
+    position: absolute;
+}
+
+
+@media (max-width: 767px) {
+    .faq-image {
+      display: none;
+    }
+  }

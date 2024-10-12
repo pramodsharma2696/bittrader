@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="{{ asset('') }}assets/css/megamenu.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/mobile.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/tradeview.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/feature.css">
 </head>
 
 <body>

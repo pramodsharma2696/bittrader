@@ -38,7 +38,7 @@
                       <li><a href="{{ url('/Gold') }}">Gold (XAU/USD)</a></li>
                      </ul>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a class="child-title" href="{{ url('/Popular-Indices') }}">Popular Indices</a>
                     <ul>
                       <li><a href="{{ url('/Wall-Street') }}">Wall Street</a></li>
@@ -62,7 +62,7 @@
                       <li><a href="{{ url('/US-Crude-Oil') }}">US Crude Oil</a></li>
                       <li><a href="{{ url('/UK-Crude-Oil') }}">UK Crude Oil</a></li>
                      </ul>
-                  </li>
+                  </li> -->
                 </ul>
                 </div>
               </li>
@@ -119,16 +119,18 @@
           <div class="header-action">
             <div class="menu-area">
           
-              <div class="header-btn icon-box-text">
+              <!-- <div class="header-btn icon-box-text">
                 <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn--border">
                   <span><i class="fa-solid fa-user-lock" style="font-size:14px;"></i> Client Portal </span>
                 </a>
-              </div>
-              <div class="header-btn">
+              </div> -->
+              <!-- <div class="header-btn">
                 <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn rk-btn-sm trk-btn--border trk-btn--primary btn--outline">
                   <span>Open an a/c <i class="fa-solid fa-arrow-right" style="font-size:14px;"></i> </span>
                 </a>
-              </div>
+              </div> -->
+              <a href="https://portal.qorvamarkets.com/en/login" class="trk-btn trk-btn-custom trk-btn--login">Login</a>
+              <a href="https://portal.qorvamarkets.com/en/register" class="trk-btn trk-btn-custom trk-btn--register">Register</a>
 
               <!-- toggle icons -->
               <div class="header-bar d-lg-none header-bar--style1">

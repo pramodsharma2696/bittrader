@@ -31,7 +31,7 @@
 
               <a href="https://portal.qorvamarkets.com/en/register"
                 class="trk-btn trk-btn--outline22" data-fslightbox>
-                Open An Account <span><i class="fa-solid fa-arrow-right"></i></span>
+                Get Started <span><i class="fa-solid fa-arrow-right"></i></span>
               </a>
             </div>
             <div class="banner__content-social">
@@ -294,68 +294,8 @@
 
 
 <!-- ===============>> Service section start here <<================= -->
-<section class="service padding-top padding-bottom d-none">
-  <div class="section-header section-header--max50">
-    <p>Forex Trading</p>
-    <h2 class="mb-10 mt-minus-5">The Ultimate Gateway to <span>Trading</span> Success</h2>
 
-  </div>
-  <div class="container">
-    <div class="service__wrapper">
-      <div class="row g-4 align-items-center">
-        <div class="col-sm-6 col-md-6 col-lg-4">
-          <div class="service__item service__item--style1" data-aos="fade-up" data-aos-duration="800">
-            <div class="service__item-inner text-center">
-              <div class="service__item-thumb mb-30">
-                <img class="dark" src="{{ asset('') }}assets/images/others/icon-8.png" alt="service-icon">
-              </div>
-              <div class="service__item-content">
-                <h5>
-                  <a class="stretched-link" href="{{ url('/forex-trading') }}">What is forex trading?</a>
-                </h5>
-                <p class="mb-5">Forex trading, also known as foreign exchange trading or FX trading, is the process of ...</p>
-              </div>
-              <h6>* Open Live Account</h6>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="service__item service__item--style1" data-aos="fade-up" data-aos-duration="1000">
-            <div class="service__item-inner text-center">
-              <div class="service__item-thumb mb-30">
-                <img class="dark" src="{{ asset('') }}assets/images/others/icon-10.png" alt="service-icon">
-              </div>
-              <div class="service__item-content">
-                <h5> <a class="stretched-link" href="{{ url('/qorva-markets') }}">Why trade in Qorva Markets?</a> </h5>
-                <p class="mb-5">Choosing Qorva Markets as your preferred trading platform offers several advantages that cater to the ...
-                </p>
-              </div>
-              <h6>* Open Live Account</h6>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="service__item service__item--style1" data-aos="fade-up" data-aos-duration="800">
-            <div class="service__item-inner text-center">
-              <div class="service__item-thumb mb-30">
-                <img class="dark" src="{{ asset('') }}assets/images/others/icon-12.png" alt="service-icon">
-              </div>
-              <div class="service__item-content">
-                <h5> <a class="stretched-link" href="{{ url('/trade-forex') }}">How to trade Forex </a>
-                </h5>
-                <p class="mb-5">Trading forex involves a combination of knowledge, strategy, and discipline. Here’s a step-by-step guide on ...</p>
-              </div>
-              <h6>* Open Live Account</h6>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-</section>
-<section class="feature feature--style2 padding-bottom padding-top feature-bg-color bg--cover"
+<!-- <section class="feature feature--style2 padding-bottom padding-top feature-bg-color bg--cover"
     style="background-image:url(assets/images/feature/home3/bg.png)">
     <div class="section-header section-header--style3 section-header--max57">
       <h2 class="mb-10 mt-minus-5">The Ultimate Gateway to <span>Trading</span> Success</h2>
@@ -413,7 +353,66 @@
       <span class="feature__shape-item feature__shape-item--1"><img src="assets/images/feature/home3/5.png"
           alt="shape-icon"></span>
     </div>
-  </section>
+  </section> -->
+  <section class="feature feature--style2 padding-bottom padding-top feature-bg-color bg--cover"
+    style="background-image:url(assets/images/feature/home3/bg.png)">
+    <div class="section-header section-header--style3 section-header--max57">
+      <h2 class="mb-10 mt-minus-5">3 Simple Steps to Start <span>Trading</span></h2>
+    </div>
+    <div class="container">
+      <div class="feature__wrapper">
+        <div class="row g-4 align-items-center">
+          <!-- Step 1: Sign Up -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+              <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
+                <div class="feature__item-thumb feature-item-thumb-custom">
+                  <img class="dark" src="assets/images/feature/home3/3.png" alt="sign-up-icon">
+                </div>
+                <div class="feature__item-content feature-item-content-custom">
+                  <h5>Sign Up & Create Account</h5>
+                  <p>Join us by creating an account in just a few minutes and access the trading platform.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Step 2: Fund Account -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+              <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
+                <div class="feature__item-thumb feature-item-thumb-custom">
+                  <img class="dark" src="assets/images/about/icon/1.png" alt="fund-icon">
+                </div>
+                <div class="feature__item-content feature-item-content-custom">
+                  <h5>Fund Your Account</h5>
+                  <p>Deposit funds quickly and securely to start your trading journey.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Step 3: Enjoy Trading & Withdrawals -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+              <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
+                <div class="feature__item-thumb feature-item-thumb-custom">
+                  <img class="dark" src="assets/images/feature/home3/2.png" alt="enjoy-icon">
+                </div>
+                <div class="feature__item-content feature-item-content-custom">
+                  <h5>Enjoy Instant Withdrawals</h5>
+                  <p>Start trading and withdraw your earnings instantly without any hassle.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature__shape">
+      <span class="feature__shape-item feature__shape-item--1"><img src="assets/images/feature/home3/5.png" alt="shape-icon"></span>
+    </div>
+</section>
+
+
 <!-- ===============>> Service section start here <<================= -->
 
 
@@ -913,9 +912,79 @@
 
 
 
-<!-- ===============>> Blog section start here <<================= -->
-
-<!-- ===============>> Blog section start here <<================= -->
+<!-- ===============>> why to choose us start here <<================= -->
+<section class="testimonial padding-top padding-bottom-style2 bg-color">
+    <div class="container">
+      <div class="section-header d-md-flex align-items-center justify-content-between">
+        <div class="section-header__content">
+        <p class="mb-2">Why Choose Us</p>
+          <h2 class="mb-10">Reason to <span>Choose Us </span></h2>
+        
+        </div>
+        <div class="section-header__action">
+          <div class="swiper-nav">
+            <button class="swiper-nav__btn testimonial__slider-prev" tabindex="0" aria-label="Previous slide" aria-controls="swiper-wrapper-eeff510a7b3c52589"><svg class="svg-inline--fa fa-angle-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"></path></svg><!-- <i class="fa-solid fa-angle-left"></i> Font Awesome fontawesome.com --></button>
+            <button class="swiper-nav__btn testimonial__slider-next active" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-eeff510a7b3c52589"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M246.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L178.7 256 41.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg><!-- <i class="fa-solid fa-angle-right"></i> Font Awesome fontawesome.com --></button>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial__wrapper aos-init" data-aos="fade-up" data-aos-duration="1000">
+        <div class="testimonial__slider2 swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+          <div class="swiper-wrapper" style="cursor: grab; transform: translate3d(-2342px, 0px, 0px); transition-duration: 0ms;" id="swiper-wrapper-eeff510a7b3c52589" aria-live="off">
+            <div class="swiper-slide" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style="width: 560.5px; margin-right: 25px;">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <h5>Friendly & Expert</h5>
+                    <p class="mb-0">
+                      Enjoy a friendly and expert team dedicated to your trading success, providing personalized support and expert guidance every step of the way.
+                    </p>                    
+                  </div>
+                </div>
+              </div>
+            </div><div class="swiper-slide" data-swiper-slide-index="1" role="group" aria-label="1 / 3" style="width: 560.5px; margin-right: 25px;">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                  <h5>24/7 Support</h5>
+                    <p class="mb-0">
+                      Experience round-the-clock support at Qorva Markets, ensuring assistance and guidance whenever you need it to enhance your trading journey
+                    </p>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="2 / 3" style="width: 560.5px; margin-right: 25px;">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                  <h5>Copy Trading</h5>
+                    <p class="mb-0">
+                    With our copy trading feature, effortlessly replicate the trades of seasoned investors, leveraging their expertise to optimize your own portfolio.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="3 / 3" style="width: 560.5px; margin-right: 25px;">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <h5>IB Rewards</h5>
+                    <p class="mb-0">
+                    With our IB Rewards program, benefit from lucrative incentives and bonuses as an Introducing Broker, unlocking exclusive perks and rewards for your successful referrals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+      </div>
+    </div>
+  </section>
+<!-- ===============>> why to choose us start here <<================= -->
 
 
 
@@ -1087,7 +1156,7 @@
         </div>
         <div class="col-lg-6">
           <div class="faq__thumb faq__thumb--style1" data-aos="fade-left" data-aos-duration="1000">
-            <img class="dark" src="{{ asset('') }}assets/images/others/1.png" alt="faq-thumb">
+            <img class="dark faq-image" src="{{ asset('') }}assets/images/others/1.png" alt="faq-thumb">
           </div>
         </div>
       </div>

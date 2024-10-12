@@ -73,7 +73,7 @@
     .menu li .submenu li a {
         font-size: 1rem;
         padding: 6px 16px;
-        text-transform: capitalize;
+        text-transform: uppercase;
         /* font-family: "Open Sans", sans-serif; */
         display: flex;
         align-items: center;
@@ -212,6 +212,7 @@
     display: none; /* Hidden by default */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 999;
+    border-radius: 19px;
     /* margin-left: -19rem;
     margin-top: 0.1rem; */
 }
@@ -390,3 +391,43 @@
         font-size: 1.8rem;
     }
 }
+
+/* a.trk-btn.trk-btn--outline22 {
+    padding: 10px;
+    margin: 2px;
+} */
+
+
+
+
+.trk-btn-custom {
+    margin: 3px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50px; /* Creates oval shape */
+    border: 2px solid transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.trk-btn--login {
+    background-color: white;
+    color: black;
+    border-color: black; /* Black outline for contrast */
+}
+
+.trk-btn--login:hover {
+    background-color: black;
+    color: white;
+}
+
+.trk-btn--register {
+    background-color: #00d094;
+    color: white;
+}
+
+.trk-btn--register:hover {
+    background-color: #01a374;
+}
+

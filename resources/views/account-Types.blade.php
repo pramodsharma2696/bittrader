@@ -13,7 +13,7 @@
     <div class="container">
       <div class="page-header__content" data-aos="fade-right" data-aos-duration="1000">
         <h2>Account</h2>
-        <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+        <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb" class="d-none">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item "><a href="{{ url('/') }}">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Account Type</li>
@@ -36,7 +36,7 @@
   <section class="service padding-top padding-bottom">
     <div class="section-header section-header--max50">
       <h2 class="mb-10 mt-minus-5"><span>Account</span> Type</h2>
-      <p>One acclaimed provider. Four dynamic account types.</p>
+      <p>One trusted provider. Four flexible account options.</p>
     </div>
     <div class="container">
       <div class="service__wrapper">

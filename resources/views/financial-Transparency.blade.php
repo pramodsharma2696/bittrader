@@ -8,7 +8,7 @@
         <div class="container">
             <div class="page-header__content" data-aos="fade-right" data-aos-duration="1000">
                 <h2>Account</h2>
-                <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+                <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb" class="d-none">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item "><a href="{{ url('/') }}">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Transparent accounting</li>

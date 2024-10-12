@@ -38,38 +38,20 @@
               </div>
             </div>
           </div>
+         
           <div class="col-md-2 col-sm-4 col-6">
             <div class="footer__links">
               <div class="footer__links-tittle">
-                <h6>Quick links</h6>
+                <h6>Account Types</h6>
               </div>
               <div class="footer__links-content">
-                <ul class="footer__linklist">
-                  <li class="footer__linklist-item"> <a href="about.html">About Us</a>
-                  </li>
-                  <li class="footer__linklist-item"> <a href="team.html">Teams</a>
-                  </li>
-                  <li class="footer__linklist-item"> <a href="service.html">Services</a> </li>
-                  <li class="footer__linklist-item"> <a href="#">Features</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-2 col-sm-4 col-6">
-            <div class="footer__links">
-              <div class="footer__links-tittle">
-                <h6>Support</h6>
-              </div>
-              <div class="footer__links-content">
-                <ul class="footer__linklist">
-                  <li class="footer__linklist-item"> <a href="#">Terms & Conditions</a>
-                  </li>
-                  <li class="footer__linklist-item"> <a href="#">Privacy Policy</a>
-                  </li>
-                  <li class="footer__linklist-item"> <a href="#">FAQs</a></li>
-                  <li class="footer__linklist-item"> <a href="#">Support Center</a> </li>
+              <ul class="footer__linklist">
+                <li class="footer__linklist-item"><a href="{{ url('/standard-account') }}">Standard Account</a></li>
+                <li class="footer__linklist-item"><a href="{{ url('/raw-spread-account') }}">RAW Spread Account</a></li>
+                <li class="footer__linklist-item"><a href="{{ url('/STP-Pro-Account') }}">STP Pro Account</a></li>
+                <li class="footer__linklist-item"><a href="{{ url('/execution') }}">Execution</a></li>
+                <li class="footer__linklist-item"><a href="{{ url('/margin-requirements') }}">Margin Requirements</a></li>
+                <li class="footer__linklist-item"><a href="{{ url('/rollover-rates') }}">Rollover Rates</a></li>
                 </ul>
               </div>
             </div>
@@ -78,17 +60,31 @@
           <div class="col-md-2 col-sm-4">
             <div class="footer__links">
               <div class="footer__links-tittle">
-                <h6>Company</h6>
+                <h6>Markets</h6>
               </div>
               <div class="footer__links-content">
                 <ul class="footer__linklist">
-                  <li class="footer__linklist-item"> <a href="#">Careers</a>
+                      <li class="footer__linklist-item"><a href="{{ url('/Forex') }}">Forex</a></li>
+                      <li class="footer__linklist-item"><a href="{{ url('/Indices') }}">Indices</a></li>
+                      <li class="footer__linklist-item"><a href="{{ url('/Stocks') }}">Stocks</a></li>
+                      <li class="footer__linklist-item"><a href="{{ url('/Cryptocurrency') }}">Cryptocurrency</a></li>
+                      <li class="footer__linklist-item"><a href="{{ url('/Commodities') }}">Commodities</a></li>
+                      <li class="footer__linklist-item"><a href="{{ url('/Gold-and-Silver') }}">Gold and Silver</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+           <div class="col-md-2 col-sm-4 col-6">
+            <div class="footer__links">
+              <div class="footer__links-tittle">
+                <h6>Quick links</h6>
+              </div>
+              <div class="footer__links-content">
+                <ul class="footer__linklist">
+                  <li class="footer__linklist-item"> <a href="{{ url('/contact') }}">Contact us</a>
                   </li>
-                  <li class="footer__linklist-item"> <a href="#">Updates</a>
-                  </li>
-                  <li class="footer__linklist-item"> <a href="#">Job</a> </li>
-                  <li class="footer__linklist-item"> <a href="#">Announce</a>
-                  </li>
+                  <li class="footer__linklist-item"> <a href="{{ url('/faq') }}">FAQ</a> </li>
                 </ul>
               </div>
             </div>
