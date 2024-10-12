@@ -150,8 +150,15 @@ var menuLinks = document.querySelectorAll(".menu li a");
 
 menuLinks.forEach(function (link) {
     link.addEventListener("click", function (e) {
-        e.stopPropagation(); // prevent the event from bubbling up to parent elements
+        e.stopPropagation(); 
         var element = link.parentElement;
+            // Close all other open menus
+            document.querySelectorAll(".menu-item-has-children.open").forEach(function (openedElement) {
+                if (openedElement !== element) {
+                    openedElement.classList.remove("open");
+                    openedElement.querySelector("ul").style.display = "none"; // Hide other open submenus
+                }
+            });
         if (parseInt(window.innerWidth, 10) < 1200) {
             if (element.classList.contains("open")) {
                 element.classList.remove("open");
@@ -163,8 +170,6 @@ menuLinks.forEach(function (link) {
         }
     });
 });
-
-
 
 
 // Toggle header bar on click
