@@ -12,8 +12,8 @@
 
 /* Base styles for the feature item */
 .feature-custom {
-    width: 441px;
-    height: 451px;
+    width: 360px;
+    height: 360px;
     background-color: #f9f9f9;
     overflow: hidden;
     position: relative;
@@ -27,7 +27,7 @@
 
 /* Clip-path for the hexagon shape */
 .step-hexagon-custom {
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: circle(50%);
     background-color: #f9f9f9;
     padding: 72px !important;
     border-radius: 20px;
@@ -43,7 +43,7 @@
 
 /* Style the feature content */
 .feature-item-content-custom {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
     padding: 10px; /* Padding inside the content area */
     position: relative;
@@ -117,16 +117,16 @@
 
     .feature-custom {
         width: 320px;
-        height: 340px;
+        height: 320px;
     }
 
     .step-hexagon-custom {
         padding: 25px !important; /* Smaller padding for very small screens */
     }
     .feature-item-content-custom {
-        margin-top: -38px;
+        /* margin-top: -38px; */
         text-align: center;
-        padding: 27px;
+        /* padding: 27px; */
         position: relative;
         z-index: 1;
     }

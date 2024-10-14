@@ -371,7 +371,7 @@
                   <img class="dark" src="assets/images/feature/home3/3.png" alt="sign-up-icon">
                 </div>
                 <div class="feature__item-content feature-item-content-custom">
-                  <h5>Sign Up & Create Account</h5>
+                  <a href="#"><h5>Sign Up & Create Account</h5></a>
                   <p>Join us by creating an account in just a few minutes and access the trading platform.</p>
                 </div>
               </div>
@@ -385,7 +385,7 @@
                   <img class="dark" src="assets/images/about/icon/1.png" alt="fund-icon">
                 </div>
                 <div class="feature__item-content feature-item-content-custom">
-                  <h5>Fund Your Account</h5>
+                  <a href="#"><h5>Fund Your Account</h5></a>
                   <p>Deposit funds quickly and securely to start your trading journey.</p>
                 </div>
               </div>
@@ -399,7 +399,7 @@
                   <img class="dark" src="assets/images/feature/home3/2.png" alt="enjoy-icon">
                 </div>
                 <div class="feature__item-content feature-item-content-custom">
-                  <h5>Enjoy Instant Withdrawals</h5>
+                  <a href="#"><h5>Enjoy Instant Withdrawals</h5></a>
                   <p>Start trading and withdraw your earnings instantly without any hassle.</p>
                 </div>
               </div>
