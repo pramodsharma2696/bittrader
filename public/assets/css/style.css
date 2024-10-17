@@ -509,8 +509,7 @@ ol {
   --form-border: #CFDEF1;
   --title-color:#0C263A;
   --title-color-style2:#0C263A;
-  /* --text-color:#6B777F; */
-  --text-color:#738693;
+  --text-color:#6B777F;
   --text-color-light: #6B6F7F;
   --text-color-2: rgba(255, 255, 255, 0.6);
   --text-color-3: rgba(255, 255, 255, 0.70);
@@ -612,7 +611,7 @@ ol {
   --form-border:#DCDFE833;
   --title-color:#FFFFFF;
   --title-color-style2:#BBC2C7;
-  --text-color:rgba(255, 255, 255, 0.6);
+  --text-color:rgba(244, 238, 238, 0.6);
   --text-color-light:#FFFFFF;
   --text-color-2: rgba(255, 255, 255, 0.6);
   --text-color-3: rgba(255, 255, 255, 0.70);

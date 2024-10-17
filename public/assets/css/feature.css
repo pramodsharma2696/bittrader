@@ -5,7 +5,14 @@
     --text-color:#6B777F;
 }
 
+[data-bs-theme=dark] {
+   
+    --title-color:#FFFFFF;
+    --text-color:#FFFFFF;
 
+   
+
+  }
 
 
 /* ------------------------------ */
