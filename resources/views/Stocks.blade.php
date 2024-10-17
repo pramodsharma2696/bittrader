@@ -88,12 +88,23 @@
             </div>
             <!-- 3 -->
             <div class="row">
-                <div class="col-lg-6">
+            <div class="col-lg-3">
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/raw-pricing-mobile.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/m2.png" alt="service-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="service-details__item">
+                        <div class="service-details__item-inner ">
+                            <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
+                                <div class="service-details__thumb-inner">
+                                    <img src="{{ asset('') }}assets/images/others2/mobile1.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>

@@ -117,7 +117,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/us-web-trading-platform.webp" alt="service-icon" style="width: 230px;">
+                                    <img src="{{ asset('') }}assets/images/others2/web-trading.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -127,12 +127,23 @@
             </div>
             <!-- 3 -->
             <div class="row mb-15">
-                <div class="col-lg-6">
+                <div class="col-lg-3">
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/webtrader-mobile.webp" alt="service-icon" style="width: 230px;">
+                                    <img src="{{ asset('') }}assets/images/others2/m2.png" alt="service-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="service-details__item">
+                        <div class="service-details__item-inner ">
+                            <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
+                                <div class="service-details__thumb-inner">
+                                    <img src="{{ asset('') }}assets/images/others2/mobile1.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -157,7 +168,7 @@
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">TradingView</a>
+                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Metatrader 5</a>
                                 </h3>
                                 <p class="mb-2">Trade your standard account on TradingView's web, mobile, or downloadable platforms.</p>
                             </div>
@@ -169,7 +180,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/tradingview-hp-module-hero.webp" alt="service-icon" style="width: 230px;">
+                                    <img src="{{ asset('') }}assets/images/others2/1.png" alt="service-icon" style="width:40%;">
                                 </div>
                             </div>
                         </div>

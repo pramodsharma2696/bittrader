@@ -36,7 +36,7 @@
                     </ul>
                   </li>
                   <li>
-                    <a class="child-title" href="{{ url('/Popular-FX-Markets') }}">Popular FX Markets</a>
+                    <a class="child-title" href="#">Popular FX Markets</a>
                     <ul>
                       <li><a href="{{ url('/EUR-USD') }}">EUR/USD</a></li>
                       <li><a href="{{ url('/GBP-USD') }}">GBP/USD</a></li>
