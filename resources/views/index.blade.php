@@ -56,7 +56,8 @@
         </div>
         <div class="col-lg-6 col-md-5">
           <div class="banner__thumb" data-aos="fade-left" data-aos-duration="1000">
-            <img src="{{ asset('') }}assets/images/banner/home1/1.png" alt="banner-thumb" class="dark">
+            <img src="{{ asset('') }}assets/images/others2/landing.png" alt="banner-thumb" class="dark" style="width: 820px;height: 532px;">
+            <!-- <img src="{{ asset('') }}assets/images/banner/home1/1.png" alt="banner-thumb" class="dark"> -->
           </div>
         </div>
       </div>

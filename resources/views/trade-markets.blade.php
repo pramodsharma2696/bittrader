@@ -180,7 +180,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others2/1.png" alt="service-icon" style="width:40%;">
+                                    <img src="{{ asset('') }}assets/images/others2/desktop1.jpeg" alt="service-icon">
                                 </div>
                             </div>
                         </div>
