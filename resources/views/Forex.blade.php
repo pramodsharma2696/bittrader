@@ -36,7 +36,7 @@
 <div class="service-details padding-bottom section-bg-color" style="margin-top:30px;">
     <div class="container">
         <div class="service-details__wrapper">
-            <div class="row flex-lg-row-reverse g-5">
+            <div class="row flex-lg-row-reverse g-5 mb-20">
                 <div class="col-lg-12">
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
