@@ -509,7 +509,8 @@ ol {
   --form-border: #CFDEF1;
   --title-color:#0C263A;
   --title-color-style2:#0C263A;
-  --text-color:#6B777F;
+  /* --text-color:#6B777F; */
+  --text-color:#738693;
   --text-color-light: #6B6F7F;
   --text-color-2: rgba(255, 255, 255, 0.6);
   --text-color-3: rgba(255, 255, 255, 0.70);
