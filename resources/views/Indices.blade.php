@@ -36,14 +36,14 @@
 <div class="service-details padding-bottom section-bg-color" style="margin-top:30px;">
     <div class="container">
         <div class="service-details__wrapper">
-            <div class="row flex-lg-row-reverse g-5">
+            <div class="row flex-lg-row-reverse mb-10 g-5">
                 <div class="col-lg-12">
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Indices trading</a></h3>
-                                <p class="mb-5">Whether it's the Dow Jones or the FTSE 100, get exposure to global markets without relying on the performance of a single company.</p>
+                                <p class="mb-5">Indices trading refers to the buying and selling of stock indices, which are financial instruments representing the performance of a group of stocks. Stock indices track the value of a specific selection of companies, usually from a particular country, region, or sector. Instead of trading individual stocks, you trade the overall performance of an entire index, making it a popular form of investment for those looking to diversify their portfolio.</p>
                                
                             </div>
 
@@ -62,12 +62,15 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Indices explained</a>
                                 </h3>
-                                <h5>Go long or short</h5>
-                                <p class="mb-2">When you trade indices with us, you can profit from both rising and falling markets.</p>
-                                <h5>Take advantage of leverage</h5>
-                                <p class="mb-2">You only have to put up a fraction of the index price to start trading. Leverage can magnify your profits and your losses.</p>
-                                <h5>Diversify your portfolio</h5>
-                                <p class="mb-2">Get exposure to a broad section of the market at once rather than relying on a single stock.</p>
+                                <p class="mb-3">Designed for instant control wherever you are, enjoy one-tap trading, intelligent market tools and a customizable layout to suit your trading style</p>
+                                <h5>MetaTrader Charts</h5>
+                                <p class="mb-1">38+ indicators, 3 chart types and 21 timeframes</p>
+                                <h5>Performance Analytics</h5>
+                                <p class="mb-1">Analyze your decision-making with the latest behavioural science technology</p>
+                                <h5>Total Control</h5>
+                                <p class="mb-1">Customize your notifications and alerts to stay on top of the markets</p>
+                                <h5>Trading Research</h5>
+                                <p class="mb-1">Access integrated market analysis, a full economic calendar</p>
                             </div>
                         </div>
                     </div>
@@ -78,7 +81,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/tading-tools-market-360.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/indices-explained.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>

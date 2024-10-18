@@ -36,15 +36,38 @@
 <div class="service-details padding-bottom section-bg-color" style="margin-top:30px;">
     <div class="container">
         <div class="service-details__wrapper">
-            <div class="row flex-lg-row-reverse g-5 mb-20">
-                <div class="col-lg-12">
+            <div class="row g-5 mb-20">
+            <div class="col-lg-6">
+                    <div class="service-details__item">
+                        <div class="service-details__item-inner ">
+                            <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
+                                <div class="service-details__thumb-inner">
+                                    <img src="{{ asset('') }}assets/images/others2/forex-trading.jpeg" alt="service-icon">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+                <div class="col-lg-6">
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Forex trading</a></h3>
-                                <p class="mb-5">Since 2001, Qorva Markets has made its name by providing the most reliable service and powerful platforms to allow our customers worldwide to trade to their fullest capabilities.</p>
-                               
+                                <p class="mb-5">Forex (foreign exchange) trading involves the exchange of currencies from different countries. It is the largest and most liquid financial market in the world, with a daily trading volume exceeding $6 trillion. Forex trading occurs in currency pairs, like EUR/USD (euro vs. U.S. dollar), where traders buy one currency and simultaneously sell another.</p>
+                                <h5>Global Economic Stability</h5>
+                                <p class="mb-2">Forex trading plays a vital role in global trade and investment. It enables businesses to convert one currency to another, facilitating international trade. For example, an American company that imports goods from Europe can use the forex market to exchange U.S. dollars for euros to pay for the goods.</p>
+                                <h5>Liquidity and Accessibility</h5>
+                                <p class="mb-2"><b>Liquidity:</b> The forex market is extremely liquid, meaning traders can buy and sell currencies quickly and easily without significant price changes. This liquidity attracts a broad range of participants, from individuals to large financial institutions.</p>
+                                <p class="mb-2"><b>Accessibility:</b> Unlike the stock market, the forex market operates 24 hours a day, 5 days a week, making it accessible to traders around the globe at any time. This flexibility allows people to trade at their convenience, whether they are professionals or retail traders.</p>
+                                <h5>Profit from Market Movements</h5>
+                                <p class="mb-2">The forex market is highly volatile, with constant price movements influenced by economic data, geopolitical events, and central bank policies. Traders can profit by speculating on these price movements in both rising and falling markets.</p>
+                                <h5>Hedging Against Currency Risk:</h5>
+                                <p class="mb-2">Many multinational companies and investors engage in forex trading to hedge against currency risk. For instance, if a U.S.-based company does business in Japan, it can trade in the forex market to protect itself from fluctuations in the yen and dollar exchange rate. Hedging helps companies mitigate losses due to unfavorable currency movements</p>
+                                <h5>Low Trading Costs</h5>
+                                <p class="mb-2">The cost of forex trading is relatively low compared to other financial markets. Most forex brokers charge no commissions, relying instead on the spread (the difference between the buy and sell price of a currency pair) to make money. This makes forex trading an attractive option for retail traders looking for low-cost ways to engage in financial markets.</p>
+                                <h5>Opportunities for Small and Large Investors:</h5>
+                                <p class="mb-2">Forex trading is open to all levels of investors, from large financial institutions like banks and hedge funds to individual retail traders. With advances in technology, individuals can now participate in the forex market through online trading platforms, even with small amounts of capital</p>
                             </div>
 
 
@@ -78,7 +101,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/tading-tools-market-360.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/forex-explained.jpg" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -116,54 +139,22 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-2"> <a class="stretched-link" href="javascript:void(0);">Award-winning FX trading apps</a>
                                 </h3>
-                                <p class="mb-3">A must-have for technical traders, our charts, powered by TradingView, come with over 80 indicators, 50 drawing tools, 14 time intervals, and a host of customization features.</p>
-                                <h5>TradingView Charts</h5>
-                                <p class="mb-1">80+ indicators, 11 chart types and 14 timeframes</p>
+                                <p class="mb-3">A must-have for technical traders, our charts, powered by MetaTrader 5, come with over 38 indicators, 44 drawing tools, 21 time intervals, and a host of customization features.</p>
+                                <h5>MetaTrader Charts</h5>
+                                <p class="mb-1">38+ indicators, 3 chart types and 21 timeframes</p>
                                 <h5>Performance Analytics</h5>
                                 <p class="mb-1">Analyze your decision-making with the latest behavioural science technology</p>
                                 <h5>Total Control</h5>
                                 <p class="mb-1">Customize your notifications and alerts to stay on top of the markets</p>
                                 <h5>Trading Research</h5>
-                                <p class="mb-1">Access integrated market analysis, Reuters news & a full economic calendar</p>
+                                <p class="mb-1">Access integrated market analysis, a full economic calendar</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- 3 -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
-                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Lower your trading costs by up to 15%</a>
-                                </h3>
-                                <p class="mb-3">Earn cash rebates and access other exclusive benefits with the Active Trader program.</p>
-                                <h5>Functional Benefits</h5>
-                                <p class="mb-1">Multi-asset rebates on FX, Indices, Commodities, Metals, cryptocurrencies and Equities, up to $50 per million traded and get bank fees on wire transfers reimbursed.</p>
-                                <h5>White Glove Service</h5>
-                                <p class="mb-1">Take advantage of one-on-one guidance from our relationship managers to develop and maintain a strong trading strategy.</p>
-                                <h5>Red Carpet Rollout</h5>
-                                <p class="mb-1">VIP access gets you invited to exclusive events and previews of our products.</p>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
-                            <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
-                                <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/active-trader-header.svg" alt="service-icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            
 
             <!-- 3 -->
            
