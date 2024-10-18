@@ -116,15 +116,15 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-2"> <a class="stretched-link" href="javascript:void(0);">Award-winning mobile apps</a>
                                 </h3>
-                                <p class="mb-3">Designed for instant control wherever you are, enjoy one-tap trading, intelligent market tools and a customizable layout to suit your trading style.</p>
-                                <h5>TradingView Charts</h5>
-                                <p class="mb-1">80+ indicators, 11 chart types and 14 timeframes</p>
+                                <p class="mb-3">Designed for instant control wherever you are, enjoy one-tap trading, intelligent market tools and a customizable layout to suit your trading style</p>
+                                <h5>MetaTrader Charts</h5>
+                                <p class="mb-1">38+ indicators, 3 chart types and 21 timeframes</p>
                                 <h5>Performance Analytics</h5>
                                 <p class="mb-1">Analyze your decision-making with the latest behavioural science technology</p>
                                 <h5>Total Control</h5>
                                 <p class="mb-1">Customize your notifications and alerts to stay on top of the markets</p>
                                 <h5>Trading Research</h5>
-                                <p class="mb-1">Access integrated market analysis, Reuters news & a full economic calendar</p>
+                                <p class="mb-1">Access integrated market analysis, a full economic calendar</p>
                             </div>
                         </div>
                     </div>
