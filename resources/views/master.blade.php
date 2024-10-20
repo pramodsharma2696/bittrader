@@ -1,85 +1,174 @@
-@extends('master')
-@section('contents')
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <title>Qorva Markets - Leading Currencies, Crypto, Stocks & Commodities Trading Platform</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- ================> Page header start here <================== -->
-<section class="page-header bg--cover">
-    <div class="background bg--cover" style="background-image:url(assets/images/header/1.png);padding: 100px 20px;">
-        <div class="container">
-            <div class="page-header__content" data-aos="fade-right" data-aos-duration="1000">
-                <h2>Margin and pip calculator</h2>
-                <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb" class="d-none">
-                    <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item "><a href="{{ url('/') }}">Home</a></li>
-                        <li class="breadcrumb-item" aria-current="page"><a href="{{ url('/trading-tools') }}">System and Features</a></li>
-                        <li class="breadcrumb-item" aria-current="page"><a href="{{ url('/trading-tools') }}">Trading tools</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Margin and pip calculator</li>
-                    </ol>
-                </nav>
-            </div>
-            <div class="page-header__shape">
-                <span class="page-header__shape-item page-header__shape-item--1"><img src="{{ asset('') }}assets/images/header/2.png"
-                        alt="shape-icon"></span>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ================> Page header end here <================== -->
+  <!-- SEO Meta Data -->
+  <meta name="application-name" content="Qorva Markets - Currencies, Crypto, Stocks, and Commodities Trading Platform">
+  <meta name="author" content="Qorva Markets">
+  <meta name="keywords" content="Qorva Markets, currencies trading, cryptocurrency trading, stocks trading, commodities, online trading platform, CFDs, day trading, investment solutions, trading tools">
+  <meta name="description"
+    content="Join Qorva Markets, the ultimate trading platform offering Currencies, Crypto, Stocks, and Commodities. Empower your trading with advanced tools, low spreads, and a user-friendly interface. Start trading with Qorva Markets today and unlock new market opportunities.">
+
+  <!-- OG Meta Data -->
+  <meta property="og:title" content="Qorva Markets - Currencies, Crypto, Stocks & Commodities Trading Platform">
+  <meta property="og:site_name" content="Qorva Markets">
+  <meta property="og:url" content="{{ url('/') }}">
+  <meta property="og:description"
+    content="Qorva Markets offers a powerful, secure, and intuitive platform for trading Currencies, Crypto, Stocks, and Commodities. Benefit from tight spreads, high liquidity, and a comprehensive trading experience.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ url('/') }}assets/images/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ asset('') }}assets/images/logo/favicon.png" type="image/x-icon">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/aos.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/all.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/swiper-bundle.min.css">
+
+  <!-- Main Stylesheets -->
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/megamenu.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/mobile.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/tradeview.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/feature.css">
+</head>
+
+<body>
 
 
-<!-- ===============>> Service section start here <<================= -->
-<div class="service-details padding-bottom section-bg-color" style="margin-top:30px;">
-    <div class="container">
-        <div class="service-details__wrapper">
-            <div class="row flex-lg-row-reverse g-5">
-                <div class="col-lg-12">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
+  <!-- ===============>> Preloader start here <<================= -->
+  <div class="preloader">
+    <img src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="preloader icon">
+  </div>
+  <!-- ===============>> Preloader end here <<================= -->
 
-                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Margin and pip calculator</a></h3>
-                                <p class="mb-3">See how much a single point of movement is worth – as well as how much margin you'll need to trade – with this pip calculator for currencies and all our available markets.</p>
 
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">How much is a pip worth?</a></h3>
-                                <p class="mb-3">This tool is to calculate how much you'll make or lose per pip on your chosen trade, plus how much margin to deposit.</p>
-                                <p class="mb-3">Neither Qorva Markets nor its affiliates will be held responsible for the reliability or accuracy of this data. The service is provided in good faith; however, there are no explicit or implicit warranties of accuracy. The user agrees not to hold Qorva Markets or any of its affiliates liable for trading decisions that are based on the pip & margin calculators from this website.</p>
 
-                            </div>
+  <!-- ===============>> light&dark switch start here <<================= -->
+  <div class="lightdark-switch">
+    <span class="switch-btn" id="btnSwitch"><img src="{{ asset('') }}assets/images/icon/moon.svg" alt="light-dark-switchbtn"
+        class="swtich-icon"></span>
+  </div>
+  <!-- ===============>> light&dark switch end here <<================= -->
 
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row flex-lg-row-reverse g-5">
-                <div class="col-lg-12">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
 
-                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">What are pips and how do they work?</a></h3>
-                                <p class="mb-3">Pips are how you measure movement in a currency pair, standing for ‘point in percentage’. Sometimes, you might hear pips referred to as ‘points’. The value of a pip changes depending on the pair you are trading.</p>
-                                <p class="mb-3">In most currency pairs, one pip is equal to a single-digit move in the fourth decimal place (0.0001) of the pair’s price. So it’s equivalent to 1/100 of 1%. If EUR/USD moves from 1.1732 to 1.1737, for example, it has gone up five pips.</p>
-                                <p class="mb-3">In currency pairs that include the Japanese yen (JPY), though, the second digit after the decimal point is the pip. Here, a pip is equivalent to 1/10 of 1%.</p>
-                                <p class="mb-3">Using these small units to measure price movement enables traders to profit from relatively small price movements.</p>
-                               
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">How does the currency pip calculator work?</a></h3>
-                                <p class="mb-3">The currency pip calculator works by multiplying the size of your position by the value of a single pip, then converting that figure into your chosen base currency. It also calculates your total required margin by dividing the total size of your position by your chosen market’s margin factor.</p>
-                                <p class="mb-3">You can use the pip calculator to see precisely how much you’ll make or lose for each point of movement in your underlying market – as well as how much you’ll need to deposit to open a position.</p>
-                                
+  <!-- ===============>> Header section start here <<================= -->
+@include('body.header')
+  <!-- ===============>> Header section end here <<================= -->
 
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Fractional pips</a></h3>
-                                <p class="mb-3">In addition to the standard pip, most currency brokers also offer ‘fractional pip pricing’ by adding an extra fifth decimal place to their quotes. As well as enabling tighter spreads, these can give you a better understanding of a currency price’s movements.</p>
-                                
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+@yield('contents')
 
-        </div>
-    </div>
-</div>
-<!-- ===============>> Service section start here <<================= -->
+  <!-- ===============>> footer start here <<================= -->
+@include('body.footer')
+  <!-- ===============>> footer end here <<================= -->
 
-@endsection
+
+
+  <!-- ===============>> scrollToTop start here <<================= -->
+  <a href="#" class="scrollToTop scrollToTop--style1"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+  <!-- ===============>> scrollToTop ending here <<================= -->
+
+
+  <!-- vendor plugins -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ asset('') }}assets/js/all.min.js"></script>
+  <script src="{{ asset('') }}assets/js/swiper-bundle.min.js"></script>
+  <script src="{{ asset('') }}assets/js/aos.js"></script>
+  <script src="{{ asset('') }}assets/js/fslightbox.js"></script>
+  <script src="{{ asset('') }}assets/js/purecounter_vanilla.js"></script>
+
+  <script src="{{ asset('') }}assets/js/custom.js"></script>
+  <script type="text/javascript">
+
+    $(function () {
+        $('#pills-home-tab').click(function () {
+          $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".currencies").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+    }); 
+
+    $(function () {
+        $('#pills-profile-tab').click(function () {
+         $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".currencies").removeClass("active");
+          $(".metals").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+    }); 
+
+    $(function () {
+        $('#pills-contact-tab').click(function () {
+          $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".currencies").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".indices").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+    });
+
+    $(function () {
+        $('#pills-crypto-tab').click(function () {
+         $(".stocks").removeClass("active");
+          $(".currencies").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".crypto").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+    });
+
+    $(function () {
+        $('#pills-commodities-tab').click(function () {
+          $(".stocks").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".currencies").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".commodities").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+    });
+
+    $(function () {
+        $('#pills-stocks-tab').click(function () {
+         $(".currencies").removeClass("active");
+          $(".crypto").removeClass("active");
+          $(".commodities").removeClass("active");
+          $(".indices").removeClass("active");
+          $(".metals").removeClass("active");
+          $(".stocks").addClass("active");
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+    });
+
+    $(function () {
+        $('.click_act li').click(function () {
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+    });
+
+  </script>
+
+</body>
+
+</html>
