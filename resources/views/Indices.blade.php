@@ -117,7 +117,7 @@
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-2"> <a class="stretched-link" href="javascript:void(0);">Award-winning mobile apps</a>
+                                <h3 class="mb-2"> <a class="stretched-link" href="javascript:void(0);">Award-winning mobile app</a>
                                 </h3>
                                 <p class="mb-3">Designed for instant control wherever you are, enjoy one-tap trading, intelligent market tools and a customizable layout to suit your trading style.</p>
                                 <h5>TradingView Charts</h5>

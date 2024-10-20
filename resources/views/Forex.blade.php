@@ -137,7 +137,7 @@
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-2"> <a class="stretched-link" href="javascript:void(0);">Award-winning FX trading apps</a>
+                                <h3 class="mb-2"> <a class="stretched-link" href="javascript:void(0);">Award-winning FX trading app</a>
                                 </h3>
                                 <p class="mb-3">A must-have for technical traders, our charts, powered by MetaTrader 5, come with over 38 indicators, 44 drawing tools, 21 time intervals, and a host of customization features.</p>
                                 <h5>MetaTrader Charts</h5>

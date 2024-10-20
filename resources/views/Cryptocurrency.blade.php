@@ -70,9 +70,7 @@
                                 <p class="mb-2">Trade popular cryptos or choose from thousands of other markets.</p>
                                 <h5>A regulated global CFD broker</h5>
                                 <p class="mb-2">Qorva Markets is a trading name of GAIN Global Markets Inc. which is authorized and regulated by the Cayman Islands Monetary Authority (CIMA).</p>
-                                <h5>Strength and security</h5>
-                                <p class="mb-2">We’re part of StoneX Group Inc., a NASDAQ-listed Fortune 100 company with over a century in the financial markets. Combined with our two decades of heritage, you’re in good hands.</p>
-                            </div>
+                               </div>
                         </div>
                     </div>
                 </div>
