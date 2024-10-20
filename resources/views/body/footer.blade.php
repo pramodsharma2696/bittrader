@@ -64,7 +64,7 @@
               </div>
               <div class="footer__links-content">
                 <ul class="footer__linklist">
-                      <li class="footer__linklist-item"><a href="{{ url('/Forex') }}">Forex</a></li>
+                      <li class="footer__linklist-item"><a href="{{ url('/Forex') }}">Currecncy</a></li>
                       <li class="footer__linklist-item"><a href="{{ url('/Indices') }}">Indices</a></li>
                       <li class="footer__linklist-item"><a href="{{ url('/Stocks') }}">Stocks</a></li>
                       <li class="footer__linklist-item"><a href="{{ url('/Cryptocurrency') }}">Cryptocurrency</a></li>
@@ -96,7 +96,7 @@
         <div class="bottom-inner">
           <div class="copyright">
             <p class="footer__about-moto"><b>Risk statement: </b><br>
-              An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in www.qorvamarkets.com should seek their own financial or professional advice. Trading of securities, forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all of your money. Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether your country is allowing this or not.
+              An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in www.qorvamarkets.com should seek their own financial or professional advice. Trading of securities, currency, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all of your money. Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether your country is allowing this or not.
               <br><br>
               You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency or spot metals trade. Nothing in this site should be read or construed as constituting advice on the part of Qorva Markets LTD or any of its affiliates, directors, officers or employees.
               <br><br>

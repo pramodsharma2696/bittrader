@@ -43,13 +43,13 @@
                   <div class="accordion__header accordion-header" id="faq1">
                     <button class="accordion__button accordion-button" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody1" aria-expanded="false" aria-controls="faqBody1">
-                      <span class="accordion__button-content">What is Forex trading?</span>
+                      <span class="accordion__button-content">What is currencies trading?</span>
                     </button>
                   </div>
                   <div id="faqBody1" class="accordion-collapse collapse show" aria-labelledby="faq1"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">Forex (foreign exchange) trading involves buying and selling currency pairs to profit from changes in their exchange rates. It is the largest financial market globally, with daily trading volume exceeding $6 trillion.</p>
+                      <p class="mb-15">Currencies (foreign exchange) trading involves buying and selling currency pairs to profit from changes in their exchange rates. It is the largest financial market globally, with daily trading volume exceeding $6 trillion.</p>
                     </div>
                   </div>
                 </div>
@@ -61,13 +61,13 @@
                   <div class="accordion__header accordion-header" id="faq2">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody2" aria-expanded="true" aria-controls="faqBody2">
-                      <span class="accordion__button-content">How does Forex trading work?</span>
+                      <span class="accordion__button-content">How does currencies trading work?</span>
                     </button>
                   </div>
                   <div id="faqBody2" class="accordion-collapse collapse" aria-labelledby="faq2"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">Forex trading is done in currency pairs, where one currency is bought and another is sold. The value of the pair fluctuates based on market conditions, and traders aim to profit by buying low and selling high.</p>
+                      <p class="mb-15">Currencies trading is done in currency pairs, where one currency is bought and another is sold. The value of the pair fluctuates based on market conditions, and traders aim to profit by buying low and selling high.</p>
                     </div>
                   </div>
                 </div>
@@ -97,7 +97,7 @@
                   <div class="accordion__header accordion-header" id="faq4">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody4" aria-expanded="false" aria-controls="faqBody4">
-                      <span class="accordion__button-content">What is a spread in Forex?</span>
+                      <span class="accordion__button-content">What is a spread in currencies?</span>
                     </button>
                   </div>
                   <div id="faqBody4" class="accordion-collapse collapse" aria-labelledby="faq4"
@@ -151,7 +151,7 @@
                   <div class="accordion__header accordion-header" id="faq7">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody7" aria-expanded="false" aria-controls="faqBody7">
-                      <span class="accordion__button-content">What is leverage in Forex trading?</span>
+                      <span class="accordion__button-content">What is leverage in currencies trading?</span>
                     </button>
                   </div>
                   <div id="faqBody7" class="accordion-collapse collapse" aria-labelledby="faq7"
@@ -169,13 +169,13 @@
                   <div class="accordion__header accordion-header" id="faq8">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody8" aria-expanded="false" aria-controls="faqBody8">
-                      <span class="accordion__button-content">What are the risks involved in Forex trading?</span>
+                      <span class="accordion__button-content">How do I manage risk in currencies trading?</span>
                     </button>
                   </div>
                   <div id="faqBody8" class="accordion-collapse collapse" aria-labelledby="faq8"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">1. Market volatility<br>2. Leverage risk<br>3. Liquidity risk</p>
+                      <p class="mb-15">Risk management involves setting stop-loss orders, using appropriate position sizes, and never risking more than you can afford to lose on a trade.</p>
                     </div>
                   </div>
                 </div>
@@ -187,13 +187,13 @@
                   <div class="accordion__header accordion-header" id="faq9">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody9" aria-expanded="false" aria-controls="faqBody9">
-                      <span class="accordion__button-content">How do I manage risk in Forex trading?</span>
+                      <span class="accordion__button-content">Can I trade cryptocurrencies on your platform?</span>
                     </button>
                   </div>
                   <div id="faqBody9" class="accordion-collapse collapse" aria-labelledby="faq9"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">1. Use stop-loss orders<br>2. Manage your leverage<br>3. Diversify your trades</p>
+                      <p class="mb-15">Yes, we offer cryptocurrency trading alongside traditional currency pairs.</p>
                     </div>
                   </div>
                 </div>
@@ -205,13 +205,13 @@
                   <div class="accordion__header accordion-header" id="faq10">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody10" aria-expanded="false" aria-controls="faqBody10">
-                      <span class="accordion__button-content">What are pips in Forex?</span>
+                      <span class="accordion__button-content">How can I withdraw my profits?</span>
                     </button>
                   </div>
                   <div id="faqBody10" class="accordion-collapse collapse" aria-labelledby="faq10"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">A pip is the smallest price movement in Forex, typically representing a 0.0001 change in a currency pair's value.</p>
+                      <p class="mb-15">You can withdraw your profits through bank transfer, e-wallets, or crypto wallets, depending on your account type and preferences.</p>
                     </div>
                   </div>
                 </div>
@@ -223,13 +223,13 @@
                   <div class="accordion__header accordion-header" id="faq11">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody11" aria-expanded="false" aria-controls="faqBody11">
-                      <span class="accordion__button-content">What is a lot in Forex trading?</span>
+                      <span class="accordion__button-content">What are the minimum deposit requirements?</span>
                     </button>
                   </div>
                   <div id="faqBody11" class="accordion-collapse collapse" aria-labelledby="faq11"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">A lot is the standardized unit of measurement in Forex. A standard lot is 100,000 units of currency, a mini lot is 10,000, and a micro lot is 1,000.</p>
+                      <p class="mb-15">The minimum deposit requirement varies depending on the account type. Please refer to our account comparison page for detailed information.</p>
                     </div>
                   </div>
                 </div>
@@ -241,13 +241,13 @@
                   <div class="accordion__header accordion-header" id="faq12">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody12" aria-expanded="false" aria-controls="faqBody12">
-                      <span class="accordion__button-content">What is slippage in Forex trading?</span>
+                      <span class="accordion__button-content">Do you offer demo accounts?</span>
                     </button>
                   </div>
                   <div id="faqBody12" class="accordion-collapse collapse" aria-labelledby="faq12"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">Slippage occurs when a trade is executed at a different price than expected, usually due to high market volatility or low liquidity.</p>
+                      <p class="mb-15">Yes, we offer demo accounts for traders to practice their skills with virtual funds before committing real money.</p>
                     </div>
                   </div>
                 </div>
@@ -259,35 +259,31 @@
                   <div class="accordion__header accordion-header" id="faq13">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody13" aria-expanded="false" aria-controls="faqBody13">
-                      <span class="accordion__button-content">What is a margin call?</span>
+                      <span class="accordion__button-content">Can I trade on my mobile phone?</span>
                     </button>
                   </div>
                   <div id="faqBody13" class="accordion-collapse collapse" aria-labelledby="faq13"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">A margin call occurs when the balance in a trader’s account falls below the required margin, prompting the broker to ask for additional funds to maintain open positions.</p>
+                      <p class="mb-15">Yes, our platform is mobile-friendly, and we offer dedicated mobile apps for both iOS and Android devices.</p>
                     </div>
                   </div>
                 </div>
               </div>
+            </div> <!-- row -->
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="faq__image text-center">
+            <img src="assets/images/faq/1.png" alt="faq-image" class="w-100" data-aos="fade-left" data-aos-duration="1000">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===============>> FAQ section end here <<================= -->
 
-              <div class="col-12">
-                <!-- FAQ 14 -->
-                <div class="accordion__item accordion-item">
-                  <div class="accordion__header accordion-header" id="faq14">
-                    <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faqBody14" aria-expanded="false" aria-controls="faqBody14">
-                      <span class="accordion__button-content">What types of accounts do you offer?</span>
-                    </button>
-                  </div>
-                  <div id="faqBody14" class="accordion-collapse collapse" aria-labelledby="faq14"
-                    data-bs-parent="#faqAccordion1">
-                    <div class="accordion__body accordion-body">
-                      <p class="mb-15">1. Standard Account<br>2. ECN Account<br>3. Islamic Account (Swap-Free)</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
               <div class="col-12">
                 <!-- FAQ 15 -->
@@ -337,7 +333,7 @@
                   <div id="faqBody17" class="accordion-collapse collapse" aria-labelledby="faq17"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">Forex trading is available 24 hours a day, five days a week, from Monday to Friday, across major financial centers worldwide.</p>
+                      <p class="mb-15">Currency trading is available 24 hours a day, five days a week, from Monday to Friday, across major financial centers worldwide.</p>
                     </div>
                   </div>
                 </div>

@@ -80,7 +80,7 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="service-details.html">Where we source our prices</a>
                                 </h3>
-                                <p class="mb-5">In forex, the underlying asset is an OTC (over the counter) instrument, so to enable seamless trading we maintain relationships with several Tier 1 Banks as well as multiple Electronic Communication Networks (ECNs). They provide us with liquidity from around the globe (including London and New York), and in some cases the total number of providers can reach up to 12 liquidity sources.
+                                <p class="mb-5">In Currency, the underlying asset is an OTC (over the counter) instrument, so to enable seamless trading we maintain relationships with several Tier 1 Banks as well as multiple Electronic Communication Networks (ECNs). They provide us with liquidity from around the globe (including London and New York), and in some cases the total number of providers can reach up to 12 liquidity sources.
 
                                     Furthermore, we periodically review our liquidity sources to ensure that we continue to offer you the best prices.</p>
                             </div>

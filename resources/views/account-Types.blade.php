@@ -29,9 +29,6 @@
   </section>
   <!-- ================> Page header end here <================== -->
 
-
-
-
   <!-- ===============>> Service section start here <<================= -->
   <section class="service padding-top padding-bottom">
     <div class="section-header section-header--max50">
@@ -49,8 +46,7 @@
                 </div>
                 <div class="service__item-content">
                   <h5 > <a class="stretched-link" href="{{ url('/standard-account') }}">Standard account</a> </h5>
-                  <p class="mb-0">Ideal for traders looking for the traditional forex-trading experience, our standard account offers ultra-competitive spreads with no hidden costs. Available with our own award-winning web trading platform.</p>
-                    
+                  <p class="mb-0">Ideal for traders looking for the traditional currency-trading experience, our standard account offers ultra-competitive spreads with no hidden costs. Available with our own award-winning web trading platform.</p>
                 </div>
               </div>
             </div>
@@ -63,8 +59,7 @@
                 </div>
                 <div class="service__item-content">
                   <h5 > <a class="stretched-link" href="{{ url('/raw-spread-account') }}">RAW Spread account</a> </h5>
-                  <p class="mb-0">For traders looking for the flexibility of trading significant reductions on spreads. Trade with spreads as low as 0.0 on FX majors on Qovra Markets trading platforms and MetaTrader..
-                  </p>
+                  <p class="mb-0">For traders looking for the flexibility of trading significant reductions on spreads. Trade with spreads as low as 0.0 on FX majors on Qorva Markets trading platforms and MetaTrader.</p>
                 </div>
               </div>
             </div>
@@ -95,7 +90,7 @@
   <!-- ===============>> Service section start here <<================= -->
   <section class="service padding-top padding-bottom">
     <div class="section-header section-header--max50">
-      <h2 class="mb-10 mt-minus-5">What can you <span>trade</span> ?</h2>
+      <h2 class="mb-10 mt-minus-5">What can you <span>trade</span>?</h2>
       <p>Compare our wide range of markets, all available to you in one place.</p>
     </div>
     <div class="container">
@@ -108,9 +103,8 @@
                   <img class="dark" src="{{ asset('') }}assets/images/others/forex.webp" alt="service-icon">
                 </div>
                 <div class="service__item-content">
-                  <h5 > <a class="stretched-link" href="{{ url('/Forex') }}">Forex</a> </h5>
+                  <h5 > <a class="stretched-link" href="{{ url('/Forex') }}">Currencies</a> </h5>
                   <p class="mb-0">Learn all about the world's most traded market.</p>
-                    
                 </div>
               </div>
             </div>
@@ -154,7 +148,6 @@
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </div>

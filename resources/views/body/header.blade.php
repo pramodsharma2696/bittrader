@@ -27,7 +27,7 @@
                   <li>
                     <a class="child-title" href="{{ url('/trade-markets') }}">Trade Markets</a>
                     <ul>
-                      <li><a href="{{ url('/Forex') }}">Forex</a></li>
+                      <li><a href="{{ url('/Forex') }}">Currency</a></li>
                       <li><a href="{{ url('/Indices') }}">Indices</a></li>
                       <li><a href="{{ url('/Stocks') }}">Stocks</a></li>
                       <li><a href="{{ url('/Cryptocurrency') }}">Cryptocurrency</a></li>

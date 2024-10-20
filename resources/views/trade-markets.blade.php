@@ -37,7 +37,7 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Welcome to the global markets</a>
                                 </h3>
-                                <p class="mb-0">Whether it's forex, stock CFDs, indices, commodities, and more, you have access to thousands of the world's financial markets at your fingertips.</p>
+                                <p class="mb-0">Whether it's Currrency, stock CFDs, indices, commodities, and more, you have access to thousands of the world's financial markets at your fingertips.</p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                     <div class="card text-center mx-auto" style="border-radius: 15px; height:380px">
                         <img src="{{ asset('') }}assets/images/others2/forex-icon.png" class="card-img-top mx-auto mt-2" alt="service-icon" style="width:96px;height:96px; display:block;">
                         <div class="card-body">
-                            <h5 class="card-title">Forex</h5>
+                            <h5 class="card-title">Currrency</h5>
                             <p class="card-text">Trade over 80 FX pairs and get majors as low as 0.0 with our RAW Spread Account.</p>
                             <a href="{{ url('/Forex') }}" class="btn btn-outline-primary" style="border-radius: 50px; padding: 10px 20px;">More</a>
                         </div>

@@ -35,27 +35,27 @@
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-1"> <a class="stretched-link" href="javascript:void(0);">Why trade in Qorva Markets</a></h3>
-                                <p class="mb-0">Trading in the forex market offers several advantages:</p>
+                                <p class="mb-0">Trading in the currencies market offers several advantages:</p>
                             </div>
 
                             <h5 class="mb-1">1. Liquidity</h5>
                             <p class="mb-2">
-                                The forex market is the most liquid market globally, allowing traders to buy and sell currencies with ease. This means you can enter and exit positions quickly.
+                                The currencies market is the most liquid market globally, allowing traders to buy and sell currencies with ease. This means you can enter and exit positions quickly.
                             </p>
 
                             <h5 class="mb-1">2. Accessibility</h5>
                             <p class="mb-2">
-                                Forex trading is accessible to individuals and institutions alike. With online trading platforms, anyone with an internet connection can participate.
+                                Currencies trading is accessible to individuals and institutions alike. With online trading platforms, anyone with an internet connection can participate.
                             </p>
 
                             <h5 class="mb-1">3. Leverage</h5>
                             <p class="mb-2">
-                                Forex brokers often provide significant leverage, allowing traders to control larger positions with a smaller amount of capital. This can amplify profits but also increases risk.
+                                Currencies brokers often provide significant leverage, allowing traders to control larger positions with a smaller amount of capital. This can amplify profits but also increases risk.
                             </p>
 
                             <h5 class="mb-1">4. Market Hours</h5>
                             <p class="mb-2">
-                                The forex market operates 24 hours a day, five days a week, which means traders can choose to trade at their convenience, regardless of their time zone.
+                                The currencies market operates 24 hours a day, five days a week, which means traders can choose to trade at their convenience, regardless of their time zone.
                             </p>
 
                             <h5 class="mb-1">5. Diverse Opportunities</h5>
@@ -65,12 +65,12 @@
 
                             <h5 class="mb-1">6. Cost-Effective</h5>
                             <p class="mb-2">
-                                Forex trading generally has lower transaction costs compared to other markets, especially when using brokers with competitive spreads.
+                                Currencies trading generally has lower transaction costs compared to other markets, especially when using brokers with competitive spreads.
                             </p>
 
                             <h5 class="mb-1">7. Economic Insight</h5>
                             <p class="mb-2">
-                                Trading forex can enhance your understanding of global economics and financial markets, as currency values are influenced by economic indicators, political events, and market sentiment.
+                                Trading currencies can enhance your understanding of global economics and financial markets, as currency values are influenced by economic indicators, political events, and market sentiment.
                             </p>
 
                             <h5 class="mb-1">8. Potential for Profit</h5>
@@ -88,8 +88,7 @@
 
 </div>
 </div>
-<!-- ===============>> Service section start here <<================= -->
-
+<!-- ===============>> Service section end here <<================= -->
 
 
 @endsection

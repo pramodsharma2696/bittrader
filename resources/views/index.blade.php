@@ -73,8 +73,6 @@
 
 
 
-
-
 <!-- ===============>> partner section start here <<================= -->
 <div class="tradingview-widget-container" style="width: 100%; height: 100px;">
   <div class="tradingview-widget-container__widget"></div>
@@ -112,8 +110,6 @@
   </script>
 </div>
 <!-- ===============>> partner section end here <<================= -->
-
-
 
 
 
@@ -156,7 +152,7 @@
     </div>
   </div>
 </section>
-<!-- ===============>> About section start here <<================= -->
+<!-- ===============>> About section end here <<================= -->
 
 
 
@@ -170,7 +166,7 @@
           <div class="feature__content" data-aos="fade-right" data-aos-duration="800">
             <div class="feature__content-inner">
               <div class="section-header">
-                <h2 class="mb-10 mt-minus-5">Everything you need to <span>trade Forex</span> in one place</h2>
+                <h2 class="mb-10 mt-minus-5">Everything you need to <span>trade Currencies</span> in one place</h2>
               </div>
 
               <div class="feature__nav">
@@ -288,145 +284,76 @@
     <span class="feature__shape-item feature__shape-item--2"> <span></span> </span>
   </div>
 </section>
-
 <!-- ===============>> feature section end here <<================= -->
 
 
 
-
-<!-- ===============>> Service section start here <<================= -->
-
-<!-- <section class="feature feature--style2 padding-bottom padding-top feature-bg-color bg--cover"
-    style="background-image:url(assets/images/feature/home3/bg.png)">
-    <div class="section-header section-header--style3 section-header--max57">
-      <h2 class="mb-10 mt-minus-5">The Ultimate Gateway to <span>Trading</span> Success</h2>
-      </p>
-    </div>
-    <div class="container">
-      <div class="feature__wrapper">
-        <div class="row g-4 align-items-center">
-          <div class="col-sm-6 col-lg-4">
-            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
-              <div class="feature__item-inner text-center">
-                <div class="feature__item-thumb">
-                  <img class="dark" src="assets/images/feature/home3/2.png" alt="feature-item-icon">
-                </div>
-                <div class="feature__item-content">
-                  <h5><a class="stretched-link" href="{{ url('/forex-trading') }}">What is forex trading?</a></h5>
-                  
-                  <p>Forex trading, also known as foreign exchange trading or FX trading, is the process of ...</p>
-                </div>
+<section class="feature feature--style2 padding-bottom padding-top feature-bg-color bg--cover"
+  style="background-image:url(assets/images/feature/home3/bg.png)">
+  <div class="section-header section-header--style3 section-header--max57">
+    <h2 class="mb-10 mt-minus-5">3 Simple Steps to Start <span>Trading</span></h2>
+  </div>
+  <div class="container">
+    <div class="feature__wrapper">
+      <div class="row g-4 align-items-center">
+        <!-- Step 1: Sign Up -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+            <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
+              <div class="feature__item-thumb feature-item-thumb-custom">
+                <img class="dark" src="assets/images/feature/home3/3.png" alt="sign-up-icon">
+              </div>
+              <div class="feature__item-content feature-item-content-custom">
+                <a href="#"><h5>Sign Up & Create Account</h5></a>
+                <p>Join us by creating an account in just a few minutes and access the trading platform.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
-            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
-              <div class="feature__item-inner text-center">
-                <div class="feature__item-thumb">
-                  <img class="dark" src="assets/images/feature/home3/2.png" alt="feature-item-icon">
-                </div>
-                <div class="feature__item-content">
-                  <h5><a class="stretched-link" href="{{ url('/qorva-markets') }}">Why trade in Qorva Markets ?</a></h5>
-                  
-                  <p>Choosing Qorva Markets as your preferred trading platform offers several advantages that cater to the ...</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
-              <div class="feature__item-inner text-center">
-                <div class="feature__item-thumb">
-                  <img class="dark" src="assets/images/feature/home3/2.png" alt="feature-item-icon">
-                </div>
-                <div class="feature__item-content">
-                <h5> <a class="stretched-link" href="{{ url('/trade-forex') }}">How to trade Forex </a></h5>
-                  <p>Trading forex involves a combination of knowledge, strategy, and discipline. Here’s a step-by-step guide..</p>
-                </div>
-              </div>
-            </div>
-          </div>
-         
         </div>
-      </div>
-    </div>
-    <div class="feature__shape">
-      <span class="feature__shape-item feature__shape-item--1"><img src="assets/images/feature/home3/5.png"
-          alt="shape-icon"></span>
-    </div>
-  </section> -->
-  
-  <section class="feature feature--style2 padding-bottom padding-top feature-bg-color bg--cover"
-    style="background-image:url(assets/images/feature/home3/bg.png)">
-    <div class="section-header section-header--style3 section-header--max57">
-      <h2 class="mb-10 mt-minus-5">3 Simple Steps to Start <span>Trading</span></h2>
-    </div>
-    <div class="container">
-      <div class="feature__wrapper">
-        <div class="row g-4 align-items-center">
-          <!-- Step 1: Sign Up -->
-          <div class="col-sm-6 col-lg-4">
-            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
-              <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
-                <div class="feature__item-thumb feature-item-thumb-custom">
-                  <img class="dark" src="assets/images/feature/home3/3.png" alt="sign-up-icon">
-                </div>
-                <div class="feature__item-content feature-item-content-custom">
-                  <a href="#"><h5>Sign Up & Create Account</h5></a>
-                  <p>Join us by creating an account in just a few minutes and access the trading platform.</p>
-                </div>
+        <!-- Step 2: Fund Account -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+            <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
+              <div class="feature__item-thumb feature-item-thumb-custom">
+                <img class="dark" src="assets/images/about/icon/1.png" alt="fund-icon">
+              </div>
+              <div class="feature__item-content feature-item-content-custom">
+                <a href="#"><h5>Fund Your Account</h5></a>
+                <p>Deposit funds quickly and securely to start your trading journey.</p>
               </div>
             </div>
           </div>
-          <!-- Step 2: Fund Account -->
-          <div class="col-sm-6 col-lg-4">
-            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
-              <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
-                <div class="feature__item-thumb feature-item-thumb-custom">
-                  <img class="dark" src="assets/images/about/icon/1.png" alt="fund-icon">
-                </div>
-                <div class="feature__item-content feature-item-content-custom">
-                  <a href="#"><h5>Fund Your Account</h5></a>
-                  <p>Deposit funds quickly and securely to start your trading journey.</p>
-                </div>
+        </div>
+        <!-- Step 3: Enjoy Trading & Withdrawals -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
+            <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
+              <div class="feature__item-thumb feature-item-thumb-custom">
+                <img class="dark" src="assets/images/feature/home3/2.png" alt="enjoy-icon">
               </div>
-            </div>
-          </div>
-          <!-- Step 3: Enjoy Trading & Withdrawals -->
-          <div class="col-sm-6 col-lg-4">
-            <div class="feature__item" data-aos="fade-up" data-aos-duration="800">
-              <div class="feature__item-inner feature-custom text-center step-hexagon-custom">
-                <div class="feature__item-thumb feature-item-thumb-custom">
-                  <img class="dark" src="assets/images/feature/home3/2.png" alt="enjoy-icon">
-                </div>
-                <div class="feature__item-content feature-item-content-custom">
-                  <a href="#"><h5>Enjoy Instant Withdrawals</h5></a>
-                  <p>Start trading and withdraw your earnings instantly without any hassle.</p>
-                </div>
+              <div class="feature__item-content feature-item-content-custom">
+                <a href="#"><h5>Enjoy Instant Withdrawals</h5></a>
+                <p>Start trading and withdraw your earnings instantly without any hassle.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="feature__shape">
-      <span class="feature__shape-item feature__shape-item--1"><img src="assets/images/feature/home3/5.png" alt="shape-icon"></span>
-    </div>
+  </div>
+  <div class="feature__shape">
+    <span class="feature__shape-item feature__shape-item--1"><img src="assets/images/feature/home3/5.png" alt="shape-icon"></span>
+  </div>
 </section>
 
 
-<!-- ===============>> Service section start here <<================= -->
-
-
-
-
-<!-- ========== Forex trading account Here========== -->
+<!-- ========== Currency trading account Here========== -->
 
 <section class="blog padding-top padding-bottom">
   <div class="container">
     <div class="section-header d-md-flex align-items-center justify-content-between">
       <div class="section-header__content">
-        <h2 class="mb-10">Forex Trading <span>Accounts</span></h2>
+        <h2 class="mb-10">Currency Trading <span>Accounts</span></h2>
         <!-- <p class="mb-0">Hey there pro traders, check out these articles with tips to take your trading game to the next level!</p> -->
       </div>
       <div class="section-header__action">
@@ -454,8 +381,6 @@
                   <h5 class="10"> <a href="{{ url('/standard-account') }}">Standard a/c</a> </h5>
 
                   <p class="mb-15">The Standard Account at Qorva Markets offers a balanced trading experience, ideal for both novice ...</p>
-
-                 
                 </div>
               </div>
             </div>
@@ -474,8 +399,6 @@
                   <h5 class="10"> <a href="{{ url('/raw-spread-account') }}">Raw a/c</a> </h5>
 
                   <p class="mb-15">The Raw Account at Qorva Markets caters to traders who prioritize cost-efficiency and direct market ...</p>
-
-                  
                 </div>
               </div>
             </div>
@@ -494,8 +417,6 @@
                   <h5 class="10"> <a href="{{ url('/STP-Pro-Account') }}">STP Pro a/c</a> </h5>
 
                   <p class="mb-15">The STP Pro Account at Qorva Markets is tailored for traders seeking enhanced trading conditions ...</p>
-
-                 
                 </div>
               </div>
             </div>
@@ -510,7 +431,6 @@
   </div>
 </section>
 <!-- ========== Roadmap Section Ends Here========== -->
-
 
 <!-- ===============>> Testimonial section start here <<================= -->
 <section class="testimonial padding-top padding-bottom-style2 bg-color">
@@ -635,7 +555,7 @@
 <!-- ===============>> Service section start here <<================= -->
 <section class="service padding-top padding-bottom">
   <div class="section-header section-header--max50">
-    <p>Forex Trading</p>
+    <p>Currency Trading</p>
     <h2 class="mb-10 mt-minus-5">Top <span> Pricing</span> List in Market</h2>
   </div>
   <div class="container">
@@ -645,7 +565,7 @@
         <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-bottom: -29px;">
             
             <li class="nav-item">
-                <a class="nav-link c-link active" id="pills-forex-tab" data-bs-toggle="pill" href="#pills-forex" role="tab" aria-controls="pills-forex" aria-selected="false">Forex</a>
+                <a class="nav-link c-link active" id="pills-forex-tab" data-bs-toggle="pill" href="#pills-forex" role="tab" aria-controls="pills-forex" aria-selected="false">Currency</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link c-link" id="pills-metals-tab" data-bs-toggle="pill" href="#pills-metals" role="tab" aria-controls="pills-metals" aria-selected="false">Metals</a>
@@ -1006,13 +926,13 @@
                   <div class="accordion__header accordion-header" id="faq1">
                     <button class="accordion__button accordion-button" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody1" aria-expanded="false" aria-controls="faqBody1">
-                      <span class="accordion__button-content">What is Forex trading?</span>
+                      <span class="accordion__button-content">What is Currency trading?</span>
                     </button>
                   </div>
                   <div id="faqBody1" class="accordion-collapse collapse show" aria-labelledby="faq1"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">Forex (foreign exchange) trading involves buying and selling currency pairs to profit from changes in their exchange rates. It is the largest financial market globally, with daily trading volume exceeding $6 trillion.</p>
+                      <p class="mb-15">Currency (foreign exchange) trading involves buying and selling currency pairs to profit from changes in their exchange rates. It is the largest financial market globally, with daily trading volume exceeding $6 trillion.</p>
                     </div>
                   </div>
                 </div>
@@ -1024,13 +944,13 @@
                   <div class="accordion__header accordion-header" id="faq2">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody2" aria-expanded="true" aria-controls="faqBody2">
-                      <span class="accordion__button-content">How does Forex trading work?</span>
+                      <span class="accordion__button-content">How does Currency trading work?</span>
                     </button>
                   </div>
                   <div id="faqBody2" class="accordion-collapse collapse" aria-labelledby="faq2"
                     data-bs-parent="#faqAccordion1">
                     <div class="accordion__body accordion-body">
-                      <p class="mb-15">Forex trading is done in currency pairs, where one currency is bought and another is sold. The value of the pair fluctuates based on market conditions, and traders aim to profit by buying low and selling high.</p>
+                      <p class="mb-15">Currency trading is done in currency pairs, where one currency is bought and another is sold. The value of the pair fluctuates based on market conditions, and traders aim to profit by buying low and selling high.</p>
                     </div>
                   </div>
                 </div>
@@ -1060,7 +980,7 @@
                   <div class="accordion__header accordion-header" id="faq4">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody4" aria-expanded="false" aria-controls="faqBody4">
-                      <span class="accordion__button-content">What is a spread in Forex?</span>
+                      <span class="accordion__button-content">What is a spread in Currency?</span>
                     </button>
                   </div>
                   <div id="faqBody4" class="accordion-collapse collapse" aria-labelledby="faq4"
@@ -1114,7 +1034,7 @@
                   <div class="accordion__header accordion-header" id="faq7">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody7" aria-expanded="false" aria-controls="faqBody7">
-                      <span class="accordion__button-content">What is leverage in Forex trading?</span>
+                      <span class="accordion__button-content">What is leverage in Currency trading?</span>
                     </button>
                   </div>
                   <div id="faqBody7" class="accordion-collapse collapse" aria-labelledby="faq7"
@@ -1132,7 +1052,7 @@
                   <div class="accordion__header accordion-header" id="faq8">
                     <button class="accordion__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqBody8" aria-expanded="false" aria-controls="faqBody8">
-                      <span class="accordion__button-content">What are the risks involved in Forex trading?</span>
+                      <span class="accordion__button-content">What are the risks involved in Currency trading?</span>
                     </button>
                   </div>
                   <div id="faqBody8" class="accordion-collapse collapse" aria-labelledby="faq8"

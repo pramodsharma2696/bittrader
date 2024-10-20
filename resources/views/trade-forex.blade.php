@@ -7,11 +7,11 @@
     <div class="background bg--cover" style="background-image:url(assets/images/header/1.png);padding: 100px 20px;">
         <div class="container">
             <div class="page-header__content" data-aos="fade-right" data-aos-duration="1000">
-                <h2>Trade Forex</h2>
+                <h2>Trade Currencies</h2>
                 <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb" class="d-none">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item "><a href="{{ url('/') }}">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Trade Forex</li>
+                        <li class="breadcrumb-item active" aria-current="page">Trade Currencies</li>
                     </ol>
                 </nav>
             </div>
@@ -34,8 +34,8 @@
                         <div class="service-details__item-inner ">
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-1"> <a class="stretched-link" href="javascript:void(0);">How to trade Forex</a></h3>
-                                <p class="mb-0">Trading in the forex market involves several steps. Here’s a basic guide to get you started:</p>
+                                <h3 class="mb-1"> <a class="stretched-link" href="javascript:void(0);">How to trade Currencies</a></h3>
+                                <p class="mb-0">Trading in the currencies market involves several steps. Here’s a basic guide to get you started:</p>
                             </div>
 
                             <h5 class="mb-1">1. Educate Yourself</h5>
@@ -108,8 +108,7 @@
 
 </div>
 </div>
-<!-- ===============>> Service section start here <<================= -->
-
+<!-- ===============>> Service section end here <<================= -->
 
 
 @endsection
