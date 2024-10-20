@@ -42,7 +42,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others2/currency-trading.jpeg" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/forex-trading.jpeg" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others2/currency-explained.jpg" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/forex-explained.jpg" alt="service-icon">
                                 </div>
                             </div>
                         </div>
