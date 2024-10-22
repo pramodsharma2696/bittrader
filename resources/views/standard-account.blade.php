@@ -81,7 +81,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/trade-the-global-markets.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/1.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -93,20 +93,13 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Trade the global markets, your way</a>
                                 </h3>
-                                <p class="mb-3">Open a Standard account and manage your trading across all your devices.
-
-                                    <b> Mobile app (iPhone and Android),</b>
-                                    <b> Our web trading platform,</b>
-                                    <b>MetaTrader for technical users,</b>
-                                    <b>FIX API for institutions</b>
-                                    Our delivery mechanisms push prices out rapidly and automatically adapt to the connection speed of each client. This enables us to provide the highest possible frequency of updates without jamming the communication line. For our mobile and web offering, we use LightStreamer technology.
-                                </p>
+                                <p class="mb-3">Experience seamless trading in global markets your way with MT5. Unlock advanced tools, customizable charts, and a wide range of assets to trade. Whether you're a seasoned trader or just getting started, MT5 empowers you to take control of your trading strategy with precision and flexibility. Trade your way, anytime, anywhere.</p>
                                 <h5>Web Trading</h5>
-                                <p class="mb-2">Simplicity, speed, and reliability deliver a superior trading experience accessible from all modern browsers and operating systems.</p>
-                                <h5>Mobile apps</h5>
-                                <p class="mb-2">You’re on the move and so are the markets. Manage your account and trade on the go with ease, using one-swipe trading and quality execution.</p>
-                                <h5>TradingView</h5>
-                                <p class="mb-2">Connect to TradingView to access their suite of renowned charts, exclusive trader tools, and ideas.</p>
+                                <p class="mb-2">Trade directly from your browser with MT5 WebTrader, no downloads required. Access global markets, analyze charts, and execute trades seamlessly from any device. Enjoy the full functionality of the MT5 platform, including advanced charting tools, multiple order types, and real-time data. Stay connected and in control of your trading, wherever you are, with MT5 WebTrader</p>
+                                <h5>Mobile app</h5>
+                                <p class="mb-2">
+                                Trade on the go with the MT5 mobile app, available for both iOS and Android. Access global markets, manage your positions, and analyze charts directly from your smartphone or tablet. The MT5 mobile app offers a user-friendly interface with advanced trading features, real-time price updates, and customizable alerts, allowing you to stay in control of your trades anytime, anywhere. Perfect for traders who need flexibility without compromising functionality</p>
+                               
                             </div>
                         </div>
                     </div>
