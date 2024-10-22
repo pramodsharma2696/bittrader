@@ -51,7 +51,8 @@
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                             <p class="text-center">
-                                <iframe  id="calculator" width="60%" height="350" src="https://figaro.fxbluelabs.com/iframe-axi/widget?type=margin-calculator"></iframe>
+                            <h1>Loading..</h1>
+                                <!-- <iframe  id="calculator" width="60%" height="350" src="https://figaro.fxbluelabs.com/iframe-axi/widget?type=margin-calculator"></iframe> -->
                             </p>
                                 
                             </div>

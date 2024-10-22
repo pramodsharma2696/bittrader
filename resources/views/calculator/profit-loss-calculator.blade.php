@@ -50,7 +50,7 @@
                         <div class="service-details__item-inner ">
 
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                               <h1>Hello</h1>
+                            <h1>Loading..</h1>
                                 
                             </div>
 
