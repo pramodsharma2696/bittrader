@@ -104,6 +104,13 @@
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Advanced charts</a>
                                 </h3>
                                 <p class="mb-3" style="height: 216px;">A must-have for technical traders, our charts, powered by TradingView, come with over 80 indicators, 50 drawing tools, 14 time intervals, and a host of customization features.</p>
+                                <h5>MetaTrader Charts</h5>
+                                <p class="mb-1">38+ indicators, 3 chart types, and 21 timeframes.</p>
+                                <h5>Performance Analytics</h5>
+                                <p class="mb-1">Analyze your decision-making with the latest behavioural science technology.</p>
+                                
+                                <h5>Trading Research</h5>
+                                <p class="mb-1">Access integrated market analysis, a full economic calendar.</p>
                             </div>
                         </div>
                     </div>
@@ -119,7 +126,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others2/m2.png" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/light-android-mobile.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -130,7 +137,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others2/mobile1.png" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/mobile-light1-ios.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
