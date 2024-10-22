@@ -79,7 +79,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/tading-tools-market-360.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/desktop1.jpeg" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/platform-tools-advancedcharts.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/1.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
@@ -114,42 +114,26 @@
             </div>
 
             <!-- 3 -->
+           
+            <!-- 3 -->
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
-                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">TradingView</a>
-                                </h3>
-                                <p class="mb-3">Boasting a userbase of 30 million+ traders, investors, analysts and researchers, TradingView is a leading charting company with a mission to help anyone, anywhere succeed in the financial markets – and enjoy the process along the way.
-
-                                    At Qorva Markets we share that mission – making ours the perfect partnership. Whether you’re an expert or novice, using mobile or desktop, trade with us and elevate your experience with the most accomplished charts, tools and features available.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
+            <div class="col-lg-3">
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/whatistradingview.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/m2.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-            <!-- 3 -->
-            <div class="row">
-            <div class="col-lg-6">
+                <div class="col-lg-3">
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/platform-tools-smsalerts.webp" alt="service-icon">
+                                    <img src="{{ asset('') }}assets/images/others2/mobile1.png" alt="service-icon">
                                 </div>
                             </div>
                         </div>
