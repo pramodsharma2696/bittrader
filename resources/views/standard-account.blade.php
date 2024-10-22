@@ -29,52 +29,7 @@
 <div class="service-details padding-bottom section-bg-color" style="margin-top:30px;">
     <div class="container">
         <div class="service-details__wrapper">
-            <div class="row flex-lg-row-reverse g-5">
-                <div class="col-lg-12">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
-
-                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Standard trading account</a>
-                                </h3>
-                                <p class="mb-0">Ideal for traders looking for the traditional trading experience, our standard account offers competitive spreads, advanced trading platforms, and all our markets.</p>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-
-            <!-- 2 -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
-                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">The standard account: simple, flexible control of your trading</a>
-                                </h3>
-                                <p class="mb-5">Our most popular account comes with clear, transparent pricing and superior trade execution speeds on a powerful, fully capable platform with a highly customizable layout. With no hidden fees, your only trading cost is the spread.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="service-details__item">
-                        <div class="service-details__item-inner ">
-                            <div class="service-details__thumb mb-40" data-aos="fade-up" data-aos-duration="800">
-                                <div class="service-details__thumb-inner">
-                                    <img src="{{ asset('') }}assets/images/others/the-standard-account.webp" alt="service-icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- 3 -->
+ 
             <div class="row">
                 <div class="col-lg-6">
                     <div class="service-details__item">
@@ -91,15 +46,21 @@
                     <div class="service-details__item">
                         <div class="service-details__item-inner ">
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
-                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Trade the global markets, your way</a>
+                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Standard Account</a>
                                 </h3>
-                                <p class="mb-3">Experience seamless trading in global markets your way with MT5. Unlock advanced tools, customizable charts, and a wide range of assets to trade. Whether you're a seasoned trader or just getting started, MT5 empowers you to take control of your trading strategy with precision and flexibility. Trade your way, anytime, anywhere.</p>
-                                <h5>Web Trading</h5>
-                                <p class="mb-2">Trade directly from your browser with MT5 WebTrader, no downloads required. Access global markets, analyze charts, and execute trades seamlessly from any device. Enjoy the full functionality of the MT5 platform, including advanced charting tools, multiple order types, and real-time data. Stay connected and in control of your trading, wherever you are, with MT5 WebTrader</p>
-                                <h5>Mobile app</h5>
-                                <p class="mb-2">
-                                Trade on the go with the MT5 mobile app, available for both iOS and Android. Access global markets, manage your positions, and analyze charts directly from your smartphone or tablet. The MT5 mobile app offers a user-friendly interface with advanced trading features, real-time price updates, and customizable alerts, allowing you to stay in control of your trades anytime, anywhere. Perfect for traders who need flexibility without compromising functionality</p>
-                               
+                                <p class="mb-3">The Standard Account at Qorva Markets offers a balanced trading experience, ideal for both novice and experienced traders. Enjoy competitive spreads, flexible leverage options, and access to a wide range of trading instruments, all backed by reliable execution and exceptional customer support.</p>
+                                <h5>Benefits</h5>
+                                <p class="mb-2"><b>.</b>No commission</p>
+                                <p class="mb-2"><b>.</b> No minimum deposit</p>
+                                <p class="mb-2"><b>.</b> Leverage up to 1:500</p>
+                                <h5>Currencies</h5>
+                                <p class="mb-2"><b>.</b>No commission</p>
+                                <p class="mb-2"><b>.</b> No minimum deposit</p>
+                                <p class="mb-2"><b>.</b> Leverage up to 1:500</p>
+                                <h5>Other Offers</h5>
+                                <p class="mb-2"><b>.</b>No commission</p>
+                                <p class="mb-2"><b>.</b> No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:500</p>
                             </div>
                         </div>
                     </div>
@@ -107,6 +68,57 @@
 
 
             </div>
+
+            <div class="row flex-lg-row-reverse g-5">
+                <div class="col-lg-12">
+                    <div class="service-details__item">
+                        <div class="service-details__item-inner ">
+
+                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
+                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Standard Account Info</a>
+                                </h3>
+                                <p class="mb-0">Bound to ensue and equal blame belongs to those who fail in their,</p>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Initial Deposit $100</li>
+                                    <li class="list-group-item">Leverage Upto 1:500</li>
+                                    <li class="list-group-item">Order Volume 0.01 – 500 lots</li>
+                                    <li class="list-group-item">SpreadFixed from 3 pis</li>
+                                    <li class="list-group-item">24/7 SupportYes</li>
+                                    <li class="list-group-item">Multi Language CCYes</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-lg-row-reverse g-5">
+                <div class="col-lg-12">
+                    <div class="service-details__item">
+                        <div class="service-details__item-inner ">
+
+                            <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
+                                <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Reason for Choose</a>
+                                </h3>
+                                <p class="mb-0">Bound to ensue and equal blame belongs to those who fail in their</p>
+                                <h5>Friendly & Expert01</h5>
+                                <p class="mb-2">Enjoy a friendly and expert team dedicated to your trading success, providing personalized support and expert guidance every step of the way.</p>
+                                <h5>24/7 Support02</h5>
+                                <p class="mb-2">Experience round-the-clock support at Qorva Markets, ensuring assistance and guidance whenever you need it to enhance your trading journey</p>
+                                <h5>Social Trading</h5>
+                                <p class="mb-2">With our copy trading feature, effortlessly replicate the trades of seasoned investors, leveraging their expertise to optimize your own portfolio.</p>
+                                <h5>IB Rewards</h5>
+                                <p class="mb-2">With our IB Rewards program, benefit from lucrative incentives and bonuses as an Introducing Broker, unlocking exclusive perks and rewards for your successful referrals.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
         </div>
     </div>
 </div>
