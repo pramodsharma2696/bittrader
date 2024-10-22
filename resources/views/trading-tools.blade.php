@@ -63,10 +63,7 @@
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Market 360</a>
                                 </h3>
                                 <p class="mb-3">Have a favorite market? Want to see all its details in one place? On our platform, simply click the down arrow next to a market name to see an encyclopedic array of information. Everything from charts, news, margin, trading hours and much more.</p>
-                                <h5>Reuters news</h5>
-                                <p class="mb-2">Get a live streaming news feed straight to the platform.</p>
-                                <h5>Market analysis</h5>
-                                <p class="mb-2">With decades of experience between them, our expert analysts give their take on the latest events and market impact.</p>
+                                
                                 <h5>Economic calendar</h5>
                                 <p class="mb-2">From non-farm payrolls to retail sales, know when all the major economic events occur.</p>
                             </div>
