@@ -102,9 +102,9 @@
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Reason for Choose</a>
                                 </h3>
                                 
-                                <h5>Friendly & Expert01</h5>
+                                <h5>Friendly & Expert</h5>
                                 <p class="mb-2">Enjoy a friendly and expert team dedicated to your trading success, providing personalized support and expert guidance every step of the way.</p>
-                                <h5>24/7 Support02</h5>
+                                <h5>24/7 Support</h5>
                                 <p class="mb-2">Experience round-the-clock support at Qorva Markets, ensuring assistance and guidance whenever you need it to enhance your trading journey</p>
                                 <h5>Social Trading</h5>
                                 <p class="mb-2">With our copy trading feature, effortlessly replicate the trades of seasoned investors, leveraging their expertise to optimize your own portfolio.</p>
