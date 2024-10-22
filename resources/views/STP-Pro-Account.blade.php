@@ -50,17 +50,17 @@
                                 </h3>
                                 <p class="mb-3">The STP Pro Account at Qorva Markets is tailored for traders seeking enhanced trading conditions and direct market access. With tight spreads from 0 pips, lightning-fast execution, and no dealing desk intervention, this account caters to professional traders who demand precision and transparency in their trading experience</p>
                                 <h5>Benefits</h5>
-                                <p class="mb-2"><b>.</b> No commission</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:300</p>
+                                <p class="mb-2"><b>.</b>No commission</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:300</p>
                                 <h5>Currencies</h5>
-                                <p class="mb-2"><b>.</b> No commission</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:300</p>
+                                <p class="mb-2"><b>.</b>No commission</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:300</p>
                                 <h5>Other Offers</h5>
-                                <p class="mb-2"><b>.</b> No commission</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:300</p>
+                                <p class="mb-2"><b>.</b>No commission</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:300</p>
                             </div>
                         </div>
                     </div>

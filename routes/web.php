@@ -181,3 +181,19 @@ Route::get('/UK-Crude-Oil', function () {
     return view('UK-Crude-Oil');
 });
 
+
+// System and Features >> Trading Calculator
+
+
+Route::get('/margin-calculator', function () {
+    return view('calculator.margin-calculator');
+});
+Route::get('/pip-calculator', function () {
+    return view('calculator.pip-calculator');
+});
+Route::get('/profit-loss-calculator', function () {
+    return view('calculator.profit-loss-calculator');
+});
+Route::get('/currency-converter-calculator', function () {
+    return view('calculator.currency-converter-calculator');
+});

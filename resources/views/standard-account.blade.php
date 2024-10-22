@@ -51,15 +51,15 @@
                                 <p class="mb-3">The Standard Account at Qorva Markets offers a balanced trading experience, ideal for both novice and experienced traders. Enjoy competitive spreads, flexible leverage options, and access to a wide range of trading instruments, all backed by reliable execution and exceptional customer support.</p>
                                 <h5>Benefits</h5>
                                 <p class="mb-2"><b>.</b>No commission</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:500</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:500</p>
                                 <h5>Currencies</h5>
                                 <p class="mb-2"><b>.</b>No commission</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:500</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:500</p>
                                 <h5>Other Offers</h5>
                                 <p class="mb-2"><b>.</b>No commission</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
                                 <p class="mb-2"><b>.</b>Leverage up to 1:500</p>
                             </div>
                         </div>

@@ -51,16 +51,16 @@
                                 <p class="mb-3">The Raw Account at Qorva Markets caters to traders who prioritize cost-efficiency and direct market access. It offers raw spreads starting from 0 pips, with no mark-ups, ensuring transparent pricing and optimal trading conditions. This account is ideal for high-volume traders seeking to maintain maximum control over their trading costs.</p>
                                 <h5>Benefits</h5>
                                 <p class="mb-2"><b>.</b>Commission $6 per lot</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:100</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:100</p>
                                 <h5>Currencies</h5>
                                 <p class="mb-2"><b>.</b>Commission $6 per lot</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:100</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:100</p>
                                 <h5>Other Offers</h5>
                                 <p class="mb-2"><b>.</b>Commission $6 per lot</p>
-                                <p class="mb-2"><b>.</b> No minimum deposit</p>
-                                <p class="mb-2"><b>.</b> Leverage up to 1:100</p>
+                                <p class="mb-2"><b>.</b>No minimum deposit</p>
+                                <p class="mb-2"><b>.</b>Leverage up to 1:100</p>
                             </div>
                         </div>
                     </div>
