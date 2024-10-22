@@ -270,21 +270,6 @@
                   </div>
                 </div>
               </div>
-            </div> <!-- row -->
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="faq__image text-center">
-            <img src="assets/images/faq/1.png" alt="faq-image" class="w-100" data-aos="fade-left" data-aos-duration="1000">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- ===============>> FAQ section end here <<================= -->
-
-
               <div class="col-12">
                 <!-- FAQ 15 -->
                 <div class="accordion__item accordion-item">
@@ -428,26 +413,23 @@
                   </div>
                 </div>
               </div>
-
-
-            </div>
+            </div> <!-- row -->
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="faq__thumb faq__thumb--style1" data-aos="fade-left" data-aos-duration="1000">
-            <img class="dark" src="{{ asset('') }}assets/images/others/1.png" alt="faq-thumb">
-            <img class="dark" src="{{ asset('') }}assets/images/others/1.png" alt="faq-thumb">
-            <img class="dark" src="{{ asset('') }}assets/images/others/1.png" alt="faq-thumb">
-            <img class="dark" src="{{ asset('') }}assets/images/others/1.png" alt="faq-thumb">
-            <img class="dark" src="{{ asset('') }}assets/images/others/1.png" alt="faq-thumb">
+          <div class="faq__image text-center">
+            <img src="{{ asset('')}}assets/images/others/1.png" alt="faq-image" class="w-100" data-aos="fade-left" data-aos-duration="1000">
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="faq__shape faq__shape1"></div>
-  <div class="faq__shape faq__shape2"></div>
 </section>
+<!-- ===============>> FAQ section end here <<================= -->
+
+
+              
+
 
 <!-- ===============>> FAQ section start here <<================= -->
 <!-- ===============>> Service section start here <<================= -->
