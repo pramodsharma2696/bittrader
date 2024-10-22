@@ -77,7 +77,7 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">STP Pro Account Info</a>
                                 </h3>
-                                <!-- <p class="mb-0">Bound to ensue and equal blame belongs to those who fail in their</p> -->
+                              
                                 <ul class="list-group">
                                     <li class="list-group-item">Initial Deposit $100</li>
                                     <li class="list-group-item">Leverage Upto 1:300</li>

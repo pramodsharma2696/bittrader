@@ -101,7 +101,7 @@
                             <div class="service-details__content" data-aos="fade-up" data-aos-duration="900">
                                 <h3 class="mb-15"> <a class="stretched-link" href="javascript:void(0);">Reason for Choose</a>
                                 </h3>
-                                <p class="mb-0">Bound to ensue and equal blame belongs to those who fail in their</p>
+                                
                                 <h5>Friendly & Expert01</h5>
                                 <p class="mb-2">Enjoy a friendly and expert team dedicated to your trading success, providing personalized support and expert guidance every step of the way.</p>
                                 <h5>24/7 Support02</h5>
