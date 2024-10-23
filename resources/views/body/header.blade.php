@@ -101,14 +101,14 @@
               <a href="#">System and Features</a>
               <div class="mega-menu"> <!-- Mega Menu Wrapper -->
                 <ul class="submenu">
-                  <li>
+                  <!-- <li>
                     <a class="child-title" href="{{ url('/trading-tools') }}">Trading Tools</a>
                     <ul>
                       <li><a href="{{ url('/currency-converter') }}">Currency Converter</a></li>
                       <li><a href="{{ url('/margin-and-pip-calculator') }}">Margin and Pip Calculator</a></li>
-                      <!-- <li><a href="{{ url('/pivot-points') }}">Pivot Points</a></li> -->
+                     
                     </ul>
-                  </li>
+                  </li> -->
                   <li>
                     <a class="child-title" href="#">Trading Calculator</a>
                     <ul>
