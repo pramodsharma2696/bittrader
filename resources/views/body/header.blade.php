@@ -4,7 +4,8 @@
       <div class="header-wrapper">
         <div class="logo">
           <a href="{{ url('/') }}">
-            <img class="dark" src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="logo" style="width: 180px;height: 51px;">
+            <!-- <img class="dark" src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="logo" style="width: 180px;height: 51px;"> -->
+            <img class="dark" src="{{ asset('') }}assets/images/logo/logo.svg" alt="logo" style="width: 180px;height:auto;">
           </a>
         </div>
         <div class="menu-area">

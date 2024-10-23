@@ -5,8 +5,10 @@
         <div class="row gy-5 gx-4">
           <div class="col-md-6">
             <div class="footer__about">
-              <a href="index-2.html" class="footer__about-logo"><img src="{{ asset('') }}assets/images/logo/logo-dark.png"
-                  alt="Logo"></a>
+              <a href="index-2.html" class="footer__about-logo">
+                <!-- <img src="{{ asset('') }}assets/images/logo/logo-dark.png" alt="Logo"> -->
+                <img src="{{ asset('') }}assets/images/logo/logo-dark.svg" alt="Logo" style="width:230px; height:auto;">
+                </a>
               <p class="footer__about-moto ">Welcome to our trading site!</p>
               <div class="footer__app">
                 <div class="footer__app-item footer__app-item--apple">
