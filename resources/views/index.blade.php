@@ -25,7 +25,7 @@
             </div>
             <h1 class="banner__content-heading">Gain Market Access
               through <span>Qorva Markets</span></h1>
-            <p class="banner__content-moto">Unlock your trading potential with a platform designed for you.
+            <p class="banner__content-moto">Master Your Trading Journey with Precision and Control.
             </p>
             <div class="banner__btn-group btn-group">
 
