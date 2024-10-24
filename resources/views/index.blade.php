@@ -27,13 +27,13 @@
               through <span>Qorva Markets</span></h1>
             <p class="banner__content-moto">Master Your Trading Journey with Precision and Control.
             </p>
-            <div class="banner__btn-group btn-group">
+            <!-- <div class="banner__btn-group btn-group">
 
               <a href="https://portal.qorvamarkets.com/en/register"
                 class="trk-btn trk-btn--outline22" data-fslightbox>
                 Get Started <span><i class="fa-solid fa-arrow-right"></i></span>
               </a>
-            </div>
+            </div> -->
             <div class="banner__content-social">
               <p>Follow Us</p>
               <ul class="social">
