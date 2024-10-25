@@ -173,7 +173,7 @@
     }
     .menu li .submenu {
         padding-inline-start: 20px;
-        display: none;
+        /* display: none; */
     }
     .menu li .submenu li {
         width: 100%;

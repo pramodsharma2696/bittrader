@@ -144,32 +144,70 @@ menuList.forEach(function (menu) {
 
 
 
-// Toggle menu on click
+// // Toggle menu on click
 
-var menuLinks = document.querySelectorAll(".menu li a");
+// var menuLinks = document.querySelectorAll(".menu li a");
 
-menuLinks.forEach(function (link) {
-    link.addEventListener("click", function (e) {
-        e.stopPropagation(); 
-        var element = link.parentElement;
-            // Close all other open menus
+// menuLinks.forEach(function (link) {
+//     link.addEventListener("click", function (e) {
+//         e.stopPropagation(); 
+//         var element = link.parentElement;
+//             // Close all other open menus
+//             document.querySelectorAll(".menu-item-has-children.open").forEach(function (openedElement) {
+//                 if (openedElement !== element) {
+//                     openedElement.classList.remove("open");
+//                     openedElement.querySelector("ul").style.display = "none"; // Hide other open submenus
+//                 }
+//             });
+//         if (parseInt(window.innerWidth, 10) < 1200) {
+//             if (element.classList.contains("open")) {
+//                 element.classList.remove("open");
+//                 element.querySelector("ul").style.display = "none";
+//             } else {
+//                 element.classList.add("open");
+//                 element.querySelector("ul").style.display = "block";
+//             }
+//         }
+//     });
+// });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all menu items with children
+    document.querySelectorAll(".menu-item-has-children > a").forEach(function (link) {
+        // Add click event listener to parent links
+        link.addEventListener("click", function (e) {
+            e.preventDefault();  // Prevent default link action
+            e.stopPropagation(); // Stop event bubbling
+            
+            var element = link.parentElement;  // Get parent <li> element
+            var submenu = element.querySelector(".mega-menu, ul");  // Select mega-menu or ul
+
+            // Close all open submenus, except for the clicked one
             document.querySelectorAll(".menu-item-has-children.open").forEach(function (openedElement) {
                 if (openedElement !== element) {
                     openedElement.classList.remove("open");
-                    openedElement.querySelector("ul").style.display = "none"; // Hide other open submenus
+                    var openSubmenu = openedElement.querySelector(".mega-menu, ul");
+                    if (openSubmenu) {
+                        openSubmenu.style.display = "none";
+                    }
                 }
             });
-        if (parseInt(window.innerWidth, 10) < 1200) {
+
+            // Toggle current submenu visibility
             if (element.classList.contains("open")) {
                 element.classList.remove("open");
-                element.querySelector("ul").style.display = "none";
+                submenu.style.display = "none";
             } else {
                 element.classList.add("open");
-                element.querySelector("ul").style.display = "block";
+                submenu.style.display = "block";
             }
-        }
+        });
     });
 });
+
+
+
 
 
 // Toggle header bar on click
