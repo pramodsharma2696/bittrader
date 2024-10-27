@@ -79,8 +79,9 @@
 
 
   <!-- vendor plugins -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
   <script src="{{ asset('') }}assets/js/all.min.js"></script>
   <script src="{{ asset('') }}assets/js/swiper-bundle.min.js"></script>
   <script src="{{ asset('') }}assets/js/aos.js"></script>
@@ -88,87 +89,6 @@
   <script src="{{ asset('') }}assets/js/purecounter_vanilla.js"></script>
 
   <script src="{{ asset('') }}assets/js/custom.js"></script>
-  <script type="text/javascript">
-
-    $(function () {
-        $('#pills-home-tab').click(function () {
-          $(".stocks").removeClass("active");
-          $(".crypto").removeClass("active");
-          $(".commodities").removeClass("active");
-          $(".indices").removeClass("active");
-          $(".metals").removeClass("active");
-          $(".currencies").addClass("active");
-          $(this).addClass('active').siblings().removeClass('active');
-        });
-    }); 
-
-    $(function () {
-        $('#pills-profile-tab').click(function () {
-         $(".stocks").removeClass("active");
-          $(".crypto").removeClass("active");
-          $(".commodities").removeClass("active");
-          $(".indices").removeClass("active");
-          $(".currencies").removeClass("active");
-          $(".metals").addClass("active");
-          $(this).addClass('active').siblings().removeClass('active');
-        });
-    }); 
-
-    $(function () {
-        $('#pills-contact-tab').click(function () {
-          $(".stocks").removeClass("active");
-          $(".crypto").removeClass("active");
-          $(".commodities").removeClass("active");
-          $(".currencies").removeClass("active");
-          $(".metals").removeClass("active");
-          $(".indices").addClass("active");
-          $(this).addClass('active').siblings().removeClass('active');
-        });
-    });
-
-    $(function () {
-        $('#pills-crypto-tab').click(function () {
-         $(".stocks").removeClass("active");
-          $(".currencies").removeClass("active");
-          $(".commodities").removeClass("active");
-          $(".indices").removeClass("active");
-          $(".metals").removeClass("active");
-          $(".crypto").addClass("active");
-          $(this).addClass('active').siblings().removeClass('active');
-        });
-    });
-
-    $(function () {
-        $('#pills-commodities-tab').click(function () {
-          $(".stocks").removeClass("active");
-          $(".crypto").removeClass("active");
-          $(".currencies").removeClass("active");
-          $(".indices").removeClass("active");
-          $(".metals").removeClass("active");
-          $(".commodities").addClass("active");
-          $(this).addClass('active').siblings().removeClass('active');
-        });
-    });
-
-    $(function () {
-        $('#pills-stocks-tab').click(function () {
-         $(".currencies").removeClass("active");
-          $(".crypto").removeClass("active");
-          $(".commodities").removeClass("active");
-          $(".indices").removeClass("active");
-          $(".metals").removeClass("active");
-          $(".stocks").addClass("active");
-          $(this).addClass('active').siblings().removeClass('active');
-        });
-    });
-
-    $(function () {
-        $('.click_act li').click(function () {
-          $(this).addClass('active').siblings().removeClass('active');
-        });
-    });
-
-  </script>
 
 </body>
 

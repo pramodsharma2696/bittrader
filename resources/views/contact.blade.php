@@ -30,7 +30,7 @@
     <div class="container">
         <div class="contact__wrapper">
             <div class="row g-5">
-                <div class="col-md-8">
+                <div class="col-md-7">
                     <div class="contact__info" data-aos="fade-right" data-aos-duration="1000">
                         <div class="contact__social">
                             <h3>let’s <span>get in touch</span>
@@ -110,8 +110,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="contact__form">
+                <div class="col-md-5" data-aos="fade-left" data-aos-duration="1000">
+                <div class="contact__form">
                         <form action="https://thetork.com/" data-aos="fade-left" data-aos-duration="1000">
                             <div class="row g-4">
                                 <div class="col-12">
