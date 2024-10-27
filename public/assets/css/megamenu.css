@@ -73,7 +73,7 @@
     .menu li .submenu li a {
         font-size: 1rem;
         padding: 6px 16px;
-        text-transform: uppercase;
+        text-transform: capitalize;
         /* font-family: "Open Sans", sans-serif; */
         display: flex;
         align-items: center;

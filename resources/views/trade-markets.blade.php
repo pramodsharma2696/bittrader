@@ -46,52 +46,52 @@
 
             <div class="row g-2 mb-10 my-10">
                 <div class="col-lg-2">
-                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px">
+                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px;background: var(--wh-color);">
                         <img src="{{ asset('') }}assets/images/others2/forex-icon.png" class="card-img-top mx-auto mt-2" alt="service-icon" style="width:96px;height:96px; display:block;">
                         <div class="card-body">
                             <h5 class="card-title">Currrency</h5>
                             <p class="card-text">Trade over 80 FX pairs and get majors as low as 0.0 with our RAW Spread Account.</p>
-                            <a href="{{ url('/Forex') }}" class="btn btn-outline-primary" style="border-radius: 50px; padding: 10px 20px;">More</a>
+                            <a href="{{ url('/Forex') }}" class="trk-btn trk-btn-custom trk-btn--login" style="border-radius: 50px; padding: 10px 20px;">More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px">
+                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px;background: var(--wh-color);">
                         <img src="{{ asset('') }}assets/images/others/market-equities-colour.svg" class="card-img-top mx-auto mt-2" alt="service-icon" style="width:96px;height:96px; display:block;">
                         <div class="card-body">
                             <h5 class="card-title">Stock CFDs</h5>
                             <p class="card-text">Buy and sell top companies via stock CFDs such as Netflix, Amazon, and more with Qorva Markets.</p>
-                            <a href="{{ url('/Stocks') }}" class="btn btn-outline-primary" style="border-radius: 50px; padding: 10px 20px;">More</a>
+                            <a href="{{ url('/Stocks') }}" class="trk-btn trk-btn-custom trk-btn--login" style="border-radius: 50px; padding: 10px 20px;">More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px">
+                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px;background: var(--wh-color);">
                         <img src="{{ asset('') }}assets/images/others2/indices-icon.png" class="card-img-top mx-auto mt-2" alt="service-icon" style="width:96px;height:96px; display:block;">
                         <div class="card-body">
                             <h5 class="card-title">Indices</h5>
                             <p class="card-text">Access the most popular global CFD indices across American, European, Asian and Australian markets.</p>
-                            <a href="{{ url('/Indices') }}" class="btn btn-outline-primary" style="border-radius: 50px; padding: 10px 20px;">More</a>
+                            <a href="{{ url('/Indices') }}" class="trk-btn trk-btn-custom trk-btn--login" style="border-radius: 50px; padding: 10px 20px;">More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px">
+                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px;background: var(--wh-color);">
                         <img src="{{ asset('') }}assets/images/others2/crypto-icon.png" class="card-img-top mx-auto mt-2" alt="service-icon" style="width:96px;height:96px; display:block;">
                         <div class="card-body">
                             <h5 class="card-title">Cryptocurrencies</h5>
                             <p class="card-text">Trade Bitcoin, Ethereum and Litecoin and more cryptocurrency CFDs.</p>
-                            <a href="{{ url('/Cryptocurrency') }}" class="btn btn-outline-primary" style="border-radius: 50px; padding: 10px 20px;">More</a>
+                            <a href="{{ url('/Cryptocurrency') }}" class="trk-btn trk-btn-custom trk-btn--login" style="border-radius: 50px; padding: 10px 20px;">More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px">
+                    <div class="card text-center mx-auto" style="border-radius: 15px; height:380px;background: var(--wh-color);">
                         <img src="{{ asset('') }}assets/images/others2/commodities-icon.png" class="card-img-top mx-auto mt-2" alt="service-icon" style="width:96px;height:96px; display:block;">
                         <div class="card-body">
                             <h5 class="card-title">Commodities</h5>
                             <p class="card-text">Trade metals, energies, and softs as CFDs without having to own the underlying asset.</p>
-                            <a href="{{ url('/Commodities') }}" class="btn btn-outline-primary" style="border-radius: 50px; padding: 10px 20px;">More</a>
+                            <a href="{{ url('/Commodities') }}" class="trk-btn trk-btn-custom trk-btn--login" style="border-radius: 50px; padding: 10px 20px;">More</a>
                         </div>
                     </div>
                 </div>
