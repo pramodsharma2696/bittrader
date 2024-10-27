@@ -73,38 +73,60 @@ function switchThemeByUrl() {
 // =================== Change image path start ================== //
 
 
-function changeImage(themeMode = 'light') {
+// function changeImage(themeMode = 'light') {
 
+//     const icon = document.querySelector('#btnSwitch img');
+
+
+//     if (themeMode === "dark") {
+
+//         icon.src = 'assets/images/icon/sun.svg';
+//         var images = document.querySelectorAll('img.dark');
+
+//         for (var i = 0; i < images.length; i++) {
+//             var oldSrc = images[i].src;
+//             oldSrc = oldSrc.replace("-dark.", ".");
+//             var oldIndex = oldSrc.lastIndexOf(".");
+//             var baseName = oldSrc.slice(0, oldIndex);
+//             var extension = oldSrc.slice(oldIndex);
+//             var newSrc = baseName + "-dark" + extension;
+//             images[i].src = newSrc;
+//         }
+//     } else {
+//         icon.src = 'assets/images/icon/moon.svg';
+//         var images = document.querySelectorAll('img.dark');
+
+//         for (var i = 0; i < images.length; i++) {
+//             var oldSrc = images[i].src;
+//             var newSrc = oldSrc.replace("-dark.", ".");
+//             images[i].src = newSrc;
+//         }
+//     }
+
+// }
+
+function changeImage(themeMode = 'light') {
     const icon = document.querySelector('#btnSwitch img');
 
-
     if (themeMode === "dark") {
-
         icon.src = 'assets/images/icon/sun.svg';
-        var images = document.querySelectorAll('img.dark');
-
-        for (var i = 0; i < images.length; i++) {
-            var oldSrc = images[i].src;
-            oldSrc = oldSrc.replace("-dark.", ".");
-            var oldIndex = oldSrc.lastIndexOf(".");
-            var baseName = oldSrc.slice(0, oldIndex);
-            var extension = oldSrc.slice(oldIndex);
-            var newSrc = baseName + "-dark" + extension;
-            images[i].src = newSrc;
-        }
+        
+        const images = document.querySelectorAll('img.dark');
+        images.forEach((image) => {
+            const oldSrc = image.src;
+            const newSrc = oldSrc.replace(/(\.png|\.jpg|\.jpeg|\.svg)/, '-dark$1');
+            image.src = newSrc;
+        });
+        
     } else {
         icon.src = 'assets/images/icon/moon.svg';
-        var images = document.querySelectorAll('img.dark');
-
-        for (var i = 0; i < images.length; i++) {
-            var oldSrc = images[i].src;
-            var newSrc = oldSrc.replace("-dark.", ".");
-            images[i].src = newSrc;
-        }
+        
+        const images = document.querySelectorAll('img.dark');
+        images.forEach((image) => {
+            image.src = image.src.replace('-dark', '');
+        });
     }
-
 }
-
 
 // =================== Change image path end ================== //
 

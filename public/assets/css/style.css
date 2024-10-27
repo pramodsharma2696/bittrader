@@ -9961,7 +9961,7 @@ textarea:focus-within {
 }
 
 .accordion-button {
-  padding: 0px;
+  padding: 10px;
 }
 .accordion-button:not(.collapesd) {
   box-shadow: none;
@@ -11068,4 +11068,29 @@ ul.submenu.submenu-style {
 }
 a.trk-btn.rk-btn-sm.trk-btn--border.trk-btn--primary {
   padding: 16px;
+}
+
+
+
+
+
+
+
+/* Preloader for light mode */
+[data-bs-theme="light"] .preloader img {
+  content: url("../images/logo/logo-new.png");
+}
+
+/* Preloader for dark mode */
+[data-bs-theme="dark"] .preloader img {
+  content: url("../images/logo/logo-new-dark.png");
+}
+
+/* Preloader background colors */
+[data-bs-theme="light"] .preloader {
+  background-color: #fff;
+}
+
+[data-bs-theme="dark"] .preloader {
+  background-color: #000;
 }

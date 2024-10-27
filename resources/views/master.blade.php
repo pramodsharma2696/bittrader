@@ -37,6 +37,10 @@
   <link rel="stylesheet" href="{{ asset('') }}assets/css/mobile.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/tradeview.css">
   <link rel="stylesheet" href="{{ asset('') }}assets/css/feature.css">
+  <script>
+    const userTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-bs-theme', userTheme);
+  </script>
 </head>
 
 <body>
@@ -45,7 +49,6 @@
   <!-- ===============>> Preloader start here <<================= -->
   <div class="preloader">
     <img src="{{ asset('') }}assets/images/logo/logo-new.png" alt="preloader icon" style="width:350px;height:auto;">
-    <!-- <img src="{{ asset('') }}assets/images/logo/logo-removebg.png" alt="preloader icon"> -->
   </div>
   <!-- ===============>> Preloader end here <<================= -->
 
