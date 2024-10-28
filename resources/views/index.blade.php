@@ -23,10 +23,9 @@
             <div class="banner__content-coin">
               <img src="{{ asset('') }}assets/images/banner/home1/3.png" alt="coin icon">
             </div>
-            <h1 class="banner__content-heading">Gain Market Access
-              through <span>Qorva Markets</span></h1>
-            <p class="banner__content-moto">Master Your Trading Journey with Precision and Control.
-            </p>
+            <h1 class="banner__content-heading">Master Your Trading Journey with Precision and Control with <span>Qorva Markets</span></h1>
+            <!-- <p class="banner__content-moto">.
+            </p> -->
             <!-- <div class="banner__btn-group btn-group">
 
               <a href="https://portal.qorvamarkets.com/en/register"
