@@ -5,6 +5,9 @@
     .feature--style1 .feature__wrapper {
         text-align: center;
     }
+    .banner__content-social {
+        display: none;
+    }
     .banner__thumb {
         display: none;
     }
