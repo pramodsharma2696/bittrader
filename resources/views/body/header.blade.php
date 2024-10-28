@@ -117,10 +117,10 @@
                       <li><a href="https://figaro.fxbluelabs.com/iframe-axi/widget?type=pip-calculator" target="_blank">Pip Calculator</a></li>
                       <li><a href="https://figaro.fxbluelabs.com/iframe-axi/widget?type=profit-calculator" target="_blank">Profit Loss Calculator </a></li>
                       <li><a href="https://figaro.fxbluelabs.com/iframe-axi/widget?type=currency-converter-calculator" target="_blank">Currency Converter </a></li> -->
-                      <li><a href="{{ url('/margin-calculator') }}">Margin Calculator</a></li>
-                      <li><a href="{{ url('/pip-calculator') }}">Pip Calculator</a></li>
+                      <!-- <li><a href="{{ url('/margin-calculator') }}">Margin Calculator</a></li> -->
+                      <!-- <li><a href="{{ url('/pip-calculator') }}">Pip Calculator</a></li> -->
                       <li><a href="{{ url('/profit-loss-calculator') }}">Profit Loss Calculator </a></li>
-                      <li><a href="{{ url('/currency-converter-calculator') }}">Currency Converter </a></li> 
+                      <!-- <li><a href="{{ url('/currency-converter-calculator') }}">Currency Converter </a></li>  -->
                       <!-- <li><a href="{{ url('/pivot-points') }}">Pivot Points</a></li> -->
                     </ul>
                   </li>
