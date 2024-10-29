@@ -32,7 +32,7 @@
                 class="trk-btn trk-btn--outline22" data-fslightbox>
                 Register <span><i class="fa-solid fa-arrow-right"></i></span>
               </a>
-              <a href="https://portal.qorvamarkets.com/en/register"
+              <a href="https://portal.qorvamarkets.com/en/login"
                 class="trk-btn trk-btn--register" data-fslightbox>
                 Try Free Demo <span><i class="fa-solid fa-arrow-right"></i></span>
               </a>
