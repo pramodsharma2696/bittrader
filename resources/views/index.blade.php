@@ -29,11 +29,11 @@
             <div class="banner__btn-group btn-group">
 
               <a href="https://portal.qorvamarkets.com/en/register"
-                class="trk-btn trk-btn--outline22" data-fslightbox>
+                class="trk-btn trk-btn--outline22">
                 Register <span><i class="fa-solid fa-arrow-right"></i></span>
               </a>
               <a href="https://portal.qorvamarkets.com/en/login"
-                class="trk-btn trk-btn--register" data-fslightbox>
+                class="trk-btn trk-btn--register">
                 Try Free Demo <span><i class="fa-solid fa-arrow-right"></i></span>
               </a>
             </div>
